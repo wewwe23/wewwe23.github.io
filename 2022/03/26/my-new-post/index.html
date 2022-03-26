@@ -4,24 +4,28 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Hello World | 睿睿独立博客</title>
+    <title>二进制和十进制之间的互相转换 | 睿睿独立博客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Wang Rui">
     
 
     
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="十进制转换为二进制十进制转二进制分为整数转二进制，和小数转二进制 整数转二进制 采用”除2取余，逆序排列”法:   首先用2整除一个十进制整数，得到一个商和余数 然后再用2去除得到的商，又会得到一个商和余数 重复操作，一直到商为小于1时为止 然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！   假设我们现在需要将42转为二进制，那我们怎么做呢，如下图所示:    小数">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://wewwe23.github.io/2022/03/26/hello-world/index.html">
+<meta property="og:title" content="二进制和十进制之间的互相转换">
+<meta property="og:url" content="https://wewwe23.github.io/2022/03/26/my-new-post/index.html">
 <meta property="og:site_name" content="睿睿独立博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="十进制转换为二进制十进制转二进制分为整数转二进制，和小数转二进制 整数转二进制 采用”除2取余，逆序排列”法:   首先用2整除一个十进制整数，得到一个商和余数 然后再用2去除得到的商，又会得到一个商和余数 重复操作，一直到商为小于1时为止 然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！   假设我们现在需要将42转为二进制，那我们怎么做呢，如下图所示:    小数">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-03-26T03:14:08.802Z">
-<meta property="article:modified_time" content="2022-03-26T03:14:08.802Z">
+<meta property="og:image" content="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg">
+<meta property="og:image" content="https://pic4.zhimg.com/v2-482a6073a51bd7873085f76ac83d40ff_r.jpg">
+<meta property="article:published_time" content="2022-03-26T06:25:10.000Z">
+<meta property="article:modified_time" content="2022-03-26T06:42:52.484Z">
 <meta property="article:author" content="Wang Rui">
+<meta property="article:tag" content="blog">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg">
 
     
     <link rel="alternative" href="/atom.xml" title="睿睿独立博客" type="application/atom+xml">
@@ -83,14 +87,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2022/03/26/hello-world/" title="Hello World" itemprop="url">Hello World</a>
+      <a href="/2022/03/26/my-new-post/" title="二进制和十进制之间的互相转换" itemprop="url">二进制和十进制之间的互相转换</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="Wang Rui" target="_blank" itemprop="author">Wang Rui</a>
 		
   <p class="article-time">
-    <time datetime="2022-03-26T03:14:08.802Z" itemprop="datePublished"> 发表于 2022-03-26</time>
+    <time datetime="2022-03-26T06:25:10.000Z" itemprop="datePublished"> 发表于 2022-03-26</time>
     
   </p>
 </header>
@@ -99,28 +103,71 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="toc-number">1.</span> <span class="toc-text">十进制转换为二进制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B4%E6%95%B0%E8%BD%AC%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="toc-number">1.1.</span> <span class="toc-text">整数转二进制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E6%95%B0%E8%BD%AC%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="toc-number">1.2.</span> <span class="toc-text">小数转二进制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6"><span class="toc-number">1.3.</span> <span class="toc-text">二进制转换为十进制</span></a></li></ol></li></ol>
 		
 		</div>
 		
-		<p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+		<h2 id="十进制转换为二进制"><a href="#十进制转换为二进制" class="headerlink" title="十进制转换为二进制"></a>十进制转换为二进制</h2><p>十进制转二进制分为整数转二进制，和小数转二进制</p>
+<h3 id="整数转二进制"><a href="#整数转二进制" class="headerlink" title="整数转二进制"></a>整数转二进制</h3><ul>
+<li>采用”除2取余，逆序排列”法:</li>
+</ul>
+<ol>
+<li>首先用2整除一个十进制整数，得到一个商和余数</li>
+<li>然后再用2去除得到的商，又会得到一个商和余数</li>
+<li>重复操作，一直到商为小于1时为止</li>
+<li>然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！</li>
+</ol>
+<ul>
+<li><p>假设我们现在需要将42转为二进制，那我们怎么做呢，如下图所示:</p>
+<p><img src="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg" alt="img"></p>
+</li>
+</ul>
+<h3 id="小数转二进制"><a href="#小数转二进制" class="headerlink" title="小数转二进制"></a>小数转二进制</h3><ul>
+<li>采用”乘2取整，顺序排列”法：<ol>
+<li>用2乘十进制小数，可以得到积，将积的整数部分取出</li>
+<li>再用2乘余下的小数部分，又得到一个积，再将积的整数部分取出</li>
+<li>重复操作，直到积中的小数部分为零，此时0或1为二进制的最后一位，或者达到所要求的精度为止</li>
+</ol>
+</li>
+<li>例如将0.125转换为二进制：</li>
+</ul>
+<p>​            </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">0.125  *  2  =  0.25 ------0</span><br><span class="line"></span><br><span class="line">0.25   *  2  =  0.5   ------0</span><br><span class="line"></span><br><span class="line">0.5  *  2  =  1.0     ------1</span><br><span class="line"></span><br><span class="line">当小数部分为0就可以停止乘2了，然后正序排序就构成了二进制的小数部分：0.001</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<ul>
+<li><p>如果小数的整数部分有大于0的整数时，将整数部分和小数部分先单独转为二进制，再合在一起就可以了，例如：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">假设要将8.125 转换为二进制</span><br><span class="line"></span><br><span class="line">现将8转为二进制：得到1000</span><br><span class="line">再将0.125转为二进制：得到0.001</span><br><span class="line"></span><br><span class="line">合并后为1000.001</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="二进制转换为十进制"><a href="#二进制转换为十进制" class="headerlink" title="二进制转换为十进制"></a>二进制转换为十进制</h3><p>二进制转为十进制要从右到左用二进制的每个数去乘以2的相应次方，小数点后则是从左往右。</p>
+<p>如果首位是0就表示正整数，如果首位是1则表示负整数，正整数可以直接换算，负整数则需要先取反再换算。</p>
+<p>因为计算机内部表示数的字节单位是定长的。如8位、16位、32位。所以位数不够时，高位补零。</p>
+<ul>
+<li>如要想二进制00101010转为十进制，因为以0开头，所以这是正整数，计算如下所示：</li>
+</ul>
+<blockquote>
+<p>（0 * 2的零次方） + （1* 2的一次方）+ （0 * 2 的二次方）+（1 * 2的三次方） +（0 * 2的四次方） +（1* 2的五次方） + 0 * 2的六次方） + （0 * 2的7次方) &#x3D;0+2+0+8+0+32+0+0&#x3D;42</p>
+<p> <img src="https://pic4.zhimg.com/v2-482a6073a51bd7873085f76ac83d40ff_r.jpg" alt="preview"></p>
+</blockquote>
+<ul>
+<li><p>如果11101011想转为*<strong>负的十进制</strong>，因为最高位是1，所以先减一取反 00010101，然后计算出00010101对应的十进制为21，所以11101011最终对应的十进制为 -21。</p>
+<p>转载：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/75291280">https://zhuanlan.zhihu.com/p/75291280</a></p>
+</li>
+</ul>
   
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/blog/">blog</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/blog/">blog</a>
+  </div>
 
 </div>
 
@@ -128,7 +175,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="https://wewwe23.github.io/2022/03/26/hello-world/" data-title="Hello World | 睿睿独立博客" data-tsina="" class="share clearfix">
+	  <div data-url="https://wewwe23.github.io/2022/03/26/my-new-post/" data-title="二进制和十进制之间的互相转换 | 睿睿独立博客" data-tsina="" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -141,20 +188,20 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2022/03/26/my-new-post/" title="二进制和十进制之间的互相转换">
-  <strong>上一篇：</strong><br/>
-  <span>
-  二进制和十进制之间的互相转换</span>
+
+<div class="next">
+<a href="/2022/03/26/hello-world/"  title="Hello World">
+ <strong>下一篇：</strong><br/> 
+ <span>Hello World
+</span>
 </a>
 </div>
-
 
 </nav>
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2022/03/26/hello-world/" data-title="Hello World" data-url="https://wewwe23.github.io/2022/03/26/hello-world/"></div>
+	<div class="ds-thread" data-thread-key="2022/03/26/my-new-post/" data-title="二进制和十进制之间的互相转换" data-url="https://wewwe23.github.io/2022/03/26/my-new-post/"></div>
 </section>
 
 
@@ -166,7 +213,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="toc-number">1.</span> <span class="toc-text">十进制转换为二进制</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B4%E6%95%B0%E8%BD%AC%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="toc-number">1.1.</span> <span class="toc-text">整数转二进制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E6%95%B0%E8%BD%AC%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="toc-number">1.2.</span> <span class="toc-text">小数转二进制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6"><span class="toc-number">1.3.</span> <span class="toc-text">二进制转换为十进制</span></a></li></ol></li></ol>
  
   </div>
 
