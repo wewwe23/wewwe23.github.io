@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/03/26/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<span id="more"></span>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>张宇数学一1000题第一章强化训练（一）</title>
+    <url>/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="第一章-函数极限与连续"><a href="#第一章-函数极限与连续" class="headerlink" title="第一章  函数极限与连续"></a><center>第一章  函数极限与连续</center></h1><p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/1.png" alt="1"></p>
+<span id="more"></span>
+<p>第9题</p>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.png" alt="1.1"></p>
+<p>方法一：两函数相比，极限等于1</p>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.1.png" alt="2.1"></p>
+<p>方法二：对积分做等价无穷小，原积分大小不变</p>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.2.png" alt="2.2"></p>
+<p>第14题</p>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/3.png" alt="3"></p>
+<p>处理极限型函数limf(x)</p>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/4.png" alt="4"></p>
+<p>第16题</p>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/5.png" alt="5"></p>
+<script type="math/tex; mode=display">
+\lim_{x->\infty}{\sqrt{x^2-x+1}-(ax+b)}=\lim_{x->\infty}{x[-\sqrt{1-\frac{1}{x}+\frac{1}{x^2}}-(a+\frac{b}{x})]}=0</script><p>所以a = - 1</p>
+<script type="math/tex; mode=display">
+b=\lim_{x->-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x->-\infty}{\frac{-x+1}{\sqrt{x^2-x+1}-x}}=\frac{1}{2}</script>]]></content>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>二进制和十进制之间的互相转换</title>
     <url>/2022/03/26/my-new-post/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="十进制转换为二进制"><a href="#十进制转换为二进制" class="headerlink" title="十进制转换为二进制"></a>十进制转换为二进制</h2><p>十进制转二进制分为整数转二进制，和小数转二进制</p>
@@ -57,46 +97,6 @@
       <categories>
         <category>blog</category>
       </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/03/26/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<span id="more"></span>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>张宇数学一1000题第一章强化训练（一）</title>
-    <url>/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="第一章-函数极限与连续"><a href="#第一章-函数极限与连续" class="headerlink" title="第一章  函数极限与连续"></a><center>第一章  函数极限与连续</center></h1><p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/1.png" alt="1"></p>
-<span id="more"></span>
-<p>第9题</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.png" alt="1.1"></p>
-<p>方法一：两函数相比，极限等于1</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.1.png" alt="2.1"></p>
-<p>方法二：对积分做等价无穷小，原积分大小不变</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.2.png" alt="2.2"></p>
-<p>第14题</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/3.png" alt="3"></p>
-<p>处理极限型函数limf(x)</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/4.png" alt="4"></p>
-<p>第16题</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/5.png" alt="5"></p>
-<script type="math/tex; mode=display">
-\lim_{x->\infty}{\sqrt{x^2-x+1}-(ax+b)}=\lim_{x->\infty}{x[-\sqrt{1-\frac{1}{x}+\frac{1}{x^2}}-(a+\frac{b}{x})]}=0</script><p>所以a = - 1</p>
-<script type="math/tex; mode=display">
-b=\lim_{x->-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x->-\infty}{\frac{-x+1}{\sqrt{x^2-x+1}-x}}=\frac{1}{2}</script>]]></content>
       <tags>
         <tag>blog</tag>
       </tags>
