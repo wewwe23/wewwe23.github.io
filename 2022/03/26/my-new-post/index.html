@@ -20,6 +20,11 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wewwe23.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
+<!--�����˵�-->
+
+    <link rel="stylesheet" href="../js/galmenu/css/GalMenu.css">
+
+
     <meta name="description" content="十进制转换为二进制十进制转二进制分为整数转二进制，和小数转二进制 整数转二进制 采用”除2取余，逆序排列”法:   首先用2整除一个十进制整数，得到一个商和余数 然后再用2去除得到的商，又会得到一个商和余数 重复操作，一直到商为小于1时为止 然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！   假设我们现在需要将42转为二进制，那我们怎么做呢，如下图所示:    小数">
 <meta property="og:type" content="article">
 <meta property="og:title" content="二进制和十进制之间的互相转换">
@@ -90,7 +95,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-捉小猫"><a href="/catch_the_cat/" rel="section"><i class="fa fa-cat fa-fw"></i>捉小猫</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -393,6 +398,43 @@
   
 
 
+
+
+
+
+<!--????-->
+
+    <div class="GalMenu GalDropDown">
+        <div class="circle" id="gal">
+            <div class="ring">
+                <a href="/" class="menuItem">??</a>
+                <a href="javascript:history.go(1);" class="menuItem">??</a>
+                <a href="javascript:$('html,body').animate({scrollTop:0},500);" class="menuItem">??</a>
+                <a href="javascript:location.reload();" class="menuItem">??</a>
+                <a href="/about/" class="menuItem">??</a>
+                <a href="javascript:history.go(-1);" class="menuItem">??</a>
+            </div>
+            
+                <audio id="audio" src="../js/galmenu/audio/sao-menu.wav"></audio>
+            
+        </div>
+    </div>
+    <script type="text/javascript">
+        var items = document.querySelectorAll('.menuItem');
+        for (var i = 0, l = items.length; i < l; i++) {
+            items[i].style.left = (50 - 35 * Math.cos(- 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%";
+            items[i].style.top = (50 + 35 * Math.sin(- 0.5 * Math.PI - 2 * (1 / l) * i * Math.PI)).toFixed(4) + "%"
+        }
+    </script>
+    <script>
+        window.jQuery || document.write('<script src="../js/galmenu/js/jquery.min.js"><\/script>')
+    </script>
+    <script src="../js/galmenu/js/GalMenu.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('body').GalMenu({'menu': 'GalDropDown'})
+        });
+    </script>
 
 
 
