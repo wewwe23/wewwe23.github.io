@@ -3,7 +3,7 @@
   <entry>
     <title>Hello World</title>
     <url>/2022/03/26/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -21,7 +21,7 @@
   <entry>
     <title>二进制和十进制之间的互相转换</title>
     <url>/2022/03/26/my-new-post/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="十进制转换为二进制"><a href="#十进制转换为二进制" class="headerlink" title="十进制转换为二进制"></a>十进制转换为二进制</h2><p>十进制转二进制分为整数转二进制，和小数转二进制</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="十进制转换为二进制"><a href="#十进制转换为二进制" class="headerlink" title="十进制转换为二进制"></a>十进制转换为二进制</h2><p>十进制转二进制分为整数转二进制，和小数转二进制</p>
 <h3 id="整数转二进制"><a href="#整数转二进制" class="headerlink" title="整数转二进制"></a>整数转二进制</h3><ul>
 <li>采用”除2取余，逆序排列”法:</li>
 </ul>
@@ -78,7 +78,7 @@
   <entry>
     <title>张宇数学一1000题第一章强化训练（一）</title>
     <url>/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一章-函数极限与连续"><a href="#第一章-函数极限与连续" class="headerlink" title="第一章  函数极限与连续"></a><center>第一章  函数极限与连续</center></h1><p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/1.png" alt="1"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="第一章-函数极限与连续"><a href="#第一章-函数极限与连续" class="headerlink" title="第一章  函数极限与连续"></a><center>第一章  函数极限与连续</center></h1><p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/1.png" alt="1"></p>
 <p>第9题</p>
 <p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.png" alt="1.1"></p>
 <p>方法一：两函数相比，极限等于1</p>
