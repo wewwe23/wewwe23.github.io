@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-04-23 00:41:23
- * @LastEditTime: 2022-04-24 21:34:47
+ * @LastEditTime: 2022-04-24 22:18:21
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \undefinedd:\hexo\themes\next\source\js\fixedAplayer.js
@@ -10,8 +10,12 @@ const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
     autoplay: true,
+    volume: 0.6,
+    mutex: true,
     loop: "all",
     order: "list",
+    listFolded: false,
+    theme: "#ee8243",
     audio: [
         {
             name: 'The Way I Still Love You',
