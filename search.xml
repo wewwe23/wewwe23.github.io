@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/03/26/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<span id="more"></span>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>二进制和十进制之间的互相转换</title>
     <url>/2022/03/26/my-new-post/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="十进制转换为二进制">十进制转换为二进制</h2>
@@ -68,28 +92,30 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/03/26/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+    <title>张宇1000题第一章强化训练(二)</title>
+    <url>/2022/04/25/%E5%BC%A0%E5%AE%871000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83-%E4%BA%8C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol start="23" type="1">
+<li><span class="math display">\[
+\lim_{x-&gt;0}{\frac{\int_{sinx}^{x}{\sqrt{3+t^2}dt}}{x(e^{x^2}-1)}}=\lim_{x-&gt;0}{\frac{(x-sinx)\sqrt{3+\xi^2}}{x*x^2}}=\lim_{x-&gt;0}{\frac{[x-x+\frac{1}{6}x^3+o(x^3)]\sqrt{3+\xi^2}}{x^3}}=\frac{\sqrt{3+\xi^2}}{6}
+\]</span></li>
+</ol>
+<p><span class="math display">\[
+(\xi介于sinx与x之间)，x-&gt;0,有夹逼准则可知\xi-&gt;0
+\]</span></p>
+<p><span class="math display">\[
+原式=\frac{\sqrt{3}}{6}
+\]</span></p>
+<p><span class="math display">\[
+本题用到了积分中值定理，\int_{a}^{b}{f(x)}dx=f(\xi)(b-a)
+\]</span></p>
 <span id="more"></span>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>考研数学一</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
   </entry>
   <entry>
     <title>张宇数学一1000题第一章强化训练（一）</title>
@@ -138,6 +164,9 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
 <iframe src="//player.bilibili.com/player.html?aid=504300256&bvid=BV1ag411M71T&cid=374901423&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
 </p>
 ]]></content>
+      <categories>
+        <category>考研数学一</category>
+      </categories>
       <tags>
         <tag>blog</tag>
       </tags>
