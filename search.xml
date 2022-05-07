@@ -108,102 +108,12 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
       </tags>
   </entry>
   <entry>
-    <title>多元函数微分学</title>
-    <url>/2022/04/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264931551&amp;page=34" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264989505&amp;page=35" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>定积分</title>
     <url>/2022/04/30/%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255335501&amp;page=29" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <span id="more"></span>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255353568&amp;page=30" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>张宇1000题第一章强化训练(二)</title>
-    <url>/2022/04/25/%E5%BC%A0%E5%AE%871000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83-%E4%BA%8C/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol start="23" type="1">
-<li><span class="math display">\[
-\lim_{x-&gt;0}{\frac{\int_{sinx}^{x}{\sqrt{3+t^2}dt}}{x(e^{x^2}-1)}}=\lim_{x-&gt;0}{\frac{(x-sinx)\sqrt{3+\xi^2}}{x*x^2}}=\lim_{x-&gt;0}{\frac{[x-x+\frac{1}{6}x^3+o(x^3)]\sqrt{3+\xi^2}}{x^3}}=\frac{\sqrt{3+\xi^2}}{6}
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-(\xi介于sinx与x之间)，x-&gt;0,有夹逼准则可知\xi-&gt;0
-\]</span></p>
-<p><span class="math display">\[
-原式=\frac{\sqrt{3}}{6}
-\]</span></p>
-<p><span class="math display">\[
-本题用到了积分中值定理，\int_{a}^{b}{f(x)}dx=f(\xi)(b-a)
-\]</span></p>
-<span id="more"></span>
-<ol start="26" type="1">
-<li></li>
-</ol>
-<p>（5） <span class="math display">\[
-\lim_{x-&gt;\infty}{e^{-x}(1+\frac{1}{x})^{x^2}}=\lim_{x-&gt;\infty}{e^{-x}*e^{x^2ln(1+\frac{1}{x})}}=\lim_{x-&gt;\infty}{e^{x^2*ln(1+\frac{1}{x})-x}}=\lim_{x-&gt;\infty}{e^{x^2[ln(1+\frac{1}{x})-\frac{1}{x}]}}=\lim_{x-&gt;\infty}{e^{x^2(\frac{1}{x}-\frac{1}{2x^2}+o(x^2)-\frac{1}{x})}}=e^{-\frac{1}{2}}
-\]</span> 本题不可用第二个重要极限 <span class="math display">\[
-\lim_{x-&gt;\infty}{(1+\frac{1}{x})^x}=e
-\]</span></p>
-<p><span class="math display">\[
-如果将原式中x^2换成x，则可以使用上式，本题我们使用1^\infty做题，将(1+\frac{1}{x})^{x^2}(幂指函数)写成e^{x^2ln(1+\frac{1}{x})},结合泰勒公式可以求解
-\]</span></p>
-<p>（7） <span class="math display">\[
-\lim_{x-&gt;\infty}{x^2(a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2)},a&gt;0,a\ne1;
-\]</span></p>
-<p><span class="math display">\[
-\lim_{x-&gt;\infty}{\frac{a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2}{\frac{1}{x^2}}}=\lim_{t-&gt;0}{\frac{a^{t}+a^{-t}-2}{t^2}}=\lim_{t-&gt;0}{\frac{lna*a^t-lna*a^{-t}}{2t}}=\lim_{t-&gt;0}{\frac{ln^2a*a^t+ln^2a*a^{-t}}{2}}=ln^2a
-\]</span></p>
-<p>（19） <span class="math display">\[
-\lim_{x-&gt;0^+}{\frac{x^x-(tanx)^x}{x(\sqrt{1+3sin^2x}-1)}}=\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x(1-(\frac{tanx}{x})^x)}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x[x(\frac{tanx}{x}-1)]}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{tanx-x}{x^3}}=-\frac{2}{9}
-\]</span></p>
-<iframe src="//player.bilibili.com/player.html?aid=504300256&amp;bvid=BV1ag411M71T&amp;cid=374899822&amp;page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=504300256&amp;bvid=BV1ag411M71T&amp;cid=374901841&amp;page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>张宇1000题</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微分中值定理与导数应用</title>
-    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254769290&amp;page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254806397&amp;page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254830496&amp;page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -268,6 +178,96 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
       </tags>
   </entry>
   <entry>
+    <title>多元函数微分学</title>
+    <url>/2022/04/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264931551&amp;page=34" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264989505&amp;page=35" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微分中值定理与导数应用</title>
+    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254769290&amp;page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254806397&amp;page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254830496&amp;page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>张宇1000题第一章强化训练(二)</title>
+    <url>/2022/04/25/%E5%BC%A0%E5%AE%871000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83-%E4%BA%8C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol start="23" type="1">
+<li><span class="math display">\[
+\lim_{x-&gt;0}{\frac{\int_{sinx}^{x}{\sqrt{3+t^2}dt}}{x(e^{x^2}-1)}}=\lim_{x-&gt;0}{\frac{(x-sinx)\sqrt{3+\xi^2}}{x*x^2}}=\lim_{x-&gt;0}{\frac{[x-x+\frac{1}{6}x^3+o(x^3)]\sqrt{3+\xi^2}}{x^3}}=\frac{\sqrt{3+\xi^2}}{6}
+\]</span></li>
+</ol>
+<p><span class="math display">\[
+(\xi介于sinx与x之间)，x-&gt;0,有夹逼准则可知\xi-&gt;0
+\]</span></p>
+<p><span class="math display">\[
+原式=\frac{\sqrt{3}}{6}
+\]</span></p>
+<p><span class="math display">\[
+本题用到了积分中值定理，\int_{a}^{b}{f(x)}dx=f(\xi)(b-a)
+\]</span></p>
+<span id="more"></span>
+<ol start="26" type="1">
+<li></li>
+</ol>
+<p>（5） <span class="math display">\[
+\lim_{x-&gt;\infty}{e^{-x}(1+\frac{1}{x})^{x^2}}=\lim_{x-&gt;\infty}{e^{-x}*e^{x^2ln(1+\frac{1}{x})}}=\lim_{x-&gt;\infty}{e^{x^2*ln(1+\frac{1}{x})-x}}=\lim_{x-&gt;\infty}{e^{x^2[ln(1+\frac{1}{x})-\frac{1}{x}]}}=\lim_{x-&gt;\infty}{e^{x^2(\frac{1}{x}-\frac{1}{2x^2}+o(x^2)-\frac{1}{x})}}=e^{-\frac{1}{2}}
+\]</span> 本题不可用第二个重要极限 <span class="math display">\[
+\lim_{x-&gt;\infty}{(1+\frac{1}{x})^x}=e
+\]</span></p>
+<p><span class="math display">\[
+如果将原式中x^2换成x，则可以使用上式，本题我们使用1^\infty做题，将(1+\frac{1}{x})^{x^2}(幂指函数)写成e^{x^2ln(1+\frac{1}{x})},结合泰勒公式可以求解
+\]</span></p>
+<p>（7） <span class="math display">\[
+\lim_{x-&gt;\infty}{x^2(a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2)},a&gt;0,a\ne1;
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x-&gt;\infty}{\frac{a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2}{\frac{1}{x^2}}}=\lim_{t-&gt;0}{\frac{a^{t}+a^{-t}-2}{t^2}}=\lim_{t-&gt;0}{\frac{lna*a^t-lna*a^{-t}}{2t}}=\lim_{t-&gt;0}{\frac{ln^2a*a^t+ln^2a*a^{-t}}{2}}=ln^2a
+\]</span></p>
+<p>（19） <span class="math display">\[
+\lim_{x-&gt;0^+}{\frac{x^x-(tanx)^x}{x(\sqrt{1+3sin^2x}-1)}}=\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x(1-(\frac{tanx}{x})^x)}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x[x(\frac{tanx}{x}-1)]}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{tanx-x}{x^3}}=-\frac{2}{9}
+\]</span></p>
+<iframe src="//player.bilibili.com/player.html?aid=504300256&amp;bvid=BV1ag411M71T&amp;cid=374899822&amp;page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=504300256&amp;bvid=BV1ag411M71T&amp;cid=374901841&amp;page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>张宇1000题</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>微分方程</title>
     <url>/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256819565&amp;page=31" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -276,6 +276,22 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256837390&amp;page=32" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=282731940&amp;page=33" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无穷级数</title>
+    <url>/2022/04/30/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330553&amp;page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265363600&amp;page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -342,12 +358,18 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
       </tags>
   </entry>
   <entry>
-    <title>无穷级数</title>
-    <url>/2022/04/30/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330553&amp;page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+    <title>线面积分</title>
+    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265363600&amp;page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -380,22 +402,74 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
       </tags>
   </entry>
   <entry>
-    <title>线面积分</title>
-    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+    <title>汤家凤1800第一章极限函数连续</title>
+    <url>/2022/05/03/%E6%B1%A4%E5%AE%B6%E5%87%A41800%E7%AC%AC%E4%B8%80%E7%AB%A0%E6%9E%81%E9%99%90%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=765351757&amp;bvid=BV1yr4y1m7sg&amp;cid=475213100&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<ol type="1">
+<li><p><span class="math display">\[
+\lim_{x-&gt;0}{\frac{tanx-sinx}{x^2ln(1+2x)}}=\lim_{x-&gt;0}{\frac{tanx-sinx}{2x^3}}=\lim_{x-&gt;0}{\frac{tanx(1-cosx)}{2x^3}}=\lim_{x-&gt;0}{\frac{x*\frac{1}{2}x^2}{2x^3}}=\frac{1}{4}
+\]</span> 也可以使用泰勒公式 <span class="math display">\[
+\lim_{x-&gt;0}{\frac{tanx-sinx}{x^2ln(1+2x)}}=\lim_{x-&gt;0}{\frac{x+\frac{1}{3}x^3+o(x^3)-x+\frac{1}{6}x^3+o(x^3)}{2x^3}}=\frac{1}{4}
+\]</span></p></li>
+<li><p><span class="math display">\[
+\lim_{x-&gt;\infty}{(\frac{x}{1+x})^{2x}}=\lim_{x-&gt;\infty}{(1-\frac{1}{1+x})^{-(1+x)*-\frac{1}{1+x}*2x}}=\lim_{x-&gt;\infty}{e^{-\frac{2x}{1+x}}}=e^{-2}
+\]</span></p></li>
+<li><p><span class="math display">\[
+\lim_{x-&gt;\infty}{\frac{2x^2+xcosx+1}{x^2+xsin\frac{2}{x}}}=\lim_{x-&gt;\infty}{\frac{2+\frac{cosx}{x}+\frac{1}{x^2}}{1+\frac{sin\frac{2}{x}}{x}}}=2
+\]</span> 此题不要使用洛必达法则，而是分子分母同时除以x^2</p></li>
+<li><p><span class="math display">\[
+\lim_{x-&gt;\infty}{\frac{ln(3x^2+2x+2)}{ln(2x^4+3x-1)}}=\lim_{x-&gt;\infty}{\frac{\frac{6x+2}{3x^2+2x+2}}{\frac{8x^3+3}{2x^4+3x-1}}}=\lim_{x-&gt;\infty}{\frac{(6x+2)(2x^4+3x-1)}{(8x^3+3)(3x^2+2x+2)}}=\frac{1}{2}
+\]</span> 使用洛必达法则除以lnx函数，再使用抓大头的方式求解</p></li>
+<li><p><span class="math display">\[
+\lim_{x-&gt;0}{(\frac{1}{1-cosx}-\frac{2}{x^2})}=\lim_{x-&gt;0}{\frac{x^2-2(1-cosx)}{x^2(1-cosx)}}=\lim_{x-&gt;0}{\frac{x^2+2cosx-2}{x^2*\frac{1}{2}x^2}}=\lim_{x-&gt;0}{\frac{2x-2sinx}{2x^3}}=\lim_{x-&gt;0}{\frac{2(1-cosx)}{6x^2}}=\lim_{x-&gt;0}{\frac{x^2}{6x^2}}=\frac{1}{6}
+\]</span></p></li>
+<li></li>
+</ol>
+<p><span class="math display">\[
+\lim_{x-&gt;+\infty}{(\sqrt{x^2+4x+1}-\sqrt{x^2-2x+2})}=\lim_{x-&gt;+\infty}{\frac{6x-1}{\sqrt{x^2+4x+1}+\sqrt{x^2-2x+2}}}=\lim_{x-&gt;+\infty}{\frac{6x}{2x}}=3
+\]</span> 7.</p>
+<p><span class="math display">\[
+当x-&gt;0时，\sqrt{1+ax^2}-1\sim1-cos^2x,则a=\\
+\lim_{x-&gt;0}{\frac{\sqrt{1+ax^2}-1}{1-cos^2x}}=\lim_{x-&gt;0}{\frac{\frac{1}{2}ax^2}{x^2}}=\frac{1}{2}a=1,a=2\\
+或者1-cos^2x\sim\frac{2}{2}x^2,根据1-cos^nnx\sim\frac{n}{2}(nx)^2
+\]</span> 8. <span class="math display">\[
+设\lim_{x-&gt;\infty}{(\frac{x+c}{x-c})^{\frac{2x^2+3x+2}{x+1}}}=\lim_{x-&gt;0}{(cosx+x^2)^{\frac{1}{sin^2x}}}\\
+\lim_{x-&gt;\infty}{(\frac{x-c+2c}{x-c})^{\frac{2x^2+3x+2}{x+1}}}=\lim_{x-&gt;\infty}{(1+\frac{2c}{x-c})^{\frac{x-c}{2c}*\frac{2c}{x-c}*\frac{2x^2+3x+2}{x+1}}}=\lim_{x-&gt;\infty}{e^{\frac{2c}{x-c}*\frac{2x^2+3x+2}{x+1}}}=e^{4c}\\
+\lim_{x-&gt;0}{(1+cosx+x^2-1)^{\frac{1}{cosx+x^2-1}*(cosx+x^2-1)*\frac{1}{sin^2x}}}=\lim_{x-&gt;0}{e^{\frac{cosx+x^2-1}{sin^2x}}}=\lim_{x-&gt;0}{e^{\frac{\frac{1}{2}x^2}{x^2}}}=e^{\frac{1}{2}}\\
+e^{4c}=e^{\frac{1}{2}},c=\frac{1}{8}
+\]</span> 9. <span class="math display">\[
+\begin{equation}
+f(x)=\left\{
+    \begin{aligned}
+    \frac{arctan3x+e^{ax}-1}{x} \quad x&lt;0\\
+    1 \quad x=0\\
+    \frac{1-(1-x^2)^b}{xarcsin2x} \quad x&gt;0\\
+    \end{aligned}
+    \right
+    .
+\end{equation}\\
+f(x)在x=0处连续，则a=,b=
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x-&gt;0^-}{\frac{arctan3x+e^{ax}-1}{x}}=\lim_{x-&gt;0^-}{\frac{\frac{3}{1+9x^2}+ae^{ax}}{1}}=3+a\\
+\lim_{x-&gt;0^+}{\frac{1-(1-x^2)^b}{xarcsin2x}}=\lim_{x-&gt;0^+}{\frac{-(-bx^2)}{2x^2}}=\frac{b}{2}\\
+f(x)在x=0处连续,f(0^+)=f(0^-)=f(0)=1\\
+a=-2 \\
+b=2
+\]</span></p>
+<ol start="10" type="1">
+<li><span class="math display">\[
+f(x)=\frac{2-e^{\frac{1}{x}}}{1+e^{\frac{1}{x}}}*arctan\frac{1}{x}\\
+x=0为f(x)的?间断点\\
+\lim_{x-&gt;0^+}{f(x)}=\frac{\pi}{2}\lim_{x-&gt;0^+}{\frac{\frac{e^{\frac{1}{x}}}{x^2}}{-\frac{e^{\frac{1}{x}}}{x^2}}}=-1\\
+\lim_{x-&gt;0}
+\]</span></li>
+</ol>
 ]]></content>
       <categories>
-        <category>武忠祥</category>
+        <category>汤家风</category>
       </categories>
       <tags>
         <tag>考研数学一</tag>
