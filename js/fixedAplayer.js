@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-04-23 00:41:23
- * @LastEditTime: 2022-05-07 18:41:57
+ * @LastEditTime: 2022-05-13 21:20:37
  * @LastEditors: wewwe23 2016925686@qq.com
  * @Description: ¨¦????????koroFileHeader¨¦????¡ì???¨¦?¡ã?????? ??????????????¡ì???: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \undefinedd:\hexo\themes\next\source\js\fixedAplayer.js
@@ -28,6 +28,12 @@ const ap = new APlayer({
             artist: 'Aimee Blackschleger',
             url: 'https://music.163.com/song/media/outer/url?id=498134.mp3',
             cover: 'https://p2.music.126.net/JbyZBW6Th0hbW8RsRXWVdA==/109951166197895701.jpg?',
+        },
+        {
+            name: 'My Heart Will Go On',
+            artist: 'Céline Dion',
+            url: 'https://music.163.com/song/media/outer/url?id=2308499.mp3',
+            cover: 'https://p2.music.126.net/mO1OUNjZtCEIvAGdr7YXaA==/813638604607979.jpg?',
         },
         {
             name: 'My Dearest',
