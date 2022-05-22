@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-04-23 00:41:23
- * @LastEditTime: 2022-05-22 16:34:12
+ * @LastEditTime: 2022-05-22 16:38:20
  * @LastEditors: wewwe23 2016925686@qq.com
  * @Description: ¨¦????????koroFileHeader¨¦????¡ì???¨¦?¡ã?????? ??????????????¡ì???: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \undefinedd:\hexo\themes\next\source\js\fixedAplayer.js
@@ -117,7 +117,6 @@ const ap = new APlayer({
             name: '����',
             artist: '�ܽ���',
             url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly8xZHJpdi1teS5zaGFyZXBvaW50LmNvbS86dTovZy9wZXJzb25hbC9zdG9yXzFkcml2X29ubWljcm9zb2Z0X2NvbS9FUWxpQTRaMHZuaE5oMmVJV3JYalozMEIyd2d4cVVadWhja2N3MDllUUtwUHNB.mp3',
-            cover: '',
         }
 
     ]
