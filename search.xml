@@ -25,22 +25,6 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 ]]></content>
   </entry>
   <entry>
-    <title>不定积分</title>
-    <url>/2022/04/30/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255318092&amp;page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255085867&amp;page=28" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>二进制和十进制之间的互相转换</title>
     <url>/2022/03/26/my-new-post/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="十进制转换为二进制">十进制转换为二进制</h2>
@@ -56,7 +40,10 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 <span id="more"></span></li>
 </ol></li>
 <li><p>假设我们现在需要将42转为二进制，那我们怎么做呢，如下图所示:</p>
-<p><img src="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg" alt="img"></p></li>
+<figure>
+<img src="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg" alt="img">
+<figcaption aria-hidden="true">img</figcaption>
+</figure></li>
 </ul>
 <h3 id="小数转二进制">小数转二进制</h3>
 <ul>
@@ -85,7 +72,10 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 <p>（0 * 2的零次方） + （1* 2的一次方）+ （0 * 2 的二次方）+（1 *
 2的三次方） +（0 * 2的四次方） +（1* 2的五次方） + 0 * 2的六次方） + （0
 * 2的7次方) =0+2+0+8+0+32+0+0=42</p>
-<p><img src="https://pic4.zhimg.com/v2-482a6073a51bd7873085f76ac83d40ff_r.jpg" alt="preview"></p>
+<figure>
+<img src="https://pic4.zhimg.com/v2-482a6073a51bd7873085f76ac83d40ff_r.jpg" alt="preview">
+<figcaption aria-hidden="true">preview</figcaption>
+</figure>
 </blockquote>
 <ul>
 <li><p>如果11101011想转为*<strong>负的十进制</strong>，因为最高位是1，所以先减一取反
@@ -99,6 +89,22 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
       </categories>
       <tags>
         <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不定积分</title>
+    <url>/2022/04/30/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255318092&amp;page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255085867&amp;page=28" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
       </tags>
   </entry>
   <entry>
@@ -186,18 +192,36 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 <center>
 第一章 函数极限与连续
 </center>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/1.png" alt="1"></p>
+<figure>
+<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/1.png" alt="1">
+<figcaption aria-hidden="true">1</figcaption>
+</figure>
 <span id="more"></span>
 <p>第9题</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.png" alt="1.1"></p>
+<figure>
+<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.png" alt="1.1">
+<figcaption aria-hidden="true">1.1</figcaption>
+</figure>
 <p>方法一：两函数相比，极限等于1</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.1.png" alt="2.1"></p>
+<figure>
+<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.1.png" alt="2.1">
+<figcaption aria-hidden="true">2.1</figcaption>
+</figure>
 <p>方法二：对积分做等价无穷小，原积分大小不变</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.2.png" alt="2.2"></p>
+<figure>
+<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.2.png" alt="2.2">
+<figcaption aria-hidden="true">2.2</figcaption>
+</figure>
 <p>第14题</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/3.png" alt="3"></p>
+<figure>
+<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/3.png" alt="3">
+<figcaption aria-hidden="true">3</figcaption>
+</figure>
 <p>处理极限型函数limf(x)</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/4.png" alt="4"></p>
+<figure>
+<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/4.png" alt="4">
+<figcaption aria-hidden="true">4</figcaption>
+</figure>
 <p>第16题</p>
 <p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/5.png" alt="5"> <span class="math display">\[
 \lim_{x-&gt;\infty}{\sqrt{x^2-x+1}-(ax+b)}=\lim_{x-&gt;\infty}{x[-\sqrt{1-\frac{1}{x}+\frac{1}{x^2}}-(a+\frac{b}{x})]}=0
@@ -207,6 +231,24 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
 ]]></content>
       <categories>
         <category>张宇1000题</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微分方程</title>
+    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256819565&amp;page=31" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256837390&amp;page=32" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=282731940&amp;page=33" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
       </categories>
       <tags>
         <tag>考研数学一</tag>
@@ -237,14 +279,12 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
       </tags>
   </entry>
   <entry>
-    <title>微分方程</title>
-    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256819565&amp;page=31" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+    <title>无穷级数</title>
+    <url>/2022/04/30/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330553&amp;page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256837390&amp;page=32" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=282731940&amp;page=33" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265363600&amp;page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -301,22 +341,6 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
 </iframe>
 <p><br></p>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250031468&amp;page=15" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无穷级数</title>
-    <url>/2022/04/30/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330553&amp;page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265363600&amp;page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -541,6 +565,28 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
       </tags>
   </entry>
   <entry>
+    <title>第二章导数与微分</title>
+    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>线面积分</title>
     <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -571,28 +617,6 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265069009&amp;page=37" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265342378&amp;page=38" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第二章导数与微分</title>
-    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
