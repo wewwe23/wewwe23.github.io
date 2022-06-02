@@ -3,85 +3,70 @@
   <entry>
     <title>Hello World</title>
     <url>/2022/03/26/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
 <span id="more"></span>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
     <title>二进制和十进制之间的互相转换</title>
     <url>/2022/03/26/my-new-post/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="十进制转换为二进制">十进制转换为二进制</h2>
-<p>十进制转二进制分为整数转二进制，和小数转二进制</p>
-<h3 id="整数转二进制">整数转二进制</h3>
-<ul>
-<li><p>采用"除2取余，逆序排列"法:</p>
-<ol type="1">
-<li><p>首先用2整除一个十进制整数，得到一个商和余数</p></li>
-<li><p>然后再用2去除得到的商，又会得到一个商和余数</p></li>
-<li><p>重复操作，一直到商为小于1时为止</p></li>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="十进制转换为二进制"><a href="#十进制转换为二进制" class="headerlink" title="十进制转换为二进制"></a>十进制转换为二进制</h2><p>十进制转二进制分为整数转二进制，和小数转二进制</p>
+<h3 id="整数转二进制"><a href="#整数转二进制" class="headerlink" title="整数转二进制"></a>整数转二进制</h3><ul>
+<li><p>采用”除2取余，逆序排列”法:</p>
+<ol>
+<li><p>首先用2整除一个十进制整数，得到一个商和余数</p>
+</li>
+<li><p>然后再用2去除得到的商，又会得到一个商和余数</p>
+</li>
+<li><p>重复操作，一直到商为小于1时为止</p>
+</li>
 <li><p>然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！</p>
-<span id="more"></span></li>
-</ol></li>
+<span id="more"></span>
+</li>
+</ol>
+</li>
 <li><p>假设我们现在需要将42转为二进制，那我们怎么做呢，如下图所示:</p>
-<figure>
-<img src="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg" alt="img">
-<figcaption aria-hidden="true">img</figcaption>
-</figure></li>
+<p><img src="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg" alt="img"></p>
+</li>
 </ul>
-<h3 id="小数转二进制">小数转二进制</h3>
-<ul>
-<li>采用"乘2取整，顺序排列"法：
-<ol type="1">
+<h3 id="小数转二进制"><a href="#小数转二进制" class="headerlink" title="小数转二进制"></a>小数转二进制</h3><ul>
+<li>采用”乘2取整，顺序排列”法：<ol>
 <li>用2乘十进制小数，可以得到积，将积的整数部分取出</li>
 <li>再用2乘余下的小数部分，又得到一个积，再将积的整数部分取出</li>
 <li>重复操作，直到积中的小数部分为零，此时0或1为二进制的最后一位，或者达到所要求的精度为止</li>
-</ol></li>
+</ol>
+</li>
 <li>例如将0.125转换为二进制：</li>
 </ul>
-<p>​</p>
+<p>​            </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">0.125  *  2  =  0.25 ------0</span><br><span class="line"></span><br><span class="line">0.25   *  2  =  0.5   ------0</span><br><span class="line"></span><br><span class="line">0.5  *  2  =  1.0     ------1</span><br><span class="line"></span><br><span class="line">当小数部分为0就可以停止乘2了，然后正序排序就构成了二进制的小数部分：0.001</span><br></pre></td></tr></table></figure>
 <ul>
 <li><p>如果小数的整数部分有大于0的整数时，将整数部分和小数部分先单独转为二进制，再合在一起就可以了，例如：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">假设要将8.125 转换为二进制</span><br><span class="line"></span><br><span class="line">现将8转为二进制：得到1000</span><br><span class="line">再将0.125转为二进制：得到0.001</span><br><span class="line"></span><br><span class="line">合并后为1000.001</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">假设要将8.125 转换为二进制</span><br><span class="line"></span><br><span class="line">现将8转为二进制：得到1000</span><br><span class="line">再将0.125转为二进制：得到0.001</span><br><span class="line"></span><br><span class="line">合并后为1000.001</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-<h3 id="二进制转换为十进制">二进制转换为十进制</h3>
-<p>二进制转为十进制要从右到左用二进制的每个数去乘以2的相应次方，小数点后则是从左往右。</p>
+<h3 id="二进制转换为十进制"><a href="#二进制转换为十进制" class="headerlink" title="二进制转换为十进制"></a>二进制转换为十进制</h3><p>二进制转为十进制要从右到左用二进制的每个数去乘以2的相应次方，小数点后则是从左往右。</p>
 <p>如果首位是0就表示正整数，如果首位是1则表示负整数，正整数可以直接换算，负整数则需要先取反再换算。</p>
 <p>因为计算机内部表示数的字节单位是定长的。如8位、16位、32位。所以位数不够时，高位补零。</p>
 <ul>
 <li>如要想二进制00101010转为十进制，因为以0开头，所以这是正整数，计算如下所示：</li>
 </ul>
 <blockquote>
-<p>（0 * 2的零次方） + （1* 2的一次方）+ （0 * 2 的二次方）+（1 *
-2的三次方） +（0 * 2的四次方） +（1* 2的五次方） + 0 * 2的六次方） + （0
-* 2的7次方) =0+2+0+8+0+32+0+0=42</p>
-<figure>
-<img src="https://pic4.zhimg.com/v2-482a6073a51bd7873085f76ac83d40ff_r.jpg" alt="preview">
-<figcaption aria-hidden="true">preview</figcaption>
-</figure>
+<p>（0 <em> 2的零次方） + （1</em> 2的一次方）+ （0 <em> 2 的二次方）+（1 </em> 2的三次方） +（0 <em> 2的四次方） +（1</em> 2的五次方） + 0 <em> 2的六次方） + （0 </em> 2的7次方) =0+2+0+8+0+32+0+0=42</p>
+<p> <img src="https://pic4.zhimg.com/v2-482a6073a51bd7873085f76ac83d40ff_r.jpg" alt="preview"></p>
 </blockquote>
 <ul>
-<li><p>如果11101011想转为*<strong>负的十进制</strong>，因为最高位是1，所以先减一取反
-00010101，然后计算出00010101对应的十进制为21，所以11101011最终对应的十进制为
--21。</p>
-<p>转载：https://zhuanlan.zhihu.com/p/75291280</p></li>
+<li><p>如果11101011想转为<strong>*负的十进制</strong>，因为最高位是1，所以先减一取反 00010101，然后计算出00010101对应的十进制为21，所以11101011最终对应的十进制为 -21。</p>
+<p>转载：<a href="https://zhuanlan.zhihu.com/p/75291280">https://zhuanlan.zhihu.com/p/75291280</a></p>
+</li>
 </ul>
 ]]></content>
       <categories>
@@ -94,11 +79,11 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
   <entry>
     <title>不定积分</title>
     <url>/2022/04/30/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255318092&amp;page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=255318092&page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255085867&amp;page=28" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=255085867&page=28" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
@@ -110,11 +95,11 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
   <entry>
     <title>多元函数微分学</title>
     <url>/2022/04/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264931551&amp;page=34" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=264931551&page=34" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264989505&amp;page=35" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=264989505&page=35" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
@@ -126,11 +111,11 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
   <entry>
     <title>定积分</title>
     <url>/2022/04/30/%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255335501&amp;page=29" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=255335501&page=29" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255353568&amp;page=30" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=255353568&page=30" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
@@ -142,42 +127,24 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
   <entry>
     <title>张宇1000题第一章强化训练(二)</title>
     <url>/2022/04/25/%E5%BC%A0%E5%AE%871000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83-%E4%BA%8C/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol start="23" type="1">
-<li><span class="math display">\[
-\lim_{x-&gt;0}{\frac{\int_{sinx}^{x}{\sqrt{3+t^2}dt}}{x(e^{x^2}-1)}}=\lim_{x-&gt;0}{\frac{(x-sinx)\sqrt{3+\xi^2}}{x*x^2}}=\lim_{x-&gt;0}{\frac{[x-x+\frac{1}{6}x^3+o(x^3)]\sqrt{3+\xi^2}}{x^3}}=\frac{\sqrt{3+\xi^2}}{6}
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-(\xi介于sinx与x之间)，x-&gt;0,有夹逼准则可知\xi-&gt;0
-\]</span></p>
-<p><span class="math display">\[
-原式=\frac{\sqrt{3}}{6}
-\]</span></p>
-<p><span class="math display">\[
-本题用到了积分中值定理，\int_{a}^{b}{f(x)}dx=f(\xi)(b-a)
-\]</span></p>
-<span id="more"></span>
-<ol start="26" type="1">
-<li></li>
-</ol>
-<p>（5） <span class="math display">\[
-\lim_{x-&gt;\infty}{e^{-x}(1+\frac{1}{x})^{x^2}}=\lim_{x-&gt;\infty}{e^{-x}*e^{x^2ln(1+\frac{1}{x})}}=\lim_{x-&gt;\infty}{e^{x^2*ln(1+\frac{1}{x})-x}}=\lim_{x-&gt;\infty}{e^{x^2[ln(1+\frac{1}{x})-\frac{1}{x}]}}=\lim_{x-&gt;\infty}{e^{x^2(\frac{1}{x}-\frac{1}{2x^2}+o(x^2)-\frac{1}{x})}}=e^{-\frac{1}{2}}
-\]</span> 本题不可用第二个重要极限 <span class="math display">\[
-\lim_{x-&gt;\infty}{(1+\frac{1}{x})^x}=e
-\]</span></p>
-<p><span class="math display">\[
-如果将原式中x^2换成x，则可以使用上式，本题我们使用1^\infty做题，将(1+\frac{1}{x})^{x^2}(幂指函数)写成e^{x^2ln(1+\frac{1}{x})},结合泰勒公式可以求解
-\]</span></p>
-<p>（7） <span class="math display">\[
-\lim_{x-&gt;\infty}{x^2(a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2)},a&gt;0,a\ne1;
-\]</span></p>
-<p><span class="math display">\[
-\lim_{x-&gt;\infty}{\frac{a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2}{\frac{1}{x^2}}}=\lim_{t-&gt;0}{\frac{a^{t}+a^{-t}-2}{t^2}}=\lim_{t-&gt;0}{\frac{lna*a^t-lna*a^{-t}}{2t}}=\lim_{t-&gt;0}{\frac{ln^2a*a^t+ln^2a*a^{-t}}{2}}=ln^2a
-\]</span></p>
-<p>（19） <span class="math display">\[
-\lim_{x-&gt;0^+}{\frac{x^x-(tanx)^x}{x(\sqrt{1+3sin^2x}-1)}}=\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x(1-(\frac{tanx}{x})^x)}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x[x(\frac{tanx}{x}-1)]}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{tanx-x}{x^3}}=-\frac{2}{9}
-\]</span></p>
-]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>23.</p>
+<script type="math/tex; mode=display">
+\lim_{x->0}{\frac{\int_{sinx}^{x}{\sqrt{3+t^2}dt}}{x(e^{x^2}-1)}}=\lim_{x->0}{\frac{(x-sinx)\sqrt{3+\xi^2}}{x*x^2}}=\lim_{x->0}{\frac{[x-x+\frac{1}{6}x^3+o(x^3)]\sqrt{3+\xi^2}}{x^3}}=\frac{\sqrt{3+\xi^2}}{6}</script><script type="math/tex; mode=display">
+(\xi介于sinx与x之间)，x->0,有夹逼准则可知\xi->0</script><script type="math/tex; mode=display">
+原式=\frac{\sqrt{3}}{6}</script><script type="math/tex; mode=display">
+本题用到了积分中值定理，\int_{a}^{b}{f(x)}dx=f(\xi)(b-a)</script><span id="more"></span>
+<p>26.</p>
+<p>（5）</p>
+<script type="math/tex; mode=display">
+\lim_{x->\infty}{e^{-x}(1+\frac{1}{x})^{x^2}}=\lim_{x->\infty}{e^{-x}*e^{x^2ln(1+\frac{1}{x})}}=\lim_{x->\infty}{e^{x^2*ln(1+\frac{1}{x})-x}}=\lim_{x->\infty}{e^{x^2[ln(1+\frac{1}{x})-\frac{1}{x}]}}=\lim_{x->\infty}{e^{x^2(\frac{1}{x}-\frac{1}{2x^2}+o(x^2)-\frac{1}{x})}}=e^{-\frac{1}{2}}</script><p>本题不可用第二个重要极限</p>
+<script type="math/tex; mode=display">
+\lim_{x->\infty}{(1+\frac{1}{x})^x}=e</script><script type="math/tex; mode=display">
+如果将原式中x^2换成x，则可以使用上式，本题我们使用1^\infty做题，将(1+\frac{1}{x})^{x^2}(幂指函数)写成e^{x^2ln(1+\frac{1}{x})},结合泰勒公式可以求解</script><p>（7）</p>
+<script type="math/tex; mode=display">
+\lim_{x->\infty}{x^2(a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2)},a>0,a\ne1;</script><script type="math/tex; mode=display">
+\lim_{x->\infty}{\frac{a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2}{\frac{1}{x^2}}}=\lim_{t->0}{\frac{a^{t}+a^{-t}-2}{t^2}}=\lim_{t->0}{\frac{lna*a^t-lna*a^{-t}}{2t}}=\lim_{t->0}{\frac{ln^2a*a^t+ln^2a*a^{-t}}{2}}=ln^2a</script><p>（19）</p>
+<script type="math/tex; mode=display">
+\lim_{x->0^+}{\frac{x^x-(tanx)^x}{x(\sqrt{1+3sin^2x}-1)}}=\frac{2}{3}\lim_{x->0^+}{\frac{x^x(1-(\frac{tanx}{x})^x)}{x^3}}=-\frac{2}{3}\lim_{x->0^+}{\frac{x^x[x(\frac{tanx}{x}-1)]}{x^3}}=-\frac{2}{3}\lim_{x->0^+}{\frac{tanx-x}{x^3}}=-\frac{2}{9}</script>]]></content>
       <categories>
         <category>张宇1000题</category>
       </categories>
@@ -188,47 +155,24 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
   <entry>
     <title>张宇数学一1000题第一章强化训练（一）</title>
     <url>/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>#
-<center>
-第一章 函数极限与连续
-</center>
-<figure>
-<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/1.png" alt="1">
-<figcaption aria-hidden="true">1</figcaption>
-</figure>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="第一章-函数极限与连续"><a href="#第一章-函数极限与连续" class="headerlink" title="第一章  函数极限与连续"></a><center>第一章  函数极限与连续</center></h1><p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/1.png" alt="1"></p>
 <span id="more"></span>
 <p>第9题</p>
-<figure>
-<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.png" alt="1.1">
-<figcaption aria-hidden="true">1.1</figcaption>
-</figure>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.png" alt="1.1"></p>
 <p>方法一：两函数相比，极限等于1</p>
-<figure>
-<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.1.png" alt="2.1">
-<figcaption aria-hidden="true">2.1</figcaption>
-</figure>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.1.png" alt="2.1"></p>
 <p>方法二：对积分做等价无穷小，原积分大小不变</p>
-<figure>
-<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.2.png" alt="2.2">
-<figcaption aria-hidden="true">2.2</figcaption>
-</figure>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/2.2.png" alt="2.2"></p>
 <p>第14题</p>
-<figure>
-<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/3.png" alt="3">
-<figcaption aria-hidden="true">3</figcaption>
-</figure>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/3.png" alt="3"></p>
 <p>处理极限型函数limf(x)</p>
-<figure>
-<img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/4.png" alt="4">
-<figcaption aria-hidden="true">4</figcaption>
-</figure>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/4.png" alt="4"></p>
 <p>第16题</p>
-<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/5.png" alt="5"> <span class="math display">\[
-\lim_{x-&gt;\infty}{\sqrt{x^2-x+1}-(ax+b)}=\lim_{x-&gt;\infty}{x[-\sqrt{1-\frac{1}{x}+\frac{1}{x^2}}-(a+\frac{b}{x})]}=0
-\]</span> 所以a = - 1 <span class="math display">\[
-b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{x^2-x+1}-x}}=\frac{1}{2}
-\]</span></p>
-]]></content>
+<p><img src="/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/5.png" alt="5"></p>
+<script type="math/tex; mode=display">
+\lim_{x->\infty}{\sqrt{x^2-x+1}-(ax+b)}=\lim_{x->\infty}{x[-\sqrt{1-\frac{1}{x}+\frac{1}{x^2}}-(a+\frac{b}{x})]}=0</script><p>所以a = - 1</p>
+<script type="math/tex; mode=display">
+b=\lim_{x->-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x->-\infty}{\frac{-x+1}{\sqrt{x^2-x+1}-x}}=\frac{1}{2}</script>]]></content>
       <categories>
         <category>张宇1000题</category>
       </categories>
@@ -239,19 +183,33 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
   <entry>
     <title>微分中值定理与导数应用</title>
     <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=254743283&page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254769290&amp;page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254806397&amp;page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254830496&amp;page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=254769290&page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=254806397&page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=254830496&page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=264988625&page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=255058642&page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+
+
+
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
@@ -263,13 +221,17 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
   <entry>
     <title>微分方程</title>
     <url>/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256819565&amp;page=31" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=256819565&page=31" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256837390&amp;page=32" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=282731940&amp;page=33" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=256837390&page=32" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=282731940&page=33" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
@@ -281,11 +243,15 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
   <entry>
     <title>无穷级数</title>
     <url>/2022/04/30/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330553&amp;page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265330553&page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265363600&amp;page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265363600&page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
@@ -297,51 +263,51 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
   <entry>
     <title>武忠祥考研数学第一章极限</title>
     <url>/2022/04/30/%E6%AD%A6%E5%BF%A0%E7%A5%A5%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%80%E7%AB%A0%E6%9E%81%E9%99%90/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247962216&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=247962216&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <span id="more"></span>
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674804&amp;page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=247674804&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674556&amp;page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=247674556&page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674796&amp;page=4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=247674796&page=4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674858&amp;page=5" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=247674858&page=5" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247893372&amp;page=6" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=247893372&page=6" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247991034&amp;page=7" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=247991034&page=7" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=248342323&amp;page=8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=248342323&page=8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249762454&amp;page=9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=249762454&page=9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249765169&amp;page=10" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=249765169&page=10" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249770349&amp;page=11" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=249770349&page=11" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249905800&amp;page=12" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=249905800&page=12" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250025379&amp;page=13" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=250025379&page=13" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249994445&amp;page=14" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=249994445&page=14" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250031468&amp;page=15" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=250031468&page=15" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
@@ -353,209 +319,106 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
   <entry>
     <title>汤家凤1800第一章极限函数连续</title>
     <url>/2022/05/03/%E6%B1%A4%E5%AE%B6%E5%87%A41800%E7%AC%AC%E4%B8%80%E7%AB%A0%E6%9E%81%E9%99%90%E5%87%BD%E6%95%B0%E8%BF%9E%E7%BB%AD/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=765351757&amp;bvid=BV1yr4y1m7sg&amp;cid=475213100&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=765351757&bvid=BV1yr4y1m7sg&cid=475213100&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <span id="more"></span>
-<ol type="1">
-<li><p><span class="math display">\[
-\lim_{x-&gt;0}{\frac{tanx-sinx}{x^2ln(1+2x)}}=\lim_{x-&gt;0}{\frac{tanx-sinx}{2x^3}}=\lim_{x-&gt;0}{\frac{tanx(1-cosx)}{2x^3}}=\lim_{x-&gt;0}{\frac{x*\frac{1}{2}x^2}{2x^3}}\\=\frac{1}{4}
-\]</span> 也可以使用泰勒公式 <span class="math display">\[
-\lim_{x-&gt;0}{\frac{tanx-sinx}{x^2ln(1+2x)}}=\lim_{x-&gt;0}{\frac{x+\frac{1}{3}x^3+o(x^3)-x+\frac{1}{6}x^3+o(x^3)}{2x^3}}=\frac{1}{4}
-\]</span> <br></p></li>
-<li><p><span class="math display">\[
-\lim_{x-&gt;\infty}{(\frac{x}{1+x})^{2x}}=\lim_{x-&gt;\infty}{(1-\frac{1}{1+x})^{-(1+x)*-\frac{1}{1+x}*2x}}=\lim_{x-&gt;\infty}{e^{-\frac{2x}{1+x}}}=e^{-2}
-\]</span> <br></p></li>
-<li><p><span class="math display">\[
-\lim_{x-&gt;\infty}{\frac{2x^2+xcosx+1}{x^2+xsin\frac{2}{x}}}=\lim_{x-&gt;\infty}{\frac{2+\frac{cosx}{x}+\frac{1}{x^2}}{1+\frac{sin\frac{2}{x}}{x}}}=2
-\]</span> 此题不要使用洛必达法则，而是分子分母同时除以x^2</p></li>
-</ol>
+<p>1.</p>
+<script type="math/tex; mode=display">
+\lim_{x->0}{\frac{tanx-sinx}{x^2ln(1+2x)}}=\lim_{x->0}{\frac{tanx-sinx}{2x^3}}=\lim_{x->0}{\frac{tanx(1-cosx)}{2x^3}}=\lim_{x->0}{\frac{x*\frac{1}{2}x^2}{2x^3}}\\=\frac{1}{4}</script><p>也可以使用泰勒公式</p>
+<script type="math/tex; mode=display">
+\lim_{x->0}{\frac{tanx-sinx}{x^2ln(1+2x)}}=\lim_{x->0}{\frac{x+\frac{1}{3}x^3+o(x^3)-x+\frac{1}{6}x^3+o(x^3)}{2x^3}}=\frac{1}{4}</script><p><br></p>
+<p>2.</p>
+<script type="math/tex; mode=display">
+\lim_{x->\infty}{(\frac{x}{1+x})^{2x}}=\lim_{x->\infty}{(1-\frac{1}{1+x})^{-(1+x)*-\frac{1}{1+x}*2x}}=\lim_{x->\infty}{e^{-\frac{2x}{1+x}}}=e^{-2}</script><p><br></p>
+<p>3.</p>
+<script type="math/tex; mode=display">
+\lim_{x->\infty}{\frac{2x^2+xcosx+1}{x^2+xsin\frac{2}{x}}}=\lim_{x->\infty}{\frac{2+\frac{cosx}{x}+\frac{1}{x^2}}{1+\frac{sin\frac{2}{x}}{x}}}=2</script><p>此题不要使用洛必达法则，而是分子分母同时除以x^2</p>
 <p><br></p>
-<ol start="4" type="1">
-<li><span class="math display">\[
-\lim_{x-&gt;\infty}{\frac{ln(3x^2+2x+2)}{ln(2x^4+3x-1)}}=\lim_{x-&gt;\infty}{\frac{\frac{6x+2}{3x^2+2x+2}}{\frac{8x^3+3}{2x^4+3x-1}}}=\lim_{x-&gt;\infty}{\frac{(6x+2)(2x^4+3x-1)}{(8x^3+3)(3x^2+2x+2)}}=\frac{1}{2}
-\]</span> 使用洛必达法则除以lnx函数，再使用抓大头的方式求解</li>
-</ol>
+<p>4.</p>
+<script type="math/tex; mode=display">
+\lim_{x->\infty}{\frac{ln(3x^2+2x+2)}{ln(2x^4+3x-1)}}=\lim_{x->\infty}{\frac{\frac{6x+2}{3x^2+2x+2}}{\frac{8x^3+3}{2x^4+3x-1}}}=\lim_{x->\infty}{\frac{(6x+2)(2x^4+3x-1)}{(8x^3+3)(3x^2+2x+2)}}=\frac{1}{2}</script><p>使用洛必达法则除以lnx函数，再使用抓大头的方式求解</p>
 <p><br></p>
-<ol start="5" type="1">
-<li><p><span class="math display">\[
-\lim_{x-&gt;0}{(\frac{1}{1-cosx}-\frac{2}{x^2})}=\lim_{x-&gt;0}{\frac{x^2-2(1-cosx)}{x^2(1-cosx)}}=\lim_{x-&gt;0}{\frac{x^2+2cosx-2}{x^2*\frac{1}{2}x^2}}=\lim_{x-&gt;0}{\frac{2x-2sinx}{2x^3}}=\lim_{x-&gt;0}{\frac{2(1-cosx)}{6x^2}}=\lim_{x-&gt;0}{\frac{x^2}{6x^2}}=\frac{1}{6}
-\]</span> <br></p></li>
-<li><p><span class="math display">\[
-\lim_{x-&gt;+\infty}{(\sqrt{x^2+4x+1}-\sqrt{x^2-2x+2})}=\lim_{x-&gt;+\infty}{\frac{6x-1}{\sqrt{x^2+4x+1}+\sqrt{x^2-2x+2}}}=\lim_{x-&gt;+\infty}{\frac{6x}{2x}}=3
-\]</span> <br></p></li>
-<li><p><span class="math display">\[
-当x-&gt;0时，\sqrt{1+ax^2}-1\sim1-cos^2x,则a=\\
-\]</span> <span class="math display">\[
-\lim_{x-&gt;0}{\frac{\sqrt{1+ax^2}-1}{1-cos^2x}}=\lim_{x-&gt;0}{\frac{\frac{1}{2}ax^2}{x^2}}=\frac{1}{2}a=1,a=2\\
-\]</span></p></li>
-</ol>
-<p><span class="math display">\[
-或者1-cos^2x\sim\frac{2}{2}x^2,根据1-cos^nnx\sim\frac{n}{2}(nx)^2
-\]</span></p>
-<p><br></p>
-<ol start="8" type="1">
-<li><span class="math display">\[
-设\lim_{x-&gt;\infty}{(\frac{x+c}{x-c})^{\frac{2x^2+3x+2}{x+1}}}=\lim_{x-&gt;0}{(cosx+x^2)^{\frac{1}{sin^2x}}}\\
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-\lim_{x-&gt;\infty}{(\frac{x-c+2c}{x-c})^{\frac{2x^2+3x+2}{x+1}}}=\lim_{x-&gt;\infty}{(1+\frac{2c}{x-c})^{\frac{x-c}{2c}*\frac{2c}{x-c}*\frac{2x^2+3x+2}{x+1}}}=\lim_{x-&gt;\infty}{e^{\frac{2c}{x-c}*\frac{2x^2+3x+2}{x+1}}}=e^{4c}\\
-\]</span></p>
-<p><span class="math display">\[
-\lim_{x-&gt;0}{(1+cosx+x^2-1)^{\frac{1}{cosx+x^2-1}*(cosx+x^2-1)*\frac{1}{sin^2x}}}=\lim_{x-&gt;0}{e^{\frac{cosx+x^2-1}{sin^2x}}}=\lim_{x-&gt;0}{e^{\frac{\frac{1}{2}x^2}{x^2}}}=e^{\frac{1}{2}}\\
-\]</span></p>
-<p><span class="math display">\[
-e^{4c}=e^{\frac{1}{2}},c=\frac{1}{8}
-\]</span></p>
-<p><br></p>
-<ol start="9" type="1">
-<li><span class="math display">\[
+<p>5.</p>
+<script type="math/tex; mode=display">
+\lim_{x->0}{(\frac{1}{1-cosx}-\frac{2}{x^2})}=\lim_{x->0}{\frac{x^2-2(1-cosx)}{x^2(1-cosx)}}=\lim_{x->0}{\frac{x^2+2cosx-2}{x^2*\frac{1}{2}x^2}}=\lim_{x->0}{\frac{2x-2sinx}{2x^3}}=\lim_{x->0}{\frac{2(1-cosx)}{6x^2}}=\lim_{x->0}{\frac{x^2}{6x^2}}=\frac{1}{6}</script><p><br></p>
+<p>6.</p>
+<script type="math/tex; mode=display">
+\lim_{x->+\infty}{(\sqrt{x^2+4x+1}-\sqrt{x^2-2x+2})}=\lim_{x->+\infty}{\frac{6x-1}{\sqrt{x^2+4x+1}+\sqrt{x^2-2x+2}}}=\lim_{x->+\infty}{\frac{6x}{2x}}=3</script><p><br></p>
+<p>7.</p>
+<script type="math/tex; mode=display">
+当x->0时，\sqrt{1+ax^2}-1\sim1-cos^2x,则a=\\</script><script type="math/tex; mode=display">
+\lim_{x->0}{\frac{\sqrt{1+ax^2}-1}{1-cos^2x}}=\lim_{x->0}{\frac{\frac{1}{2}ax^2}{x^2}}=\frac{1}{2}a=1,a=2\\</script><script type="math/tex; mode=display">
+或者1-cos^2x\sim\frac{2}{2}x^2,根据1-cos^nnx\sim\frac{n}{2}(nx)^2</script><p><br></p>
+<p>8.</p>
+<script type="math/tex; mode=display">
+设\lim_{x->\infty}{(\frac{x+c}{x-c})^{\frac{2x^2+3x+2}{x+1}}}=\lim_{x->0}{(cosx+x^2)^{\frac{1}{sin^2x}}}\\</script><script type="math/tex; mode=display">
+\lim_{x->\infty}{(\frac{x-c+2c}{x-c})^{\frac{2x^2+3x+2}{x+1}}}=\lim_{x->\infty}{(1+\frac{2c}{x-c})^{\frac{x-c}{2c}*\frac{2c}{x-c}*\frac{2x^2+3x+2}{x+1}}}=\lim_{x->\infty}{e^{\frac{2c}{x-c}*\frac{2x^2+3x+2}{x+1}}}=e^{4c}\\</script><script type="math/tex; mode=display">
+\lim_{x->0}{(1+cosx+x^2-1)^{\frac{1}{cosx+x^2-1}*(cosx+x^2-1)*\frac{1}{sin^2x}}}=\lim_{x->0}{e^{\frac{cosx+x^2-1}{sin^2x}}}=\lim_{x->0}{e^{\frac{\frac{1}{2}x^2}{x^2}}}=e^{\frac{1}{2}}\\</script><script type="math/tex; mode=display">
+e^{4c}=e^{\frac{1}{2}},c=\frac{1}{8}</script><p><br></p>
+<p>9.</p>
+<script type="math/tex; mode=display">
 \begin{equation}
 f(x)=\left\{
-  \begin{aligned}
-  \frac{arctan3x+e^{ax}-1}{x} \quad x&lt;0\\
-  1 \quad x=0\\
-  \frac{1-(1-x^2)^b}{xarcsin2x} \quad x&gt;0\\
-  \end{aligned}
-  \right
-  .
+    \begin{aligned}
+    \frac{arctan3x+e^{ax}-1}{x} \quad x<0\\
+    1 \quad x=0\\
+    \frac{1-(1-x^2)^b}{xarcsin2x} \quad x>0\\
+    \end{aligned}
+    \right
+    .
 \end{equation}\\
-f(x)在x=0处连续，则a=,b=
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-\lim_{x-&gt;0^-}{\frac{arctan3x+e^{ax}-1}{x}}=\lim_{x-&gt;0^-}{\frac{\frac{3}{1+9x^2}+ae^{ax}}{1}}=3+a\\
-\]</span></p>
-<p><span class="math display">\[
-\lim_{x-&gt;0^+}{\frac{1-(1-x^2)^b}{xarcsin2x}}=\lim_{x-&gt;0^+}{\frac{-(-bx^2)}{2x^2}}=\frac{b}{2}\\
-\]</span></p>
-<p><span class="math display">\[
-f(x)在x=0处连续,f(0^+)=f(0^-)=f(0)=1\\
-\]</span></p>
-<p><span class="math display">\[
-a=-2  
-\]</span></p>
-<p><span class="math display">\[
-b=2
-\]</span></p>
-<p><br></p>
-<ol start="10" type="1">
-<li><span class="math display">\[
-f(x)=\frac{2-e^{\frac{1}{x}}}{1+e^{\frac{1}{x}}}*arctan\frac{1}{x}\\
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-x=0为f(x)的?间断点\\
-\]</span></p>
-<p><span class="math display">\[
-\lim_{x-&gt;0^+}{f(x)}=\frac{\pi}{2}\lim_{x-&gt;0^+}{\frac{\frac{e^{\frac{1}{x}}}{x^2}}{-\frac{e^{\frac{1}{x}}}{x^2}}}=-\frac{\pi}{2}\\
-\]</span></p>
-<p><span class="math display">\[
-\lim_{x-&gt;0^-}{f(x)}=-\frac{\pi}{2}\lim_{x-&gt;0^-}{\frac{2}{1}}=-\pi
-\]</span></p>
-<p><span class="math display">\[
-f(0^-),f(0^+)都存在，但不相等，所以x=0是f(x)的跳跃间断点，属于第一类间断点
-\]</span></p>
-<p><br></p>
-<ol type="1">
-<li><span class="math display">\[
-\lim_{x-&gt;0}{\frac{x-sinax}{\int_{0}^{x}{\frac{t^2}{\sqrt{b+t^4}}dt}}}=2
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-求极限的过程中，如果乘除的部分有不为零的常数可以提出来
-\]</span></p>
-<p><span class="math display">\[
-当x-&gt;0时，\int_{0}^{x}\frac{t^2}{\sqrt{b+t^4}}dt=\frac{1}{\sqrt{b}}\int_{0}^{x}t^2dt=\frac{1}{\sqrt{b}}*\frac{1}{3}x^3
-\]</span></p>
-<p><span class="math display">\[
-原式=3\sqrt{b}\lim_{x-&gt;0}{\frac{x-sinax}{x^3}}=3\sqrt{b}\lim_{x-&gt;0}{\frac{x-ax+\frac{1}{6}a^3x^3}{x^3}}
-\]</span></p>
-<p><span class="math display">\[
-所以a=1,\frac{a^3\sqrt{b}}{2}=2,b=16
-\]</span></p>
-<p><br></p>
-<ol start="2" type="1">
-<li></li>
-</ol>
+f(x)在x=0处连续，则a=,b=</script><script type="math/tex; mode=display">
+\lim_{x->0^-}{\frac{arctan3x+e^{ax}-1}{x}}=\lim_{x->0^-}{\frac{\frac{3}{1+9x^2}+ae^{ax}}{1}}=3+a\\</script><script type="math/tex; mode=display">
+\lim_{x->0^+}{\frac{1-(1-x^2)^b}{xarcsin2x}}=\lim_{x->0^+}{\frac{-(-bx^2)}{2x^2}}=\frac{b}{2}\\</script><script type="math/tex; mode=display">
+f(x)在x=0处连续,f(0^+)=f(0^-)=f(0)=1\\</script><script type="math/tex; mode=display">
+a=-2</script><script type="math/tex; mode=display">
+b=2</script><p><br></p>
+<p>10.</p>
+<script type="math/tex; mode=display">
+f(x)=\frac{2-e^{\frac{1}{x}}}{1+e^{\frac{1}{x}}}*arctan\frac{1}{x}\\</script><script type="math/tex; mode=display">
+x=0为f(x)的?间断点\\</script><script type="math/tex; mode=display">
+\lim_{x->0^+}{f(x)}=\frac{\pi}{2}\lim_{x->0^+}{\frac{\frac{e^{\frac{1}{x}}}{x^2}}{-\frac{e^{\frac{1}{x}}}{x^2}}}=-\frac{\pi}{2}\\</script><script type="math/tex; mode=display">
+\lim_{x->0^-}{f(x)}=-\frac{\pi}{2}\lim_{x->0^-}{\frac{2}{1}}=-\pi</script><script type="math/tex; mode=display">
+f(0^-),f(0^+)都存在，但不相等，所以x=0是f(x)的跳跃间断点，属于第一类间断点</script><p><br></p>
+<p>1.</p>
+<script type="math/tex; mode=display">
+\lim_{x->0}{\frac{x-sinax}{\int_{0}^{x}{\frac{t^2}{\sqrt{b+t^4}}dt}}}=2</script><script type="math/tex; mode=display">
+求极限的过程中，如果乘除的部分有不为零的常数可以提出来</script><script type="math/tex; mode=display">
+当x->0时，\int_{0}^{x}\frac{t^2}{\sqrt{b+t^4}}dt=\frac{1}{\sqrt{b}}\int_{0}^{x}t^2dt=\frac{1}{\sqrt{b}}*\frac{1}{3}x^3</script><script type="math/tex; mode=display">
+原式=3\sqrt{b}\lim_{x->0}{\frac{x-sinax}{x^3}}=3\sqrt{b}\lim_{x->0}{\frac{x-ax+\frac{1}{6}a^3x^3}{x^3}}</script><script type="math/tex; mode=display">
+所以a=1,\frac{a^3\sqrt{b}}{2}=2,b=16</script><p><br></p>
+<p>2.</p>
 <p><strong>强化时看</strong></p>
 <p><br></p>
-<ol start="3" type="1">
-<li><span class="math display">\[
-x-&gt;0时，(1+x^n)^{sinx}-1比(\sqrt{1+x}-1)arcsinx高阶
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-比x^2-sin^2x低阶，则n=
-\]</span></p>
-<p><span class="math display">\[
-(1+x^n)^{sinx}-1\sim x^nsinx\sim x^{n+1}
-\]</span></p>
-<p><span class="math display">\[
-(\sqrt{1+x}-1)arcsinx\sim \frac{1}{2}x^2
-\]</span></p>
-<p><span class="math display">\[
-x^2-sin^2x\sim
-x^2-(x-\frac{1}{6}x^3)^2=x^2-(x^2-\frac{1}{3}x^4+\frac{1}{36}x^6)=\frac{1}{3}x^4-\frac{1}{36}x^6
-\]</span></p>
-<p><span class="math display">\[
-所以\lim_{x-&gt;0}{\frac{x^{n+1}}{\frac{1}{2}x^2}}=\lim_{x-&gt;0}{2x^{n-1}}=0,n&gt;1
-\]</span></p>
-<p><span class="math display">\[
-\lim_{x-&gt;0}{\frac{x^{n+1}}{\frac{1}{3}x^4-\frac{1}{36}x^6}}=\lim_{x-&gt;0}{\frac{x^{n+1}}{\frac{1}{3}x^4}}=\lim_{x-&gt;0}{3x^{n-3}}=\infty,n&lt;3
-\]</span></p>
-<p><span class="math display">\[
-n=2
-\]</span></p>
+<p>3.</p>
+<script type="math/tex; mode=display">
+x->0时，(1+x^n)^{sinx}-1比(\sqrt{1+x}-1)arcsinx高阶</script><script type="math/tex; mode=display">
+比x^2-sin^2x低阶，则n=</script><script type="math/tex; mode=display">
+(1+x^n)^{sinx}-1\sim x^nsinx\sim x^{n+1}</script><script type="math/tex; mode=display">
+(\sqrt{1+x}-1)arcsinx\sim \frac{1}{2}x^2</script><script type="math/tex; mode=display">
+x^2-sin^2x\sim x^2-(x-\frac{1}{6}x^3)^2=x^2-(x^2-\frac{1}{3}x^4+\frac{1}{36}x^6)=\frac{1}{3}x^4-\frac{1}{36}x^6</script><script type="math/tex; mode=display">
+所以\lim_{x->0}{\frac{x^{n+1}}{\frac{1}{2}x^2}}=\lim_{x->0}{2x^{n-1}}=0,n>1</script><script type="math/tex; mode=display">
+\lim_{x->0}{\frac{x^{n+1}}{\frac{1}{3}x^4-\frac{1}{36}x^6}}=\lim_{x->0}{\frac{x^{n+1}}{\frac{1}{3}x^4}}=\lim_{x->0}{3x^{n-3}}=\infty,n<3</script><script type="math/tex; mode=display">
+n=2</script><p><br></p>
+<p>4.</p>
+<script type="math/tex; mode=display">
+a=lncos2x,b=ln\frac{1-x^2}{1+x^2}</script><script type="math/tex; mode=display">
+\lim_{x->0}{\frac{a}{b}}=\lim_{x->0}{\frac{lncos2x}{ln\frac{1-x^2}{1+x^2}}}=\lim_{x->0}{\frac{ln(1+cos2x-1)}{ln(1-\frac{2x^2}{1+x^2})}}=\lim_{x->0}{\frac{cos2x-1}{-\frac{2x^2}{1+x^2}}}</script><script type="math/tex; mode=display">
+=\lim_{x->0}{\frac{-\frac{1}{2}(2x)^2}{\frac{-2x^2}{1+x^2}}}=\lim_{x->0}{1+x^2}=1</script><p>所以a是b的等价无穷小</p>
 <p><br></p>
-<ol start="4" type="1">
-<li><span class="math display">\[
-a=lncos2x,b=ln\frac{1-x^2}{1+x^2}
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-\lim_{x-&gt;0}{\frac{a}{b}}=\lim_{x-&gt;0}{\frac{lncos2x}{ln\frac{1-x^2}{1+x^2}}}=\lim_{x-&gt;0}{\frac{ln(1+cos2x-1)}{ln(1-\frac{2x^2}{1+x^2})}}=\lim_{x-&gt;0}{\frac{cos2x-1}{-\frac{2x^2}{1+x^2}}}
-\]</span></p>
-<p><span class="math display">\[
-=\lim_{x-&gt;0}{\frac{-\frac{1}{2}(2x)^2}{\frac{-2x^2}{1+x^2}}}=\lim_{x-&gt;0}{1+x^2}=1
-\]</span></p>
-<p>所以a是b的等价无穷小</p>
-<p><br></p>
-<ol start="5" type="1">
-<li><span class="math display">\[
-f(x)=\frac{|ln|x||}{x^2-1},则f(x)有哪些间断点
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-x=1,f(1^+)=\lim_{x-&gt;1^+}{\frac{lnx}{x^2-1}}=\lim_{x-&gt;1^+}{\frac{\frac{1}{x}}{2x}}=\frac{1}{2}
-\]</span></p>
-<p><span class="math display">\[
-f(1^-)=\lim_{x-&gt;1^-}{\frac{-lnx}{x^2-1}}=-\frac{1}{2}
-\]</span></p>
-<p><span class="math display">\[
-x=-1,f(-1^+)=\lim_{x-&gt;-1^+}{\frac{-ln(-x)}{x^2-1}}=-\frac{1}{2}
-\]</span></p>
-<p><span class="math display">\[
-f(-1^-)=\lim_{x-&gt;-1^-}{\frac{ln(-x)}{x^2-1}}=\frac{1}{2}
-\]</span></p>
-<p><span class="math display">\[
-x=0,f(0^+)=f(0^-)=\infty
-\]</span></p>
-<p><span class="math display">\[
-x=1,x=-1是跳跃间断点，x=0是第二类间断点
-\]</span></p>
-<p><br></p>
-<ol type="1">
-<li><span class="math display">\[
-\lim_{x-&gt;0}{\frac{(1+2x)^{sinx}-1}{x^2}}=\lim_{x-&gt;0}{\frac{e^{sinxln(1+2x)}-1}{x^2}}=\lim_{x-&gt;0}{\frac{sinxln(1+2x)}{x^2}}=\lim_{x-&gt;0}{\frac{2x^2}{x^2}}=2
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-也可(1+x)^a-1\sim ax，当xa(x)-&gt;0时同样适用
-\]</span></p>
-<ol start="2" type="1">
-<li></li>
-</ol>
+<p>5.</p>
+<script type="math/tex; mode=display">
+f(x)=\frac{|ln|x||}{x^2-1},则f(x)有哪些间断点</script><script type="math/tex; mode=display">
+x=1,f(1^+)=\lim_{x->1^+}{\frac{lnx}{x^2-1}}=\lim_{x->1^+}{\frac{\frac{1}{x}}{2x}}=\frac{1}{2}</script><script type="math/tex; mode=display">
+f(1^-)=\lim_{x->1^-}{\frac{-lnx}{x^2-1}}=-\frac{1}{2}</script><script type="math/tex; mode=display">
+x=-1,f(-1^+)=\lim_{x->-1^+}{\frac{-ln(-x)}{x^2-1}}=-\frac{1}{2}</script><script type="math/tex; mode=display">
+f(-1^-)=\lim_{x->-1^-}{\frac{ln(-x)}{x^2-1}}=\frac{1}{2}</script><script type="math/tex; mode=display">
+x=0,f(0^+)=f(0^-)=\infty</script><script type="math/tex; mode=display">
+x=1,x=-1是跳跃间断点，x=0是第二类间断点</script><p><br></p>
+<p>1.</p>
+<script type="math/tex; mode=display">
+\lim_{x->0}{\frac{(1+2x)^{sinx}-1}{x^2}}=\lim_{x->0}{\frac{e^{sinxln(1+2x)}-1}{x^2}}=\lim_{x->0}{\frac{sinxln(1+2x)}{x^2}}=\lim_{x->0}{\frac{2x^2}{x^2}}=2</script><script type="math/tex; mode=display">
+也可(1+x)^a-1\sim ax，当xa(x)->0时同样适用</script><p>2.</p>
 ]]></content>
       <categories>
         <category>汤家风</category>
@@ -567,17 +430,25 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
   <entry>
     <title>第二章导数与微分</title>
     <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=250334880&page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=250914199&page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=250947182&page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=252454083&page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=252428354&page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
@@ -589,17 +460,29 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
   <entry>
     <title>线面积分</title>
     <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265331752&page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265330822&page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265331815&page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265423576&page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265448000&page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
@@ -611,13 +494,17 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
   <entry>
     <title>重积分</title>
     <url>/2022/04/30/%E9%87%8D%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265039385&amp;page=36" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265039385&page=36" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265069009&amp;page=37" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265342378&amp;page=38" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265069009&page=37" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=330107670&bvid=BV1gA411j7Ta&cid=265342378&page=38" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ]]></content>
       <categories>
         <category>武忠祥</category>
