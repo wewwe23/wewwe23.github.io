@@ -156,18 +156,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -211,6 +211,124 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://wewwe23.github.io/2022/06/03/hexo%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Rui Rui">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="睿睿的博客~">
+      <meta itemprop="description" content="hello,everyone!~">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 睿睿的博客~">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/06/03/hexo%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/" class="post-title-link" itemprop="url">hexo渲染数学公式</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-06-03 14:29:30 / 修改时间：14:41:53" itemprop="dateCreated datePublished" datetime="2022-06-03T14:29:30+08:00">2022-06-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="解决hexo支持latex的问题">解决hexo支持latex的问题</h2>
+<p>说实话，我就是想有一个支持latex的博客，怎么就这么难呢。</p>
+<p>原理：hexo-renderer-pandoc这个插件将markdown文件变成html文件，然后next主题中的mathjax对其进行解析，然后我们就可以看到解析好之后的公式了。</p>
+<p>先卸载hexo自带的makrdown渲染工具（<strong>最好在博客初始化时就卸载</strong>，以免后面出现各种bug）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-renderer-markded --save</span><br></pre></td></tr></table></figure>
+<p>然后安装hexo-renderer-pandoc</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pandoc --save</span><br></pre></td></tr></table></figure>
+<p>但是到现在还是不行的，依然无法加载latex的。</p>
+<p>Hexo 的自带的 Markdown 引擎并不支持 LaTeX 公式。 但是 MathJax
+支持，因此首先要启用 MathJax 才能渲染 LaTeX 公式。如果你已经安装了 <a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/">NexT theme</a>，开启 MathJax
+支持非常容易，在最新版的NexT 主题的 <code>_config.yml</code>
+文件里，找到 MathJax 相关部分，使用以下配置</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Math Formulas Render Support</span></span><br><span class="line"><span class="comment"># Warning: Please install / uninstall the relevant renderer according to the documentation.</span></span><br><span class="line"><span class="comment"># See: https://theme-next.js.org/docs/third-party-services/math-equations</span></span><br><span class="line"><span class="comment"># Server-side plugin: https://github.com/next-theme/hexo-filter-mathjax</span></span><br><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="comment"># Default (false) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">false</span></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">none</span></span><br><span class="line">  </span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<p>该<code>every_page</code>选项控制是否每页呈现数学方程。</p>
+<ul>
+<li><strong><code>false</code></strong>→
+方程将按需处理。它只会渲染那些<code>mathjax: true</code>在他们的前端有的帖子。</li>
+<li><code>true</code>→
+方程将在每一页上处理。即使它们不存在于一个或另一个页面上。</li>
+</ul>
+<h3 id="渲染引擎">渲染引擎</h3>
+<p>目前，NexT 提供了两个用于显示数学方程的渲染引擎：<a target="_blank" rel="noopener" href="https://www.mathjax.org/">MathJax</a>和<a target="_blank" rel="noopener" href="https://katex.org/">KaTeX</a>.</p>
+<ul>
+<li>MathJax 是一个适用于所有浏览器的数学 JavaScript
+显示引擎。它在输入和输出上是高度模块化的。使用 MathML、TeX 和 ASCIImath
+作为输入，并生成 HTML+CSS、SVG 或 MathML 作为输出。</li>
+<li><a target="_blank" rel="noopener" href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX
+速度更快</a>数学渲染引擎与 MathJax 3 相比。它可以在没有 JavaScript
+的情况下生存。但是，目前<a target="_blank" rel="noopener" href="https://github.com/KaTeX/KaTeX/wiki/Things-that-KaTeX-does-not-(yet)-support">KaTeX
+支持的功能较少</a>比 MathJax。这是<a target="_blank" rel="noopener" href="https://katex.org/docs/supported.html">KaTeX 支持的 TeX
+函数列表</a>.</li>
+</ul>
+<p>设置数学渲染引擎或安装/卸载 Markdown
+渲染器后，请执行<code>hexo clean</code>. 运行标准 Hexo
+生成、部署进程或启动服务器，测试插件是否正常工作：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g -d </span><br><span class="line"># 或者 hexo clean &amp;&amp; hexo s</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>除了需要的渲染器，其他任何 Hexo
+数学插件都是不必要的，也不需要手动导入任何 JS 或 CSS
+文件。如果您安装了<code>hexo-math</code>或等插件<code>hexo-katex</code>，可能会与
+NexT 内置的渲染引擎发生冲突。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -979,93 +1097,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://wewwe23.github.io/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Rui Rui">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="睿睿的博客~">
-      <meta itemprop="description" content="hello,everyone!~">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 睿睿的博客~">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/" class="post-title-link" itemprop="url">第二章导数与微分</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-04-30 18:43:08 / 修改时间：18:53:44" itemprop="dateCreated datePublished" datetime="2022-04-30T18:43:08+08:00">2022-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%AD%A6%E5%BF%A0%E7%A5%A5/" itemprop="url" rel="index"><span itemprop="name">武忠祥</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
