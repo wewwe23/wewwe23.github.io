@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-04-23 00:41:23
- * @LastEditTime: 2022-05-22 16:38:20
+ * @LastEditTime: 2022-06-03 16:37:04
  * @LastEditors: wewwe23 2016925686@qq.com
  * @Description: ¨¦????????koroFileHeader¨¦????¡ì???¨¦?¡ã?????? ??????????????¡ì???: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \undefinedd:\hexo\themes\next\source\js\fixedAplayer.js
@@ -9,7 +9,7 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
-    autoplay: true,
+    autoplay: false,
     volume: 0.6,
     mutex: true,
     loop: "all",
@@ -67,12 +67,12 @@ const ap = new APlayer({
         },
         {
             name: 'Long Long ago, 20th Century',
-            artist: '坂井紀�?',
+            artist: '坂井紀雄',
             url: 'https://music.163.com/song/media/outer/url?id=26137030.mp3',
             cover: 'https://p2.music.126.net/owiCkbm4sr7qoZLmvDlcjw==/2368348046254622.jpg?',
         },
         {
-            name: '誰かが君を愛して�?',
+            name: '誰かが君を愛して你',
             artist: '宮内タカユキ',
             url: 'https://music.163.com/song/media/outer/url?id=444058093.mp3',
             cover: 'https://p2.music.126.net/Fh4zOJzFuWX-5D8MSewLsw==/18649916232054767.jpg?',
@@ -114,8 +114,8 @@ const ap = new APlayer({
             cover: 'https://y.qq.com/music/photo_new/T002R300x300M000000zNvQU1Ju73A_1.jpg?',
         },
         {
-            name: '����',
-            artist: '�ܽ���',
+            name: '花海',
+            artist: '周杰伦',
             url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly8xZHJpdi1teS5zaGFyZXBvaW50LmNvbS86dTovZy9wZXJzb25hbC9zdG9yXzFkcml2X29ubWljcm9zb2Z0X2NvbS9FUWxpQTRaMHZuaE5oMmVJV3JYalozMEIyd2d4cVVadWhja2N3MDllUUtwUHNB.mp3',
         }
 
