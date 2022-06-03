@@ -24,12 +24,12 @@
 
 
 
-    <meta name="description" content="十进制转换为二进制 十进制转二进制分为整数转二进制，和小数转二进制  整数转二进制   采用&quot;除2取余，逆序排列&quot;法:   首先用2整除一个十进制整数，得到一个商和余数   然后再用2去除得到的商，又会得到一个商和余数   重复操作，一直到商为小于1时为止   然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！">
+    <meta name="description" content="十进制转换为二进制 十进制转二进制分为整数转二进制，和小数转二进制 整数转二进制  采用&quot;除2取余，逆序排列&quot;法:  首先用2整除一个十进制整数，得到一个商和余数 然后再用2去除得到的商，又会得到一个商和余数 重复操作，一直到商为小于1时为止 然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！">
 <meta property="og:type" content="article">
 <meta property="og:title" content="二进制和十进制之间的互相转换">
 <meta property="og:url" content="https://wewwe23.github.io/2022/03/26/my-new-post/index.html">
 <meta property="og:site_name" content="睿睿的博客~">
-<meta property="og:description" content="十进制转换为二进制 十进制转二进制分为整数转二进制，和小数转二进制  整数转二进制   采用&quot;除2取余，逆序排列&quot;法:   首先用2整除一个十进制整数，得到一个商和余数   然后再用2去除得到的商，又会得到一个商和余数   重复操作，一直到商为小于1时为止   然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！">
+<meta property="og:description" content="十进制转换为二进制 十进制转二进制分为整数转二进制，和小数转二进制 整数转二进制  采用&quot;除2取余，逆序排列&quot;法:  首先用2整除一个十进制整数，得到一个商和余数 然后再用2去除得到的商，又会得到一个商和余数 重复操作，一直到商为小于1时为止 然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg">
 <meta property="og:image" content="https://pic4.zhimg.com/v2-482a6073a51bd7873085f76ac83d40ff_r.jpg">
@@ -152,7 +152,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="nav-number">1.</span> <span class="nav-text"> 十进制转换为二进制</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E6%95%B0%E8%BD%AC%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="nav-number">1.1.</span> <span class="nav-text"> 整数转二进制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%8F%E6%95%B0%E8%BD%AC%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="nav-number">1.2.</span> <span class="nav-text"> 小数转二进制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6"><span class="nav-number">1.3.</span> <span class="nav-text"> 二进制转换为十进制</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="nav-number">1.</span> <span class="nav-text">十进制转换为二进制</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E6%95%B0%E8%BD%AC%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="nav-number">1.1.</span> <span class="nav-text">整数转二进制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%8F%E6%95%B0%E8%BD%AC%E4%BA%8C%E8%BF%9B%E5%88%B6"><span class="nav-number">1.2.</span> <span class="nav-text">小数转二进制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%8D%81%E8%BF%9B%E5%88%B6"><span class="nav-number">1.3.</span> <span class="nav-text">二进制转换为十进制</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -302,7 +302,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>969</span>
+      <span>959</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -320,53 +320,41 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h2 id="十进制转换为二进制"><a class="markdownIt-Anchor" href="#十进制转换为二进制"></a> 十进制转换为二进制</h2>
+        <h2 id="十进制转换为二进制">十进制转换为二进制</h2>
 <p>十进制转二进制分为整数转二进制，和小数转二进制</p>
-<h3 id="整数转二进制"><a class="markdownIt-Anchor" href="#整数转二进制"></a> 整数转二进制</h3>
+<h3 id="整数转二进制">整数转二进制</h3>
 <ul>
-<li>
-<p>采用&quot;除2取余，逆序排列&quot;法:</p>
-<ol>
-<li>
-<p>首先用2整除一个十进制整数，得到一个商和余数</p>
-</li>
-<li>
-<p>然后再用2去除得到的商，又会得到一个商和余数</p>
-</li>
-<li>
-<p>重复操作，一直到商为小于1时为止</p>
-</li>
-<li>
-<p>然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！</p>
-<span id="more"></span>
-</li>
-</ol>
-</li>
-<li>
-<p>假设我们现在需要将42转为二进制，那我们怎么做呢，如下图所示:</p>
-<p><img src="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg" alt="img"></p>
-</li>
+<li><p>采用"除2取余，逆序排列"法:</p>
+<ol type="1">
+<li><p>首先用2整除一个十进制整数，得到一个商和余数</p></li>
+<li><p>然后再用2去除得到的商，又会得到一个商和余数</p></li>
+<li><p>重复操作，一直到商为小于1时为止</p></li>
+<li><p>然后将得到的所有余数全部排列起来，再将它反过来（逆序排列），切记一定要反过来！</p>
+<span id="more"></span></li>
+</ol></li>
+<li><p>假设我们现在需要将42转为二进制，那我们怎么做呢，如下图所示:</p>
+<figure>
+<img src="https://pic3.zhimg.com/80/v2-8a76f66b03a3d63176194f2cb4f96ca2_1440w.jpg" alt="img">
+<figcaption aria-hidden="true">img</figcaption>
+</figure></li>
 </ul>
-<h3 id="小数转二进制"><a class="markdownIt-Anchor" href="#小数转二进制"></a> 小数转二进制</h3>
+<h3 id="小数转二进制">小数转二进制</h3>
 <ul>
-<li>采用&quot;乘2取整，顺序排列&quot;法：
-<ol>
+<li>采用"乘2取整，顺序排列"法：
+<ol type="1">
 <li>用2乘十进制小数，可以得到积，将积的整数部分取出</li>
 <li>再用2乘余下的小数部分，又得到一个积，再将积的整数部分取出</li>
 <li>重复操作，直到积中的小数部分为零，此时0或1为二进制的最后一位，或者达到所要求的精度为止</li>
-</ol>
-</li>
+</ol></li>
 <li>例如将0.125转换为二进制：</li>
 </ul>
 <p>​</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">0.125  *  2  =  0.25 ------0</span><br><span class="line"></span><br><span class="line">0.25   *  2  =  0.5   ------0</span><br><span class="line"></span><br><span class="line">0.5  *  2  =  1.0     ------1</span><br><span class="line"></span><br><span class="line">当小数部分为0就可以停止乘2了，然后正序排序就构成了二进制的小数部分：0.001</span><br></pre></td></tr></table></figure>
 <ul>
-<li>
-<p>如果小数的整数部分有大于0的整数时，将整数部分和小数部分先单独转为二进制，再合在一起就可以了，例如：</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">假设要将8.125 转换为二进制</span><br><span class="line"></span><br><span class="line">现将8转为二进制：得到1000</span><br><span class="line">再将0.125转为二进制：得到0.001</span><br><span class="line"></span><br><span class="line">合并后为1000.001</span><br></pre></td></tr></table></figure>
-</li>
+<li><p>如果小数的整数部分有大于0的整数时，将整数部分和小数部分先单独转为二进制，再合在一起就可以了，例如：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">假设要将8.125 转换为二进制</span><br><span class="line"></span><br><span class="line">现将8转为二进制：得到1000</span><br><span class="line">再将0.125转为二进制：得到0.001</span><br><span class="line"></span><br><span class="line">合并后为1000.001</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h3 id="二进制转换为十进制"><a class="markdownIt-Anchor" href="#二进制转换为十进制"></a> 二进制转换为十进制</h3>
+<h3 id="二进制转换为十进制">二进制转换为十进制</h3>
 <p>二进制转为十进制要从右到左用二进制的每个数去乘以2的相应次方，小数点后则是从左往右。</p>
 <p>如果首位是0就表示正整数，如果首位是1则表示负整数，正整数可以直接换算，负整数则需要先取反再换算。</p>
 <p>因为计算机内部表示数的字节单位是定长的。如8位、16位、32位。所以位数不够时，高位补零。</p>
@@ -374,14 +362,19 @@
 <li>如要想二进制00101010转为十进制，因为以0开头，所以这是正整数，计算如下所示：</li>
 </ul>
 <blockquote>
-<p>（0 * 2的零次方） + （1* 2的一次方）+ （0 * 2 的二次方）+（1 * 2的三次方） +（0 * 2的四次方） +（1* 2的五次方） + 0 * 2的六次方） + （0 * 2的7次方) =0+2+0+8+0+32+0+0=42</p>
-<p><img src="https://pic4.zhimg.com/v2-482a6073a51bd7873085f76ac83d40ff_r.jpg" alt="preview"></p>
+<p>（0 * 2的零次方） + （1* 2的一次方）+ （0 * 2 的二次方）+（1 *
+2的三次方） +（0 * 2的四次方） +（1* 2的五次方） + 0 * 2的六次方） + （0
+* 2的7次方) =0+2+0+8+0+32+0+0=42</p>
+<figure>
+<img src="https://pic4.zhimg.com/v2-482a6073a51bd7873085f76ac83d40ff_r.jpg" alt="preview">
+<figcaption aria-hidden="true">preview</figcaption>
+</figure>
 </blockquote>
 <ul>
-<li>
-<p>如果11101011想转为*<strong>负的十进制</strong>，因为最高位是1，所以先减一取反 00010101，然后计算出00010101对应的十进制为21，所以11101011最终对应的十进制为 -21。</p>
-<p>转载：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/75291280">https://zhuanlan.zhihu.com/p/75291280</a></p>
-</li>
+<li><p>如果11101011想转为*<strong>负的十进制</strong>，因为最高位是1，所以先减一取反
+00010101，然后计算出00010101对应的十进制为21，所以11101011最终对应的十进制为
+-21。</p>
+<p>转载：https://zhuanlan.zhihu.com/p/75291280</p></li>
 </ul>
 
     </div>
@@ -439,14 +432,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">16k</span>
+    <span title="站点总字数">10k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">14 分钟</span>
+    <span title="站点阅读时长">9 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
