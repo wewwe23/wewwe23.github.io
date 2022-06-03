@@ -318,6 +318,9 @@
     <script type="text/javascript" src="/js/website_runtime.js"></script>
 
 
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span >本站总访问量: <span id="busuanzi_value_site_pv"></span>次</span>
+    <span >本站总访客量: <span id="busuanzi_value_site_uv"></span>次</span>
     </div>
   </footer>
 
@@ -342,12 +345,12 @@
  <script>
     var siteUv = document.getElementById("busuanzi_value_site_uv");
     var beforeSiteUv = document.createElement("span");
-    beforeSiteUv.innerHTML = "�ܷÿ��� ";
+    beforeSiteUv.innerHTML = "总访客量 ";
     siteUv.parentNode.insertBefore(beforeSiteUv, siteUv);
 
     var sitePv = document.getElementById("busuanzi_value_site_pv");
     var beforeSitePv = document.createElement("span");
-    beforeSitePv.innerHTML = "�ܷ����� ";
+    beforeSitePv.innerHTML = "总访问量 ";
     sitePv.parentNode.insertBefore(beforeSitePv, sitePv);
   </script>
 
