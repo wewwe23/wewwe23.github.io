@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-04-23 00:41:23
- * @LastEditTime: 2022-06-03 21:34:49
+ * @LastEditTime: 2022-06-03 23:51:31
  * @LastEditors: wewwe23 2016925686@qq.com
  * @Description: ¨¦????????koroFileHeader¨¦????¡ì???¨¦?¡ã?????? ??????????????¡ì???: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \undefinedd:\hexo\themes\next\source\js\fixedAplayer.js
@@ -18,6 +18,12 @@ const ap = new APlayer({
     theme: "#ee8243",
     audio: [
         {
+            name: 'Release My Soul',
+            artist: 'Aimee Blackschleger',
+            url: 'https://music.163.com/song/media/outer/url?id=498134.mp3',
+            cover: 'https://p2.music.126.net/JbyZBW6Th0hbW8RsRXWVdA==/109951166197895701.jpg?',
+        },
+        {
             name: 'βios',
             artist: '小林未郁',
             url: 'https://music.163.com/song/media/outer/url?id=498096.mp3',
@@ -28,12 +34,6 @@ const ap = new APlayer({
             artist: 'Reynard Silva',
             url: 'https://music.163.com/song/media/outer/url?id=28718313.mp3',
             cover: 'https://p2.music.126.net/JyPsd_g00M-4mqXLLtHncw==/5984641790343690.jpg?',
-        },
-        {
-            name: 'Release My Soul',
-            artist: 'Aimee Blackschleger',
-            url: 'https://music.163.com/song/media/outer/url?id=498134.mp3',
-            cover: 'https://p2.music.126.net/JbyZBW6Th0hbW8RsRXWVdA==/109951166197895701.jpg?',
         },
         {
             name: 'My Heart Will Go On',
