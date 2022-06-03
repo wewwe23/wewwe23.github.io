@@ -35,6 +35,7 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 <p>然后安装hexo-renderer-pandoc</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-pandoc --save</span><br></pre></td></tr></table></figure>
 <p>但是到现在还是不行的，依然无法加载latex的。</p>
+<span id="more"></span>
 <p>Hexo 的自带的 Markdown 引擎并不支持 LaTeX 公式。 但是 MathJax
 支持，因此首先要启用 MathJax 才能渲染 LaTeX 公式。如果你已经安装了 <a href="http://theme-next.iissnan.com/">NexT theme</a>，开启 MathJax
 支持非常容易，在最新版的NexT 主题的 <code>_config.yml</code>

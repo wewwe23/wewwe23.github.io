@@ -30,7 +30,7 @@
 <meta property="og:description" content="解决hexo支持latex的问题 说实话，我就是想有一个支持latex的博客，怎么就这么难呢。 原理：hexo-renderer-pandoc这个插件将markdown文件变成html文件，然后next主题中的mathjax对其进行解析，然后我们就可以看到解析好之后的公式了。 先卸载hexo自带的makrdown渲染工具（最好在博客初始化时就卸载，以免后面出现各种bug） 1npm uni">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-03T06:29:30.000Z">
-<meta property="article:modified_time" content="2022-06-03T06:41:53.668Z">
+<meta property="article:modified_time" content="2022-06-03T06:44:44.737Z">
 <meta property="article:author" content="Rui Rui">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -255,7 +255,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-06-03 14:29:30 / 修改时间：14:41:53" itemprop="dateCreated datePublished" datetime="2022-06-03T14:29:30+08:00">2022-06-03</time>
+      <time title="创建时间：2022-06-03 14:29:30 / 修改时间：14:44:44" itemprop="dateCreated datePublished" datetime="2022-06-03T14:29:30+08:00">2022-06-03</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -285,6 +285,7 @@
 <p>然后安装hexo-renderer-pandoc</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pandoc --save</span><br></pre></td></tr></table></figure>
 <p>但是到现在还是不行的，依然无法加载latex的。</p>
+<span id="more"></span>
 <p>Hexo 的自带的 Markdown 引擎并不支持 LaTeX 公式。 但是 MathJax
 支持，因此首先要启用 MathJax 才能渲染 LaTeX 公式。如果你已经安装了 <a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/">NexT theme</a>，开启 MathJax
 支持非常容易，在最新版的NexT 主题的 <code>_config.yml</code>
