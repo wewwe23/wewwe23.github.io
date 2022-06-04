@@ -383,22 +383,6 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
       </tags>
   </entry>
   <entry>
-    <title>无穷级数</title>
-    <url>/2022/04/30/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330553&amp;page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265363600&amp;page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>武忠祥考研数学第一章极限</title>
     <url>/2022/04/30/%E6%AD%A6%E5%BF%A0%E7%A5%A5%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%80%E7%AB%A0%E6%9E%81%E9%99%90/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247962216&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -445,6 +429,22 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
 </iframe>
 <p><br></p>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250031468&amp;page=15" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无穷级数</title>
+    <url>/2022/04/30/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330553&amp;page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265363600&amp;page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -713,6 +713,24 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
       </tags>
   </entry>
   <entry>
+    <title>重积分</title>
+    <url>/2022/04/30/%E9%87%8D%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265039385&amp;page=36" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265069009&amp;page=37" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265342378&amp;page=38" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>财务管理复习记录</title>
     <url>/2022/06/04/%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近要有个财务管理的考试，浅浅的记录一下复习内容吧，复习的同时水个博客哈哈</p>
@@ -720,22 +738,32 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
 <p>①<strong>已知现值P求终值</strong>F <span class="math display">\[
 F=P*(1+i)^n
 \]</span> 终值系数</p>
-<p>100元存入银行，10年，年利率为12%，按年复利计息。求10年后的本息和</p>
+<p>100元存入银行，10年，年利率为12%，按年复利计息。求10年后的本息和
+<span class="math display">\[
+F=P*(1+i)^n=100*(1+12\%)^{10}=310.58
+\]</span> <span id="more"></span></p>
 <p>②<strong>已知F求P</strong></p>
 <p>现值公式 <span class="math display">\[
 P=F*(1+i)^{-n}
 \]</span> 现值系数</p>
 <p>现在把X元存入银行，10年，年利率为12%，按年复利计息。10年后的本息和为3000元，X＝？</p>
-<p>③<strong>已知年金A求终值F</strong></p>
+<p><span class="math display">\[
+P=F*(1+i)^{-n}=3000*(1+12\%)^{-10}=965.92
+\]</span> ③<strong>已知年金A求终值F</strong></p>
 <p><strong>年金终值公式</strong> <span class="math display">\[
 F=A*[\frac{(1+i)^n-1}{i}]
 \]</span> 年金终值系数</p>
 <p>每年末把100元存入银行，存15年，年利率12%，按年复利计息。求15年后本息和</p>
-<p>④<strong>已知年金A求现值P</strong></p>
+<p><span class="math display">\[
+F=A*[\frac{(1+i)^n-1}{i}]=100*[\frac{(1+12\%)^{15}-1}{12\%}]=3727.97
+\]</span> ④<strong>已知年金A求现值P</strong></p>
 <p><strong>年金现值公式</strong> <span class="math display">\[
 P=A*[\frac{1-(1+i)^{-n}}{i}]
-\]</span>
-现在存入15000元于银行，15年中每年末从取款A元，取15年，年利率为12%，按年复利计息，刚好取完。每年可以取的金额A=?</p>
+\]</span> 年金现值系数</p>
+<p>现在存入15000元于银行，15年中每年末从取款A元，取15年，年利率为12%，按年复利计息，刚好取完。每年可以取的金额A=?
+<span class="math display">\[
+A=P*[\frac{i}{1-(1+i)^{-n}}]=\frac{15000}{6.811}=2202.32
+\]</span></p>
 <p>⑤<strong>一年内复利计息多次（m次）,已知现值P求n年后的终值F</strong>
 <span class="math display">\[
 F=P*(1+\frac{r}{m})^{n*m}
@@ -744,12 +772,15 @@ F=P*(1+\frac{r}{m})^{n*m}
 <p>实际的季度利息是 <span class="math display">\[
 12\%/4=3\%
 \]</span> 计息4*10=40次 <span class="math display">\[
-F=100*(1+\frac{12\%}{4})^{10*4}=100*(1+3\%)^{40}
+F=100*(1+\frac{12\%}{4})^{10*4}=100*(1+3\%)^{40}=100*3.262=326.20
 \]</span> ⑥ <strong>先付年金（在年初支付 P40）</strong> <span class="math display">\[
 F=A*[\frac{(1+i)^n-1}{i}](1+i)
 \]</span>
 每年初把100元存入银行，存15年，年利率为12%，按年复利计息。求15年后的本息和</p>
-<p>⑦<strong>后付年金（即递延年金P41），计算公式与推迟支付的期数相关</strong></p>
+<p><span class="math display">\[
+F=A*[\frac{(1+i)^n-1}{i}](1+i)=A*[\frac{(1+i)^{n+1}-1}{i}-1]=100*[42.753-1]=4175.30
+\]</span>
+⑦<strong>后付年金（即递延年金P41），计算公式与推迟支付的期数相关</strong></p>
 <h2 id="名词解释">2.名词解释</h2>
 <p><strong>①</strong>年金：一定期限内一系列相等金额的收付款项。</p>
 <p><strong>②</strong>股票：股份公司为筹集自有资本而发行的有价证券，是股东按其持有的股份享有权益和承担义务的可转让的凭证。</p>
@@ -764,13 +795,53 @@ F=A*[\frac{(1+i)^n-1}{i}](1+i)
 两个公式） (P69 习题3)</strong></p>
 <p>注意：负债的资本成本分为税前与税后，要把税前资本成本折算成<strong>税后</strong>的资本成本。</p>
 <p>要求用试误法，如果用<strong>公式3.1不计分</strong></p>
-<p><strong>3.2 用NPV法判断投资项目是否可行，要求掌握：</strong></p>
+<p>(1)<strong>计算长期借款的资本成本</strong></p>
+<p>公式： <span class="math display">\[
+L(1-F_{t})=\sum_{t=1}^n{\frac{I_{t}}{(1+K)^t}}+\frac{L}{(1+K)^n}\\
+K_{l}=K(1-T)\\
+K_{l}为长期借款成本，I_{t}为长期借款利息，T为企业所得税税率，L为长期借款总额，F_{t}为长期借款筹资费用率,K为所得税前长期借款成本
+\]</span></p>
+<p>企业从银行借款100万，年利率10%，期限3年 每年付息一次，到期一次还本
+筹资费率0.5%（f＝100*0.5%＝0.5万） 贷款净额L－f＝100－0.5＝99.5 <span class="math display">\[
+100*（1-0.5\%)=\sum_{t=1}^3{\frac{100*10\%}{(1+K)^t}}+\frac{100}{(1+K)^3}\\
+K_{l}=K(1-25\%)
+\]</span> <img src="/2022/06/04/%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0%E8%AE%B0%E5%BD%95/21.png" alt="3.1"> <span class="math display">\[
+K_{l}=K(1-T)=0.1020*(1-25\%)=7.65\%
+\]</span> (2)<strong>发行债券的资本成本</strong></p>
+<p>公式： <span class="math display">\[
+B(1-F_{b})=\sum_{t=1}^{n}{\frac{I_{b}}{(1+K)^t}}+\frac{M}{(1+K)^n}\\
+K_{b}=K(1-T)
+\]</span>
+公司平价发行5年期债券3000万元，票面利率为10%的债券，发行费用率是1%，所得税率是25%，计算债券的资本成本
+<span class="math display">\[
+3000*(1-1\%)=\sum_{t=1}^5{\frac{3000*10\%}{(1+K)^t}}+\frac{3000}{(1+K)^5}
+\]</span></p>
+<p>公司溢价发行5年期债券3000万元，票面利率为10%的债券，发行费用率是1%，所得税率是25%，计算债券的资本成本
+<span class="math display">\[
+3200*(1-1\%)=\sum_{t=1}^5{\frac{3000*10\%}{(1+K)^t}}+\frac{3000}{(1+K)^5}
+\]</span></p>
+<p>公司折价发行5年期债券3000万元，票面利率为10%的债券，发行费用率是1%，所得税率是25%，计算债券的资本成本
+<span class="math display">\[
+2800*(1-1\%)=\sum_{t=1}^5{\frac{3000*10\%}{(1+K)^t}}+\frac{3000}{(1+K)^5}
+\]</span> <strong>3.2
+用NPV法判断投资项目是否可行，要求掌握：</strong></p>
 <p>年折旧（直线法）=（固定资产初始投资－残值）/使用年限</p>
 <p>所得税=（收入－付现成本－折旧）*所得税税率</p>
 <p>营业现金流量＝收入－付现成本－所得税 P167公式</p>
 <p>P170 NPV的计算公式： <span class="math display">\[
 NPV=\sum_{k=0}^n{\frac{I_{k}-Q_{k}}{(1+i)^k}}
 \]</span> P185题</p>
+<p>某企业投资一项固定资产，投资额为150万元，年初投资，建设期为10年，预计固定资产使用寿命为6年，年经营收入为100万元，经营成本为60万元，所得税税率为25%，银行贷款利率为12%</p>
+<p>计算每年现金净流量，非贴现的投资回收期，计算净现值，计算内含报酬率。</p>
+<p>固定资产原值=150万元</p>
+<p>年折旧=（150-0)/6=25万元</p>
+<p>所得税=（收入-付现成本-折旧）<em>所得税税率=（100-60-25）</em> *
+25%=3.75</p>
+<p>每年现金净流量=收入-付现成本-所得税=100-60-3.75=36.25万元</p>
+<p>回收期=150/36.25=4.14</p>
+<p>NPV净现值=未来报酬总现值-原始投资额 <span class="math display">\[
+净现值=36.25*\sum_{k=0}^{6}{\frac{1}{(1+12\%)^k}}-150=-0.96
+\]</span></p>
 <h1 id="知识点">4 知识点</h1>
 <h3 id="简述企业财务活动的概念和内容"><strong>4.1
 简述企业财务活动的概念和内容</strong></h3>
@@ -911,24 +982,6 @@ P是每次订货的成本 (S/Q)*P是总订货成本</p>
       </categories>
       <tags>
         <tag>财务管理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>重积分</title>
-    <url>/2022/04/30/%E9%87%8D%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265039385&amp;page=36" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265069009&amp;page=37" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265342378&amp;page=38" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
       </tags>
   </entry>
 </search>
