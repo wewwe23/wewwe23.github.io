@@ -161,18 +161,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">19</span>
+          <span class="site-state-item-count">20</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -267,6 +267,269 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://wewwe23.github.io/2022/06/08/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%BA%8C%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E4%BC%98%E5%8C%96%E6%A8%A1%E5%9E%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/%E7%88%B1%E4%B8%BD%E4%B8%9D.png">
+      <meta itemprop="name" content="Rui Rui">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="睿睿的博客~">
+      <meta itemprop="description" content="hello,everyone!~">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 睿睿的博客~">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/06/08/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%BA%8C%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E4%BC%98%E5%8C%96%E6%A8%A1%E5%9E%8B/" class="post-title-link" itemprop="url">决策支持系统实验二线性规划优化模型</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-06-08 21:45:53" itemprop="dateCreated datePublished" datetime="2022-06-08T21:45:53+08:00">2022-06-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-09 00:44:44" itemprop="dateModified" datetime="2022-06-09T00:44:44+08:00">2022-06-09</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C/" itemprop="url" rel="index"><span itemprop="name">决策支持系统实验</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>2.7k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="首先简单回顾一下运筹学线性规划知识">首先简单回顾一下运筹学线性规划知识</h3>
+<p>虽然可以使用excel求解，但还是简单回忆一下线性规划问题的解题方法（强迫症晚期doge)</p>
+<h4 id="线性规划的数学模型">线性规划的数学模型</h4>
+<p><span class="math display">\[
+max(min)Z=c_{1}x_{1}+c_{2}x_{2}+...+c_{j}x_{j}+...+c_{n}x_{n}
+\]</span></p>
+<p><span class="math display">\[
+\begin{equation}
+s.t.\left\{
+\begin{aligned}
+a_{11}x_{1}+a_{12}x_{2}+...+a_{1n}x_{n} &amp; \leq(=,\geq) &amp; b_{1}\\
+a_{21}x_{1}+a_{22}x_{2}+...+a_{2n}x_{n} &amp; \leq(=,\geq) &amp; b_{2}\\
+...   ...   ...    ...\\
+a_{i1}x_{1}+a_{i2}x_{2}+...+a_{in}x_{n} &amp; \leq(=,\geq) &amp; b_{i}\\
+...  ...   ...   ...\\
+a_{m1}x_{1}+a_{m2}x_{2}+...+a_{mn}x_{n} &amp; \leq(=,\geq) &amp; b_{m}\\
+x_{1},x_{2},...,x_{n}\geq0
+\end{aligned}
+\right.
+\end{equation}
+\]</span></p>
+<p><span class="math display">\[
+c_{j}:价值系数
+\]</span></p>
+<p><span class="math display">\[
+a_{ij}:工艺或技术系数
+\]</span></p>
+<p><span class="math display">\[
+b_{i}:资源限制
+\]</span></p>
+<p><span class="math display">\[
+x_1,x_2,...,x_n\geq0:决策变量约束
+\]</span></p>
+<p>线性规划的共同特征：</p>
+<p>1.决策变量：每个问题都用一组决策变量表示某个方案 <span class="math display">\[
+X=(x_1,x_2,...,x_n)^T
+\]</span> 2.决策变量：决策变量的取值一般都是非负且连续的 <span class="math display">\[
+x_j\geq0,j=1,2,...,n
+\]</span> 3.约束条件：与决策变量不矛盾的条件，用线性等式或不等式表示
+<span class="math display">\[
+\sum_{j=1}^n{a_{ij}x_j}\leq(\geq,=)b_i,i=1,2,...,m
+\]</span> 4.目标函数：决策变量与价值系数组成，一般要求实现最大或最小化
+<span class="math display">\[
+max(min)z=\sum_{j=1}^n{c_jx_j},j=1,2,...,n
+\]</span></p>
+<h4 id="求解线性规划问题首先要化标准型">求解线性规划问题首先要化标准型</h4>
+<p>线性规划的标准型（单纯形法求解的前提） <span class="math display">\[
+maxZ=c_1x_1+c_2x_2+...+c_nx_n
+\]</span></p>
+<p><span class="math display">\[
+\begin{equation}
+s.t.\left\{
+\begin{aligned}
+a_{11}x_{1}+a_{12}x_2+...+a_{1n}x_{n}=b_1\\
+a_{21}x_1+a_{22}x_2+...+a_{2n}x_n=b_{2}\\
+....................................\\
+a_{m1}x_1+a_{m2}x_2+...+a_{mn}x_n=b_{m}\\
+x_1,x_2,...,x_n\geq0   \\
+b_1,b_2,...,b_m\geq0\\
+\end{aligned}
+\right.
+\end{equation}
+\]</span></p>
+<p><strong>目标函数最大，约束条件等式，决策变量非负，资源限量非负</strong></p>
+<p>简写为(向量化) <span class="math display">\[
+maxZ=CX
+\]</span></p>
+<p><span class="math display">\[
+\begin{equation}
+s.t.\left\{
+\begin{aligned}
+\sum_{j=1}^n{P_jx_j=b}\\
+x_j\geq0,j=1,2,...,n
+\end{aligned}
+\right.
+\end{equation}
+\]</span></p>
+<p><span class="math display">\[
+C=(c_1,c_2,...,c_n)^T,X=(x_1,x_2,...,x_n)^T,
+\]</span></p>
+<p><span class="math display">\[
+b=(b_1,b_2,...,b_m)^T,P_j=(a_{1j},a_{2j},...,a_{mj})^T
+\]</span></p>
+<p>矩阵形式 <span class="math display">\[
+maxz=CX
+\]</span></p>
+<p><span class="math display">\[
+\begin{equation}
+s.t.\left\{
+\begin{aligned}
+AX=b\\
+X\geq O\\
+\end{aligned}
+\right.
+\end{equation}
+\]</span></p>
+<p><span class="math display">\[
+A=\left(
+\begin{array}{l}
+a_{11}&amp;a_{12}&amp;...&amp;a_{1n}\\
+a_{21}&amp;a_{22}&amp;...&amp;a_{2n}\\
+.&amp;.&amp;.&amp;.\\
+.&amp;.&amp;.&amp;.\\
+.&amp;.&amp;.&amp;.\\
+a_{m1}&amp;a_{m2}&amp;...&amp;a_{mn}
+\end{array}
+\right
+)
+\]</span></p>
+<p><span class="math display">\[
+O=\left(
+\begin{array}{l}
+0\\
+0\\
+.\\
+.\\
+.\\
+0
+\end{array}
+\right
+)
+\]</span></p>
+<p>来一个具体的例子 <span class="math display">\[
+minZ=x_1+2x_2+3x_3
+\]</span></p>
+<p><span class="math display">\[
+\begin{equation}
+s.t.\left\{
+\begin{aligned}
+-2x_1+x_2+x_3\leq9\\
+-3x_1+x_2+2x_3\geq4\\
+4x_1-2x_2-3x_3=-6\\
+x_1\leq0,x_2\geq0,x_3取值无约束
+\end{aligned}
+\right.
+\end{equation}
+\]</span></p>
+<p><span class="math display">\[
+对-2x_1+x_2+x_3\leq9约束加上松弛变量x_4
+\]</span></p>
+<p><span class="math display">\[
+对-3x_1+x_2+2x_3\geq4约束减去剩余变量x_5
+\]</span></p>
+<p><span class="math display">\[
+x_1\leq0,令x_1^{&#39;}=-x_1\geq0
+\]</span></p>
+<p><span class="math display">\[
+x_3无约束，令x_3=x_3^{&#39;}-x_3^{&#39;&#39;}\geq0,x_3^{&#39;}\geq0,x_3^{&#39;&#39;}\geq0
+\]</span></p>
+<p><span class="math display">\[
+maxZ^{&#39;}=x_1^{&#39;}-2x_2-3x_3^{&#39;}+3x_3^{&#39;&#39;}+x_4+x_5
+\]</span></p>
+<p><span class="math display">\[
+\begin{equation}
+s.t.\left\{
+\begin{aligned}
+2x_1^{&#39;}+x_2+x_3^{&#39;}-x_3{&#39;&#39;}+x_4=9\\
+3x_1^{&#39;}+x_2+2x_3^{&#39;}-2x_3{&#39;&#39;}-x_5=4\\
+4x_1^{&#39;}+2x_2+3x_3^{&#39;}-3x_3{&#39;&#39;}=6\\
+x_1^{&#39;},x_2,x_3^{&#39;},x_3^{&#39;&#39;}，x_4,x_5\geq0
+\end{aligned}
+\right.
+\end{equation}
+\]</span></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -1209,108 +1472,6 @@ F=P*(1+i)^n=100*(1+12\%)^{10}=310.58
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://wewwe23.github.io/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/%E7%88%B1%E4%B8%BD%E4%B8%9D.png">
-      <meta itemprop="name" content="Rui Rui">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="睿睿的博客~">
-      <meta itemprop="description" content="hello,everyone!~">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 睿睿的博客~">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/" class="post-title-link" itemprop="url">微分方程</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-04-30 18:44:16 / 修改时间：18:59:21" itemprop="dateCreated datePublished" datetime="2022-04-30T18:44:16+08:00">2022-04-30</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%AD%A6%E5%BF%A0%E7%A5%A5/" itemprop="url" rel="index"><span itemprop="name">武忠祥</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>0</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256819565&amp;page=31" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
@@ -1338,14 +1499,14 @@ F=P*(1+i)^n=100*(1+12\%)^{10}=310.58
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">17k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">13 分钟</span>
+    <span title="站点阅读时长">15 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
