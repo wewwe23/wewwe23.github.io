@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.1.0">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.1.0">
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
@@ -21,16 +20,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"wewwe23.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":{"gitalk":{"order":-2}}},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"wewwe23.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":{"gitalk":{"order":-2}}},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
 
 
-    <meta name="description" content="解决hexo支持latex的问题 说实话，我就是想有一个支持latex的博客，怎么就这么难呢。 原理：hexo-renderer-pandoc这个插件将markdown文件变成html文件，然后next主题中的mathjax对其进行解析，然后我们就可以看到解析好之后的公式了。 先卸载hexo自带的makrdown渲染工具（最好在博客初始化时就卸载，以免后面出现各种bug） 1npm uni">
+    <meta name="description" content="解决hexo支持latex的问题 说实话，我就是想有一个支持latex的博客，怎么就这么难呢。 原理：hexo-renderer-pandoc这个插件将markdown文件变成html文件，然后next主题中的mathjax对其进行解析，然后我们就可以看到解析好之后的公式了。 先卸载hexo自带的makrdown渲染工具（最好在博客初始化时就卸载，以免后面出现各种bug） 1npm uninst">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo渲染数学公式">
 <meta property="og:url" content="https://wewwe23.github.io/2022/06/03/hexo%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/index.html">
 <meta property="og:site_name" content="睿睿的博客~">
-<meta property="og:description" content="解决hexo支持latex的问题 说实话，我就是想有一个支持latex的博客，怎么就这么难呢。 原理：hexo-renderer-pandoc这个插件将markdown文件变成html文件，然后next主题中的mathjax对其进行解析，然后我们就可以看到解析好之后的公式了。 先卸载hexo自带的makrdown渲染工具（最好在博客初始化时就卸载，以免后面出现各种bug） 1npm uni">
+<meta property="og:description" content="解决hexo支持latex的问题 说实话，我就是想有一个支持latex的博客，怎么就这么难呢。 原理：hexo-renderer-pandoc这个插件将markdown文件变成html文件，然后next主题中的mathjax对其进行解析，然后我们就可以看到解析好之后的公式了。 先卸载hexo自带的makrdown渲染工具（最好在博客初始化时就卸载，以免后面出现各种bug） 1npm uninst">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-03T06:29:30.000Z">
 <meta property="article:modified_time" content="2022-06-03T06:44:44.737Z">
@@ -56,7 +55,7 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-</head>
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -150,7 +149,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3hexo%E6%94%AF%E6%8C%81latex%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text">解决hexo支持latex的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B8%B2%E6%9F%93%E5%BC%95%E6%93%8E"><span class="nav-number">1.1.</span> <span class="nav-text">渲染引擎</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3hexo%E6%94%AF%E6%8C%81latex%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text"> 解决hexo支持latex的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B8%B2%E6%9F%93%E5%BC%95%E6%93%8E"><span class="nav-number">1.1.</span> <span class="nav-text"> 渲染引擎</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -355,7 +354,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h2 id="解决hexo支持latex的问题">解决hexo支持latex的问题</h2>
+        <h2 id="解决hexo支持latex的问题"><a class="markdownIt-Anchor" href="#解决hexo支持latex的问题"></a> 解决hexo支持latex的问题</h2>
 <p>说实话，我就是想有一个支持latex的博客，怎么就这么难呢。</p>
 <p>原理：hexo-renderer-pandoc这个插件将markdown文件变成html文件，然后next主题中的mathjax对其进行解析，然后我们就可以看到解析好之后的公式了。</p>
 <p>先卸载hexo自带的makrdown渲染工具（<strong>最好在博客初始化时就卸载</strong>，以免后面出现各种bug）</p>
@@ -364,38 +363,22 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pandoc --save</span><br></pre></td></tr></table></figure>
 <p>但是到现在还是不行的，依然无法加载latex的。</p>
 <span id="more"></span>
-<p>Hexo 的自带的 Markdown 引擎并不支持 LaTeX 公式。 但是 MathJax
-支持，因此首先要启用 MathJax 才能渲染 LaTeX 公式。如果你已经安装了 <a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/">NexT theme</a>，开启 MathJax
-支持非常容易，在最新版的NexT 主题的 <code>_config.yml</code>
-文件里，找到 MathJax 相关部分，使用以下配置</p>
+<p>Hexo 的自带的 Markdown 引擎并不支持 LaTeX 公式。 但是 MathJax 支持，因此首先要启用 MathJax 才能渲染 LaTeX 公式。如果你已经安装了 <a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/">NexT theme</a>，开启 MathJax 支持非常容易，在最新版的NexT 主题的 <code>_config.yml</code> 文件里，找到 MathJax 相关部分，使用以下配置</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Math Formulas Render Support</span></span><br><span class="line"><span class="comment"># Warning: Please install / uninstall the relevant renderer according to the documentation.</span></span><br><span class="line"><span class="comment"># See: https://theme-next.js.org/docs/third-party-services/math-equations</span></span><br><span class="line"><span class="comment"># Server-side plugin: https://github.com/next-theme/hexo-filter-mathjax</span></span><br><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="comment"># Default (false) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">false</span></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">none</span></span><br><span class="line">  </span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 <p>该<code>every_page</code>选项控制是否每页呈现数学方程。</p>
 <ul>
-<li><strong><code>false</code></strong>→
-方程将按需处理。它只会渲染那些<code>mathjax: true</code>在他们的前端有的帖子。</li>
-<li><code>true</code>→
-方程将在每一页上处理。即使它们不存在于一个或另一个页面上。</li>
+<li>**<code>false</code>**→ 方程将按需处理。它只会渲染那些<code>mathjax: true</code>在他们的前端有的帖子。</li>
+<li><code>true</code>→ 方程将在每一页上处理。即使它们不存在于一个或另一个页面上。</li>
 </ul>
-<h3 id="渲染引擎">渲染引擎</h3>
+<h3 id="渲染引擎"><a class="markdownIt-Anchor" href="#渲染引擎"></a> 渲染引擎</h3>
 <p>目前，NexT 提供了两个用于显示数学方程的渲染引擎：<a target="_blank" rel="noopener" href="https://www.mathjax.org/">MathJax</a>和<a target="_blank" rel="noopener" href="https://katex.org/">KaTeX</a>.</p>
 <ul>
-<li>MathJax 是一个适用于所有浏览器的数学 JavaScript
-显示引擎。它在输入和输出上是高度模块化的。使用 MathML、TeX 和 ASCIImath
-作为输入，并生成 HTML+CSS、SVG 或 MathML 作为输出。</li>
-<li><a target="_blank" rel="noopener" href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX
-速度更快</a>数学渲染引擎与 MathJax 3 相比。它可以在没有 JavaScript
-的情况下生存。但是，目前<a target="_blank" rel="noopener" href="https://github.com/KaTeX/KaTeX/wiki/Things-that-KaTeX-does-not-(yet)-support">KaTeX
-支持的功能较少</a>比 MathJax。这是<a target="_blank" rel="noopener" href="https://katex.org/docs/supported.html">KaTeX 支持的 TeX
-函数列表</a>.</li>
+<li>MathJax 是一个适用于所有浏览器的数学 JavaScript 显示引擎。它在输入和输出上是高度模块化的。使用 MathML、TeX 和 ASCIImath 作为输入，并生成 HTML+CSS、SVG 或 MathML 作为输出。</li>
+<li><a target="_blank" rel="noopener" href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX 速度更快</a>数学渲染引擎与 MathJax 3 相比。它可以在没有 JavaScript 的情况下生存。但是，目前<a target="_blank" rel="noopener" href="https://github.com/KaTeX/KaTeX/wiki/Things-that-KaTeX-does-not-(yet)-support">KaTeX 支持的功能较少</a>比 MathJax。这是<a target="_blank" rel="noopener" href="https://katex.org/docs/supported.html">KaTeX 支持的 TeX 函数列表</a>.</li>
 </ul>
-<p>设置数学渲染引擎或安装/卸载 Markdown
-渲染器后，请执行<code>hexo clean</code>. 运行标准 Hexo
-生成、部署进程或启动服务器，测试插件是否正常工作：</p>
+<p>设置数学渲染引擎或安装/卸载 Markdown 渲染器后，请执行<code>hexo clean</code>. 运行标准 Hexo 生成、部署进程或启动服务器，测试插件是否正常工作：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g -d </span><br><span class="line"># 或者 hexo clean &amp;&amp; hexo s</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>除了需要的渲染器，其他任何 Hexo
-数学插件都是不必要的，也不需要手动导入任何 JS 或 CSS
-文件。如果您安装了<code>hexo-math</code>或等插件<code>hexo-katex</code>，可能会与
-NexT 内置的渲染引擎发生冲突。</p>
+<p>除了需要的渲染器，其他任何 Hexo 数学插件都是不必要的，也不需要手动导入任何 JS 或 CSS 文件。如果您安装了<code>hexo-math</code>或等插件<code>hexo-katex</code>，可能会与 NexT 内置的渲染引擎发生冲突。</p>
 
     </div>
 
@@ -510,14 +493,14 @@ NexT 内置的渲染引擎发生冲突。</p>
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">17k</span>
+    <span title="站点总字数">26k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">15 分钟</span>
+    <span title="站点阅读时长">23 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
@@ -557,7 +540,29 @@ NexT 内置的渲染引擎发生冲突。</p>
 
 
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+
+
+  <script src="[object Object]"></script>
+  <script src="/%5Bobject%20Object%5D"></script>
+
+
+<script>
+var options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: true, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+</script>
 <script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
@@ -594,6 +599,33 @@ NexT 内置的渲染引擎发生冲突。</p>
 <script src="/js/third-party/math/mathjax.js"></script>
 
 
+<script src="https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: 'unset',
+  left: '32px',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: false,
+  label: '🌓',
+  autoMatchOsTheme: false
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+if (window.darkmode && !window.darkmode.isActivated()) {
+  window.darkmode.toggle();
+  var toggleButtons = document.getElementsByClassName("darkmode-toggle");
+  for (i = 0; i < toggleButtons.length; i++) {
+    toggleButtons[i].classList.add("darkmode-toggle--white");
+  }
+}
+</script>
 <script src="/js/third-party/comments/livere.js"></script>
 
 
