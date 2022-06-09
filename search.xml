@@ -10,17 +10,17 @@ answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a
 you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="quick-start">Quick Start</h2>
 <h3 id="create-a-new-post">Create a new post</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="run-server">Run server</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
 <span id="more"></span>
 <h3 id="generate-static-files">Generate static files</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
 <h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
@@ -31,35 +31,16 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 <p>说实话，我就是想有一个支持latex的博客，怎么就这么难呢。</p>
 <p>原理：hexo-renderer-pandoc这个插件将markdown文件变成html文件，然后next主题中的mathjax对其进行解析，然后我们就可以看到解析好之后的公式了。</p>
 <p>先卸载hexo自带的makrdown渲染工具（<strong>最好在博客初始化时就卸载</strong>，以免后面出现各种bug）</p>
-<pre class="line-numbers language-none"><code class="language-none">npm uninstall hexo-renderer-markded --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-markded --save</span><br></pre></td></tr></table></figure>
 <p>然后安装hexo-renderer-pandoc</p>
-<pre class="line-numbers language-none"><code class="language-none">npm install hexo-renderer-pandoc --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-pandoc --save</span><br></pre></td></tr></table></figure>
 <p>但是到现在还是不行的，依然无法加载latex的。</p>
 <span id="more"></span>
 <p>Hexo 的自带的 Markdown 引擎并不支持 LaTeX 公式。 但是 MathJax
 支持，因此首先要启用 MathJax 才能渲染 LaTeX 公式。如果你已经安装了 <a href="http://theme-next.iissnan.com/">NexT theme</a>，开启 MathJax
 支持非常容易，在最新版的NexT 主题的 <code>_config.yml</code>
 文件里，找到 MathJax 相关部分，使用以下配置</p>
-<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># Math Formulas Render Support</span>
-<span class="token comment"># Warning: Please install / uninstall the relevant renderer according to the documentation.</span>
-<span class="token comment"># See: https://theme-next.js.org/docs/third-party-services/math-equations</span>
-<span class="token comment"># Server-side plugin: https://github.com/next-theme/hexo-filter-mathjax</span>
-<span class="token key atrule">math</span><span class="token punctuation">:</span>
-  <span class="token comment"># Default (false) will load mathjax / katex script on demand.</span>
-  <span class="token comment"># That is it only render those page which has `mathjax: true` in front-matter.</span>
-  <span class="token comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span>
-  <span class="token key atrule">every_page</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-  
-
-  <span class="token key atrule">mathjax</span><span class="token punctuation">:</span>
-    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
-    <span class="token comment"># Available values: none | ams | all</span>
-    <span class="token key atrule">tags</span><span class="token punctuation">:</span> none
-  
-  <span class="token key atrule">katex</span><span class="token punctuation">:</span>
-    <span class="token key atrule">enable</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
-    <span class="token comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span>
-    <span class="token key atrule">copy_tex</span><span class="token punctuation">:</span> <span class="token boolean important">false</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Math Formulas Render Support</span></span><br><span class="line"><span class="comment"># Warning: Please install / uninstall the relevant renderer according to the documentation.</span></span><br><span class="line"><span class="comment"># See: https://theme-next.js.org/docs/third-party-services/math-equations</span></span><br><span class="line"><span class="comment"># Server-side plugin: https://github.com/next-theme/hexo-filter-mathjax</span></span><br><span class="line"><span class="attr">math:</span></span><br><span class="line">  <span class="comment"># Default (false) will load mathjax / katex script on demand.</span></span><br><span class="line">  <span class="comment"># That is it only render those page which has `mathjax: true` in front-matter.</span></span><br><span class="line">  <span class="comment"># If you set it to true, it will load mathjax / katex script EVERY PAGE.</span></span><br><span class="line">  <span class="attr">every_page:</span> <span class="literal">false</span></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">  <span class="attr">mathjax:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="comment"># Available values: none | ams | all</span></span><br><span class="line">    <span class="attr">tags:</span> <span class="string">none</span></span><br><span class="line">  </span><br><span class="line">  <span class="attr">katex:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex</span></span><br><span class="line">    <span class="attr">copy_tex:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 <p>该<code>every_page</code>选项控制是否每页呈现数学方程。</p>
 <ul>
 <li><strong><code>false</code></strong>→
@@ -82,9 +63,7 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 <p>设置数学渲染引擎或安装/卸载 Markdown
 渲染器后，请执行<code>hexo clean</code>. 运行标准 Hexo
 生成、部署进程或启动服务器，测试插件是否正常工作：</p>
-<pre class="line-numbers language-none"><code class="language-none">$ hexo clean &amp;&amp; hexo g -d 
-# 或者 hexo clean &amp;&amp; hexo s
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo g -d </span><br><span class="line"># 或者 hexo clean &amp;&amp; hexo s</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>除了需要的渲染器，其他任何 Hexo
 数学插件都是不必要的，也不需要手动导入任何 JS 或 CSS
 文件。如果您安装了<code>hexo-math</code>或等插件<code>hexo-katex</code>，可能会与
@@ -101,13 +80,12 @@ NexT 内置的渲染引擎发生冲突。</p>
     <title>hexo设置动态背景canvas_nest</title>
     <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo -v<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
 <h2 id="canvas-nest">Canvas-nest</h2>
 <h3 id="移除">移除</h3>
 <p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
 8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
-<pre class="line-numbers language-none"><code class="language-none">External Changes
-* Remove canvas_nest (632768c)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
 <span id="more"></span>
 ]]></content>
       <categories>
@@ -115,18 +93,6 @@ NexT 内置的渲染引擎发生冲突。</p>
       </categories>
       <tags>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2022/06/05/test/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><object data="./test/基于Excel的存货经济订货批量模型设计_王铁媛.pdf" type="application/pdf" width="100%" height="877px">
-</object>]]></content>
-      <categories>
-        <category>pdf</category>
-      </categories>
-      <tags>
-        <tag>pdf</tag>
       </tags>
   </entry>
   <entry>
@@ -161,21 +127,10 @@ NexT 内置的渲染引擎发生冲突。</p>
 <li>例如将0.125转换为二进制：</li>
 </ul>
 <p>​</p>
-<pre class="line-numbers language-python3" data-language="python3"><code class="language-python3">0.125  *  2  &#x3D;  0.25 ------0
-
-0.25   *  2  &#x3D;  0.5   ------0
-
-0.5  *  2  &#x3D;  1.0     ------1
-
-当小数部分为0就可以停止乘2了，然后正序排序就构成了二进制的小数部分：0.001<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">0.125  *  2  =  0.25 ------0</span><br><span class="line"></span><br><span class="line">0.25   *  2  =  0.5   ------0</span><br><span class="line"></span><br><span class="line">0.5  *  2  =  1.0     ------1</span><br><span class="line"></span><br><span class="line">当小数部分为0就可以停止乘2了，然后正序排序就构成了二进制的小数部分：0.001</span><br></pre></td></tr></table></figure>
 <ul>
 <li><p>如果小数的整数部分有大于0的整数时，将整数部分和小数部分先单独转为二进制，再合在一起就可以了，例如：</p>
-<pre class="line-numbers language-text" data-language="text"><code class="language-text">假设要将8.125 转换为二进制
-
-现将8转为二进制：得到1000
-再将0.125转为二进制：得到0.001
-
-合并后为1000.001<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">假设要将8.125 转换为二进制</span><br><span class="line"></span><br><span class="line">现将8转为二进制：得到1000</span><br><span class="line">再将0.125转为二进制：得到0.001</span><br><span class="line"></span><br><span class="line">合并后为1000.001</span><br></pre></td></tr></table></figure></li>
 </ul>
 <h3 id="二进制转换为十进制">二进制转换为十进制</h3>
 <p>二进制转为十进制要从右到左用二进制的每个数去乘以2的相应次方，小数点后则是从左往右。</p>
@@ -208,19 +163,15 @@ NexT 内置的渲染引擎发生冲突。</p>
       </tags>
   </entry>
   <entry>
-    <title>不定积分</title>
-    <url>/2022/04/30/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255318092&amp;page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255085867&amp;page=28" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
+    <title>test</title>
+    <url>/2022/06/05/test/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><object data="./test/基于Excel的存货经济订货批量模型设计_王铁媛.pdf" type="application/pdf" width="100%" height="877px">
+</object>]]></content>
       <categories>
-        <category>武忠祥</category>
+        <category>pdf</category>
       </categories>
       <tags>
-        <tag>考研数学一</tag>
+        <tag>pdf</tag>
       </tags>
   </entry>
   <entry>
@@ -529,6 +480,24 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
       </tags>
   </entry>
   <entry>
+    <title>微分方程</title>
+    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256819565&amp;page=31" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256837390&amp;page=32" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=282731940&amp;page=33" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>微分中值定理与导数应用</title>
     <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -543,24 +512,6 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微分方程</title>
-    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256819565&amp;page=31" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256837390&amp;page=32" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=282731940&amp;page=33" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -857,6 +808,66 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
       </tags>
   </entry>
   <entry>
+    <title>不定积分</title>
+    <url>/2022/04/30/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255318092&amp;page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255085867&amp;page=28" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第二章导数与微分</title>
+    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>线面积分</title>
+    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>财务管理复习记录</title>
     <url>/2022/06/04/%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近要有个财务管理的考试，浅浅的记录一下复习内容吧，复习的同时水个博客哈哈</p>
@@ -1127,28 +1138,6 @@ P是每次订货的成本 (S/Q)*P是总订货成本</p>
       </tags>
   </entry>
   <entry>
-    <title>第二章导数与微分</title>
-    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>重积分</title>
     <url>/2022/04/30/%E9%87%8D%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265039385&amp;page=36" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -1157,28 +1146,6 @@ P是每次订货的成本 (S/Q)*P是总订货成本</p>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265069009&amp;page=37" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265342378&amp;page=38" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线面积分</title>
-    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
