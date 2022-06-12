@@ -197,6 +197,7 @@ NexT 内置的渲染引擎发生冲突。</p>
 <h2 id="实验目的">实验目的</h2>
 <p>1、了解大数据时代决策支持系统的发展现状；</p>
 <p>2、了解新冠疫情期间决策支持系统的应用。</p>
+<span id="more"></span>
 <h2 id="实验内容">实验内容</h2>
 <p>1、查阅相关资料，了解大数据时代决策支持系统的特点及应用现状；</p>
 <p>2、查阅相关资料，了解决策支持系统如何为防控新冠疫情提供参考咨询及科学决策。</p>
@@ -221,25 +222,6 @@ NexT 内置的渲染引擎发生冲突。</p>
 <p>[5]叶明,谷晨霞.“大数据”时代决策支持系统新发展[J].信息安全与技术,2013,4(08):6-8.</p>
 <p>[6]顾润龙.大数据时代决策支持系统新发展[J].网络安全技术与应用,2019(06):53-54.</p>
 <p>[7]孙朋,王领会,张健.新冠肺炎疑似患者流行病学调查辅助决策系统设计与实现[J].医疗卫生装备,2020,41(6):5-1031</p>
-]]></content>
-      <categories>
-        <category>决策支持系统实验</category>
-      </categories>
-      <tags>
-        <tag>决策支持系统实验</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>决策支持系统实验四</title>
-    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
-<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
-<p>[1]沈武凡.
-基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
-<p>[1]谢忠.
-基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
-<p>[1]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
-<p>[1]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
 ]]></content>
       <categories>
         <category>决策支持系统实验</category>
@@ -467,6 +449,26 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </tags>
   </entry>
   <entry>
+    <title>决策支持系统实验四</title>
+    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
+<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
+<p><span id="more"></span></p>
+<p>[1]沈武凡.
+基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
+<p>[2]谢忠.
+基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
+<p>[3]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
+<p>[4]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
+]]></content>
+      <categories>
+        <category>决策支持系统实验</category>
+      </categories>
+      <tags>
+        <tag>决策支持系统实验</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>多元函数微分学</title>
     <url>/2022/04/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264931551&amp;page=34" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -638,22 +640,6 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
       </tags>
   </entry>
   <entry>
-    <title>无穷级数</title>
-    <url>/2022/04/30/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330553&amp;page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265363600&amp;page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数学每日一题</title>
     <url>/2022/06/12/%E6%95%B0%E5%AD%A6%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>第1题</p>
@@ -691,6 +677,7 @@ x^2+2,x&lt;0\\
 \right.
 \end{equation}
 \]</span></p>
+<span id="more"></span>
 <p>第2题</p>
 <p>1998年1，2，3 <span class="math display">\[
 已知f(x)=e^{x^2},f[\varphi(x)]=1-x,且\varphi(x)\geq0
@@ -791,6 +778,100 @@ f(-x)=-xtan(-x)*e^{sin(-x)}=xtanx*e^{-sinx}，不是偶函数
       </categories>
       <tags>
         <tag>考研数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无穷级数</title>
+    <url>/2022/04/30/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330553&amp;page=44" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265363600&amp;page=45" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>武忠祥考研数学第一章极限</title>
+    <url>/2022/04/30/%E6%AD%A6%E5%BF%A0%E7%A5%A5%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%80%E7%AB%A0%E6%9E%81%E9%99%90/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247962216&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674804&amp;page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674556&amp;page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674796&amp;page=4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674858&amp;page=5" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247893372&amp;page=6" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247991034&amp;page=7" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=248342323&amp;page=8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249762454&amp;page=9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249765169&amp;page=10" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249770349&amp;page=11" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249905800&amp;page=12" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250025379&amp;page=13" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249994445&amp;page=14" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<p><br></p>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250031468&amp;page=15" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第二章导数与微分</title>
+    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
       </tags>
   </entry>
   <entry>
@@ -1002,84 +1083,6 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
 ]]></content>
       <categories>
         <category>汤家风</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>武忠祥考研数学第一章极限</title>
-    <url>/2022/04/30/%E6%AD%A6%E5%BF%A0%E7%A5%A5%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E7%AC%AC%E4%B8%80%E7%AB%A0%E6%9E%81%E9%99%90/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247962216&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674804&amp;page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674556&amp;page=3" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674796&amp;page=4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247674858&amp;page=5" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247893372&amp;page=6" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=247991034&amp;page=7" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=248342323&amp;page=8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249762454&amp;page=9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249765169&amp;page=10" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249770349&amp;page=11" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249905800&amp;page=12" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250025379&amp;page=13" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=249994445&amp;page=14" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<p><br></p>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250031468&amp;page=15" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第二章导数与微分</title>
-    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
       </categories>
       <tags>
         <tag>考研数学一</tag>
