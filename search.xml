@@ -25,25 +25,6 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 ]]></content>
   </entry>
   <entry>
-    <title>hexo设置动态背景canvas_nest</title>
-    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<h2 id="canvas-nest">Canvas-nest</h2>
-<h3 id="移除">移除</h3>
-<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
-8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo渲染数学公式</title>
     <url>/2022/06/03/hexo%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="解决hexo支持latex的问题">解决hexo支持latex的问题</h2>
@@ -87,6 +68,25 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 数学插件都是不必要的，也不需要手动导入任何 JS 或 CSS
 文件。如果您安装了<code>hexo-math</code>或等插件<code>hexo-katex</code>，可能会与
 NexT 内置的渲染引擎发生冲突。</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo设置动态背景canvas_nest</title>
+    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<h2 id="canvas-nest">Canvas-nest</h2>
+<h3 id="移除">移除</h3>
+<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
+8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
 ]]></content>
       <categories>
         <category>hexo</category>
@@ -538,6 +538,30 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
       </tags>
   </entry>
   <entry>
+    <title>微分中值定理与导数应用</title>
+    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254769290&amp;page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254806397&amp;page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254830496&amp;page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>微分方程</title>
     <url>/2022/04/30/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=256819565&amp;page=31" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -864,20 +888,18 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
       </tags>
   </entry>
   <entry>
-    <title>微分中值定理与导数应用</title>
-    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+    <title>线面积分</title>
+    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254769290&amp;page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254806397&amp;page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254830496&amp;page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -1166,28 +1188,6 @@ P是每次订货的成本 (S/Q)*P是总订货成本</p>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265069009&amp;page=37" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265342378&amp;page=38" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线面积分</title>
-    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
