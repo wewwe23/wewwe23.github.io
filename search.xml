@@ -25,6 +25,25 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 ]]></content>
   </entry>
   <entry>
+    <title>hexo设置动态背景canvas_nest</title>
+    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<h2 id="canvas-nest">Canvas-nest</h2>
+<h3 id="移除">移除</h3>
+<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
+8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo渲染数学公式</title>
     <url>/2022/06/03/hexo%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="解决hexo支持latex的问题">解决hexo支持latex的问题</h2>
@@ -68,25 +87,6 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 数学插件都是不必要的，也不需要手动导入任何 JS 或 CSS
 文件。如果您安装了<code>hexo-math</code>或等插件<code>hexo-katex</code>，可能会与
 NexT 内置的渲染引擎发生冲突。</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo设置动态背景canvas_nest</title>
-    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<h2 id="canvas-nest">Canvas-nest</h2>
-<h3 id="移除">移除</h3>
-<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
-8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
 ]]></content>
       <categories>
         <category>hexo</category>
@@ -222,6 +222,26 @@ NexT 内置的渲染引擎发生冲突。</p>
 <p>[5]叶明,谷晨霞.“大数据”时代决策支持系统新发展[J].信息安全与技术,2013,4(08):6-8.</p>
 <p>[6]顾润龙.大数据时代决策支持系统新发展[J].网络安全技术与应用,2019(06):53-54.</p>
 <p>[7]孙朋,王领会,张健.新冠肺炎疑似患者流行病学调查辅助决策系统设计与实现[J].医疗卫生装备,2020,41(6):5-1031</p>
+]]></content>
+      <categories>
+        <category>决策支持系统实验</category>
+      </categories>
+      <tags>
+        <tag>决策支持系统实验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>决策支持系统实验四</title>
+    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
+<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
+<p><span id="more"></span></p>
+<p>[1]沈武凡.
+基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
+<p>[2]谢忠.
+基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
+<p>[3]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
+<p>[4]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
 ]]></content>
       <categories>
         <category>决策支持系统实验</category>
@@ -462,26 +482,6 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </categories>
       <tags>
         <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>决策支持系统实验四</title>
-    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
-<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
-<p><span id="more"></span></p>
-<p>[1]沈武凡.
-基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
-<p>[2]谢忠.
-基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
-<p>[3]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
-<p>[4]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
-]]></content>
-      <categories>
-        <category>决策支持系统实验</category>
-      </categories>
-      <tags>
-        <tag>决策支持系统实验</tag>
       </tags>
   </entry>
   <entry>
