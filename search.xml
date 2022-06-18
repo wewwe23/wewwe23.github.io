@@ -25,25 +25,6 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 ]]></content>
   </entry>
   <entry>
-    <title>hexo设置动态背景canvas_nest</title>
-    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<h2 id="canvas-nest">Canvas-nest</h2>
-<h3 id="移除">移除</h3>
-<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
-8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo渲染数学公式</title>
     <url>/2022/06/03/hexo%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="解决hexo支持latex的问题">解决hexo支持latex的问题</h2>
@@ -93,6 +74,37 @@ NexT 内置的渲染引擎发生冲突。</p>
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo设置动态背景canvas_nest</title>
+    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<h2 id="canvas-nest">Canvas-nest</h2>
+<h3 id="移除">移除</h3>
+<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
+8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2022/06/05/test/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><object data="./test/基于Excel的存货经济订货批量模型设计_王铁媛.pdf" type="application/pdf" width="100%" height="877px">
+</object>]]></content>
+      <categories>
+        <category>pdf</category>
+      </categories>
+      <tags>
+        <tag>pdf</tag>
       </tags>
   </entry>
   <entry>
@@ -163,18 +175,6 @@ NexT 内置的渲染引擎发生冲突。</p>
       </tags>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/2022/06/05/test/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><object data="./test/基于Excel的存货经济订货批量模型设计_王铁媛.pdf" type="application/pdf" width="100%" height="877px">
-</object>]]></content>
-      <categories>
-        <category>pdf</category>
-      </categories>
-      <tags>
-        <tag>pdf</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>不定积分</title>
     <url>/2022/04/30/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255318092&amp;page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -222,26 +222,6 @@ NexT 内置的渲染引擎发生冲突。</p>
 <p>[5]叶明,谷晨霞.“大数据”时代决策支持系统新发展[J].信息安全与技术,2013,4(08):6-8.</p>
 <p>[6]顾润龙.大数据时代决策支持系统新发展[J].网络安全技术与应用,2019(06):53-54.</p>
 <p>[7]孙朋,王领会,张健.新冠肺炎疑似患者流行病学调查辅助决策系统设计与实现[J].医疗卫生装备,2020,41(6):5-1031</p>
-]]></content>
-      <categories>
-        <category>决策支持系统实验</category>
-      </categories>
-      <tags>
-        <tag>决策支持系统实验</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>决策支持系统实验四</title>
-    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
-<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
-<p><span id="more"></span></p>
-<p>[1]沈武凡.
-基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
-<p>[2]谢忠.
-基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
-<p>[3]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
-<p>[4]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
 ]]></content>
       <categories>
         <category>决策支持系统实验</category>
@@ -460,6 +440,26 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
 <p>第二步，将光标移动至导航栏空白处，右键点击调出自定义功能区</p>
 <p>第三步，点击左侧导航栏加载项</p>
 <p>第四步，将“非活动应用程序加载项”子目下的线性规划求解加载项选中通过左下角的“转到”按钮转到“活动应用程序加载项”子目下，这样</p>
+]]></content>
+      <categories>
+        <category>决策支持系统实验</category>
+      </categories>
+      <tags>
+        <tag>决策支持系统实验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>决策支持系统实验四</title>
+    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
+<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
+<p><span id="more"></span></p>
+<p>[1]沈武凡.
+基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
+<p>[2]谢忠.
+基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
+<p>[3]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
+<p>[4]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
 ]]></content>
       <categories>
         <category>决策支持系统实验</category>
@@ -825,6 +825,219 @@ f(2+0)=\lim_{x\rightarrow2}{\frac{|x|(x-2)}{x(x-1)(x-2)^2}}=\lim_{x\rightarrow2}
 <p>第10题</p>
 <p>2000年1 <span class="math display">\[
 \lim_{x\rightarrow0}{(\frac{2+e^{\frac{1}{x}}}{1+e^{\frac{4}{x}}}+\frac{sinx}{|x|})}
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x\rightarrow0^+}{\frac{\frac{2}{e^{\frac{4}{x}}}+e^{-\frac{3}{x}}}{\frac{1}{e^{\frac{4}{x}}}+1}+\frac{sinx}{|x|}}=0+1=1
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x\rightarrow0^-}{f(x)}=\frac{2}{1}-1=1
+\]</span></p>
+<p>第11题 <span class="math display">\[
+\lim_{x\rightarrow +\infty}{\sqrt{x^2+x}-\sqrt{x^2-x}}
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x\rightarrow+\infty}{\frac{2x}{\sqrt{x^2+x}+\sqrt{x^2-x}}}=\lim_{x\rightarrow+\infty}{\frac{2}{\sqrt{1+\frac{1}{x}}+\sqrt{1-\frac{1}{x}}}}
+\]</span></p>
+<p><span class="math display">\[
+=\frac{2}{1+1}=1
+\]</span></p>
+<p>第12题 <span class="math display">\[
+\lim_{x\rightarrow0}{\frac{\sqrt{1+tanx}-\sqrt{1+sinx}}{x(1-cosx)}}
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x\rightarrow0}{\frac{\sqrt{1+tanx}-\sqrt{1+sinx}}{x*\frac{1}{2}x^2}}=\lim_{x\rightarrow0}{\frac{\frac{1}{2\sqrt{1+\xi}}*(tanx-sinx)}{\frac{1}{2}x^3}}=\frac{1}{2}（拉格朗日中值定理）
+\]</span></p>
+<p><span class="math display">\[
+x\rightarrow0时，tanx-sinx=x+\frac{1}{3}x^3-x+\frac{1}{6}x^3=\frac{1}{2}x^3
+\]</span></p>
+<p>第13题 <span class="math display">\[
+已知\lim_{x\rightarrow0}{\frac{e^{x^2}-cos2x}{ax^b}}=1,求a,b的值
+\]</span> 泰勒展开公式 <span class="math display">\[
+e^x=1+x+x^2+o(x^2)
+\]</span></p>
+<p><span class="math display">\[
+cosx=1-\frac{1}{2}x^2+o(x^2)
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x\rightarrow0}{\frac{1+x^2+x^4-1+2x^2}{ax^b}}=\lim_{x\rightarrow0}{\frac{3x^2+x^4}{ax^b}}=1
+\]</span></p>
+<p>抓大放小 <span class="math display">\[
+\lim_{x\rightarrow0}{\frac{3x^2}{ax^b}}=1,所以a=3,b=2
+\]</span> 第14题 <span class="math display">\[
+\lim_{x\rightarrow x_{0}}{\varphi(x)=0}，下列结论正确的有
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x\rightarrow x_{0}}{\frac{sin\varphi(x)}{\varphi(x)}}=1
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x\rightarrow x_{0}}{[1+\varphi(x)]^{\frac{1}{\varphi(x)}}}=e
+\]</span></p>
+<p><span class="math display">\[
+当x\rightarrow x_{0}时，sin\varphi(x) \sim \varphi(x)
+\]</span></p>
+<p><span class="math display">\[
+若\lim_{u\rightarrow 0}{f(u)}=A,则\lim_{x\rightarrow
+x_{0}}{f[\varphi(x)]}=A
+\]</span></p>
+<p>第15题 <span class="math display">\[
+\lim_{x\rightarrow 0}{\frac{arcsinx-arctanx}{sinx-tanx}}
+\]</span></p>
+<p><span class="math display">\[
+原式=\lim_{x\rightarrow0}{\frac{x+\frac{1}{6}x^3-x+\frac{1}{3}x^3}{x-\frac{1}{6}x^3-x-\frac{1}{3}x^3}}=-1
+\]</span></p>
+<p>第16题 <span class="math display">\[
+\lim_{x\rightarrow0}{\frac{ln\frac{x}{ln(1+x)}}{x}}
+\]</span></p>
+<p>$$</p>
+<p>$$</p>
+<p>第17题 <span class="math display">\[
+\lim_{x\rightarrow+\infty}{\frac{e^x}{(1+\frac{1}{x})^{x^2}}}
+\]</span> 第18题 <span class="math display">\[
+\lim_{x\rightarrow 0}{\frac{cosx-cos(sinx)}{x^4}}
+\]</span> 第19题 <span class="math display">\[
+\lim_{x\rightarrow+\infty}{x^2[arctan(x+1)-arctanx]}
+\]</span></p>
+<p>第20题 <span class="math display">\[
+\lim_{n\rightarrow\infty}{n^2[arctan\frac{a}{n}-arctan\frac{a}{n+1}]}
+\]</span> 第21题 <span class="math display">\[
+\lim_{x\rightarrow+\infty}{[sin\sqrt{x+1}-sin\sqrt{x}]}
+\]</span></p>
+<p>第22题 <span class="math display">\[
+\lim_{x\rightarrow0}{[\frac{1}{ln(1+x^2)}-\frac{1}{ln(1+tan^2x)}]}
+\]</span></p>
+<p>第23题 <span class="math display">\[
+\lim_{x\rightarrow0}{[\frac{1}{ln(1+x^2)}-\frac{1}{sin^2x}]}
+\]</span></p>
+<p>第24题</p>
+<p>2019 数二 9 <span class="math display">\[
+\lim_{x\rightarrow0}{(x+2^x)^{\frac{2}{x}}}=
+\]</span></p>
+<p>第25题</p>
+<p>2018数一 <span class="math display">\[
+若\lim_{x\rightarrow0}{(\frac{1-tanx}{1+tanx})^{\frac{1}{sinkx}}}=e,则
+k=
+\]</span></p>
+<p>第26题</p>
+<p>2018数二 <span class="math display">\[
+若\lim_{x\rightarrow0}{(e^x+ax^2+bx)^{\frac{1}{x^2}}}=1,则a=,b=
+\]</span></p>
+<p>第27题 <span class="math display">\[
+\lim_{x\rightarrow0}{(\frac{arctanx}{x})^{\frac{1}{1-cosx}}}
+\]</span></p>
+<p>第28题 <span class="math display">\[
+\lim_{n\rightarrow\infty}{(ntan\frac{1}{n})^{n^2}}
+\]</span></p>
+<p>第29题 <span class="math display">\[
+\lim_{n\rightarrow\infty}{tan^n(\frac{\pi}{4}+\frac{1}{n})}
+\]</span></p>
+<p>第30题 <span class="math display">\[
+\lim_{x\rightarrow0}{(\frac{ln(1+x)}{x})^{\frac{1}{e^x-1}}}
+\]</span></p>
+<p>第31题 <span class="math display">\[
+\lim_{x\rightarrow0}{(\frac{(1+x)^{\frac{1}{x}}}{e})^{\frac{1}{x}}}
+\]</span></p>
+<p>第32题</p>
+<p>2016数二，数三 <span class="math display">\[
+\lim_{x\rightarrow0}{(cos2x+2xsinx)^{\frac{1}{x^4}}}
+\]</span></p>
+<p>第33题</p>
+<p>2016数三 <span class="math display">\[
+\lim_{x\rightarrow\frac{\pi}{4}}{(tanx)^{\frac{1}{cosx-sinx}}}
+\]</span></p>
+<p>第34题 <span class="math display">\[
+\lim_{x\rightarrow0}{(\frac{(e^x+e^{2x}+...+e^{nx})}{n})^{\frac{1}{x}}}
+\]</span></p>
+<p>第35题 <span class="math display">\[
+\lim_{n\rightarrow\infty}{(\frac{x^n}{(x+1)(x+2)...(x+n)})^x}
+\]</span></p>
+<p>第36题 <span class="math display">\[
+\lim_{x\rightarrow+\infty}{(sin\frac{1}{x}+cos\frac{1}{x})^x}
+\]</span></p>
+<p>第37题 <span class="math display">\[
+\lim_{n\rightarrow\infty}{n[e(1+\frac{1}{n})^{-n}-1]}
+\]</span></p>
+<p>第38题 <span class="math display">\[
+设a&gt;0,a\neq1,且\lim_{x\rightarrow+\infty}{x^p(a^{\frac{1}{x}}-a^{\frac{1}{x+1}})}=lna,则p=
+\]</span></p>
+<p>第39题 <span class="math display">\[
+\lim_{x\rightarrow0}{\frac{(1-\sqrt{cosx})(1-\sqrt[3]{cosx})...(1-\sqrt[n]{cosx})}{(1-cosx)^{n-1}}}
+\]</span></p>
+<p>第40题 <span class="math display">\[
+\lim_{x\rightarrow0}{\frac{ln(sin^2x+e^x)-x}{ln(x^2+e^{2x})-2x}}
+\]</span></p>
+<p>第41题 <span class="math display">\[
+已知\lim_{x\rightarrow0}{\frac{x-arctanx}{x^k}}=c,其中k,c为常数，且c\neq0,则k=,c=
+\]</span></p>
+<p>第42题 <span class="math display">\[
+\lim_{x\rightarrow0}{(\frac{sinx^3}{x^4}-\frac{f(x)}{x^3})}=2，当x\rightarrow0时,f(x)是x的？无穷小
+\]</span></p>
+<p>第43题</p>
+<p>2005年2 <span class="math display">\[
+当x\rightarrow0时，\alpha(x)=kx^2与\beta(x)=\sqrt{1+xarcsinx}-\sqrt{cosx}是等价无穷小,则k=
+\]</span></p>
+<p>第44题</p>
+<p>2007年1,2 <span class="math display">\[
+当x\rightarrow0^+时，与\sqrt{x}等价的无穷小量是
+\]</span></p>
+<p><span class="math display">\[
+(A)1-e^{\sqrt{x}}
+\]</span></p>
+<p><span class="math display">\[
+(B)ln\frac{1+x}{1-\sqrt{x}}
+\]</span></p>
+<p><span class="math display">\[
+(C)\sqrt{1+\sqrt{x}}-1
+\]</span></p>
+<p><span class="math display">\[
+(D)1-cos\sqrt{x}
+\]</span></p>
+<p>第45题</p>
+<p>2016年2 <span class="math display">\[
+\alpha_{1}=x(cos\sqrt{x}-1),\alpha_{2}=\sqrt{x}ln(1+\sqrt[3]{x}),\alpha_{3}=\sqrt[3]{x+1}-1
+\]</span></p>
+<p><span class="math display">\[
+当x\rightarrow0^+时，以上3个无穷小量从低阶到高阶的排序是
+\]</span></p>
+<p>第46题</p>
+<p>2007年2 <span class="math display">\[
+f(x)=\frac{(e^{\frac{1}{x}}+e)tanx}{x(e^{\frac{1}{x}}-e)}在[-\pi,\pi]上的第一类间断点是x=
+\]</span></p>
+<p>第47题 <span class="math display">\[
+f(x)=\frac{ln|x|}{|x-1|}sinx，则f(x)有哪几个间断点
+\]</span></p>
+<p>第48题 <span class="math display">\[
+f(x)=\frac{x^2-x}{x^2-1}\sqrt{1+\frac{1}{x^2}}的无穷间断点的个数
+\]</span></p>
+<p>第49题</p>
+<p>2013年3 <span class="math display">\[
+f(x)=\frac{|x|^x-1}{x(x+1)ln|x|}的可去间断点的个数为
+\]</span></p>
+<p>第50题</p>
+<p>1998年3 <span class="math display">\[
+f(x)=\lim_{n\rightarrow\infty}{\frac{1+x}{1+x^{2n}}}，讨论函数的间断点
+\]</span></p>
+<p>第51题</p>
+<p>2006年3 <span class="math display">\[ {,}
+f(x)在x=0处连续，且\lim_{h\rightarrow0}{\frac{f(h^2)}{h^2}}=1，则f(0)=,f_{+}^{&#39;}(0)，f_{-}^{&#39;}(0)
+\]</span></p>
+<p>第52题 <span class="math display">\[
+f(x)在(-\delta,\delta)内有定义,当x\in(-\delta,\delta)时，恒有|f(x)|\leq
+x^2,则x=0必是f(x)的
+\]</span> 间断点?可导的点?</p>
+<p>第53题</p>
+<p>2015年2 <span class="math display">\[
+\begin{equation}
+f(x)=\left\{
+\begin{aligned}
+x^{\alpha}cos\frac{1}{x^{\beta}},x&gt;0\\
+0,x\leq0\\
+\end{aligned}
+\right.
+\end{equation}
+(\alpha&gt;0,\beta&gt;0).
+\]</span></p>
+<p><span class="math display">\[
+f^{&#39;}(x)在x=0处连续，则\alpha-\beta
 \]</span></p>
 ]]></content>
       <categories>
