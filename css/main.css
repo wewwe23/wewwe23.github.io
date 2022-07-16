@@ -2762,7 +2762,7 @@ mjx-container[display='true'] + br {
   background: var(--body-bg-color);
 }
 body {
-  background: url("/images/background.jpg");
+  background: url("https://raw.githubusercontent.com/wewwe23/img/main/imgbackground.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
