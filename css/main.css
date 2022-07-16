@@ -2762,7 +2762,7 @@ mjx-container[display='true'] + br {
   background: var(--body-bg-color);
 }
 body {
-  background: url("https://cdn.jsdelivr.net/gh/wewwe23/img/imgbg.jpg");
+  background: url("https://fastly.jsdelivr.net/gh/wewwe23/img/imgbgimage.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
