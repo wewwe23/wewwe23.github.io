@@ -25,25 +25,6 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 ]]></content>
   </entry>
   <entry>
-    <title>hexo设置动态背景canvas_nest</title>
-    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<h2 id="canvas-nest">Canvas-nest</h2>
-<h3 id="移除">移除</h3>
-<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
-8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo渲染数学公式</title>
     <url>/2022/06/03/hexo%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="解决hexo支持latex的问题">解决hexo支持latex的问题</h2>
@@ -87,6 +68,25 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 数学插件都是不必要的，也不需要手动导入任何 JS 或 CSS
 文件。如果您安装了<code>hexo-math</code>或等插件<code>hexo-katex</code>，可能会与
 NexT 内置的渲染引擎发生冲突。</p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo设置动态背景canvas_nest</title>
+    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<h2 id="canvas-nest">Canvas-nest</h2>
+<h3 id="移除">移除</h3>
+<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
+8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
 ]]></content>
       <categories>
         <category>hexo</category>
@@ -175,44 +175,6 @@ NexT 内置的渲染引擎发生冲突。</p>
       </tags>
   </entry>
   <entry>
-    <title>决策支持系统复习</title>
-    <url>/2022/06/19/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol type="1">
-<li>明茨伯格对5位总经理的工作进行了一项仔细的研究。他发现，管理者扮演10种不同的、但却高度相关的角色。这10种角色可进一步分为3方面：<font color="red">人际关系、信息传递和决策制定</font>,其中<font color="red">决策制定</font>是管理最核心、最实质的角色。</li>
-<li>决策是经过周密的<font color="red">推断和分析</font>而在众多替代方案中选择最佳的替代方案</li>
-<li>管理学家西蒙在其决策过程模型理论中指出，每个决策都必须要经过4个阶段：<font color="red">信息，设计，选择和实现</font></li>
-<li>按决策性质的重要性分类可将决策分为<font color="red">战略决策、策略决策和执行决策</font>（Anthony的控制类型分类）</li>
-<li>按决策的结构分类可将决策分为<font color="red">结构化决策、半结构化决策和非结构化决策</font>（Simon的结构化分类）</li>
-<li>决策模式是决策系统中对决策过程的客观规律的表述，是决策者进行决策必须遵从的规律，通常的四种决策模式为：<font color="red">理性模式、有效理性模式、非理性模式、过程型模式</font></li>
-<li>决策支持系统不仅是一个应用领域，而且是一门学科，它是介于管理科学、计算机科学、运筹学等之间的一个边缘性、综合性、系统性的交叉学科。管理科学为DSS提供了<font color="red">模型</font>，计算机科学为DSS提供了<font color="red">理论基础</font>，运筹学为DSS提供了<font color="red">解答</font></li>
-<li>概括起来决策支持系统的体系结构可以分为两大类：一类是Sprapue型<font color="red">基于X库</font>的框架结构，另一类是Bonczek型<font color="red">基于知识</font>的框架结构。</li>
-<li>DSS所谓的三库结构模式是在二库（数据库和模型库）的基础上增加了<font color="red">知识库</font>，目的是提高系统的定性分析能力。四库结构模式是在三库的基础上增加了<font color="red">方法库</font>，实现模型与方法的分立，为模型的生成与组合奠定了基础。</li>
-<li>管理者使用DSS不是直接依靠数据库中的数据进行决策，而是依靠模型库中的模型进行决策。数据库是为决策提供<font color="red">数据</font>能力，而模型库则是给决策提供<font color="red">分析</font>能力的部件，它给决策者以通过推理、比较、选择来分析解答整个问题的能力。</li>
-<li>模型库系统由模型库、模型库管理系统和模型字典3部分组成。</li>
-<li>DSS区别于其他信息系统的重要标志是具有模型库</li>
-<li>根据模型程序模块的组合关系和所起作用的不同，可以把模型程序模块分为以下3种：零件型模型，部件型模型，框架型模型</li>
-<li>模型在计算机中的表示方法和存储形式目前主要有以下3种：程序表示、数据表示和语句表示</li>
-<li>从模型库结构设计的角度，可以把模型分为单元模型和决策支持模型</li>
-<li>按照模型建立和使用的特点，可以把模型库分为以下3类，通用模型库、专用模型库和智能模型库</li>
-<li>模型字典用来存放有关模型的描述信息和模型的数据抽象</li>
-<li>模型库管理系统是为生成模型和管理模型提供一个用户友好环境的计算机软件系统，用户可以通过模型库管理系统灵活地访问、更新、生成和运行模型</li>
-<li>方法库系统是存储、管理、调用及维护DSS各子系统要用到的通用算法、标准函数等方法的系统</li>
-<li>一般情况下，方法库系统MBS应包括一个具有通用模块的基本子系统和一个具有面向具体应用模块的用户子系统</li>
-<li>开发方法库系统的软件支持环境包括3部分：工具库、构件库和信息系统</li>
-<li>包括知识库子系统的DSS称为智能DSS，或者称为基于知识的DSS</li>
-<li>开发知识库的关键技术是：知识的获取和解释、知识的表示、知识推理以及知识库的管理和维护</li>
-<li>所谓知识表示实际上就是对知识的一种描述，即用一些约定的符号把知识编码成一组计算机可以接受的数据结构。所谓知识表示过程就是把知识编码成某种数据结构的过程</li>
-<li>知识表示方法又称为知识表示技术，常用的知识表示方法有3种：规则表示法，框架表示法，语义网络表示法</li>
-</ol>
-]]></content>
-      <categories>
-        <category>决策支持系统</category>
-      </categories>
-      <tags>
-        <tag>决策支持系统</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>不定积分</title>
     <url>/2022/04/30/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255318092&amp;page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -266,6 +228,44 @@ NexT 内置的渲染引擎发生冲突。</p>
       </categories>
       <tags>
         <tag>决策支持系统实验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>决策支持系统复习</title>
+    <url>/2022/06/19/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol type="1">
+<li>明茨伯格对5位总经理的工作进行了一项仔细的研究。他发现，管理者扮演10种不同的、但却高度相关的角色。这10种角色可进一步分为3方面：<font color="red">人际关系、信息传递和决策制定</font>,其中<font color="red">决策制定</font>是管理最核心、最实质的角色。</li>
+<li>决策是经过周密的<font color="red">推断和分析</font>而在众多替代方案中选择最佳的替代方案</li>
+<li>管理学家西蒙在其决策过程模型理论中指出，每个决策都必须要经过4个阶段：<font color="red">信息，设计，选择和实现</font></li>
+<li>按决策性质的重要性分类可将决策分为<font color="red">战略决策、策略决策和执行决策</font>（Anthony的控制类型分类）</li>
+<li>按决策的结构分类可将决策分为<font color="red">结构化决策、半结构化决策和非结构化决策</font>（Simon的结构化分类）</li>
+<li>决策模式是决策系统中对决策过程的客观规律的表述，是决策者进行决策必须遵从的规律，通常的四种决策模式为：<font color="red">理性模式、有效理性模式、非理性模式、过程型模式</font></li>
+<li>决策支持系统不仅是一个应用领域，而且是一门学科，它是介于管理科学、计算机科学、运筹学等之间的一个边缘性、综合性、系统性的交叉学科。管理科学为DSS提供了<font color="red">模型</font>，计算机科学为DSS提供了<font color="red">理论基础</font>，运筹学为DSS提供了<font color="red">解答</font></li>
+<li>概括起来决策支持系统的体系结构可以分为两大类：一类是Sprapue型<font color="red">基于X库</font>的框架结构，另一类是Bonczek型<font color="red">基于知识</font>的框架结构。</li>
+<li>DSS所谓的三库结构模式是在二库（数据库和模型库）的基础上增加了<font color="red">知识库</font>，目的是提高系统的定性分析能力。四库结构模式是在三库的基础上增加了<font color="red">方法库</font>，实现模型与方法的分立，为模型的生成与组合奠定了基础。</li>
+<li>管理者使用DSS不是直接依靠数据库中的数据进行决策，而是依靠模型库中的模型进行决策。数据库是为决策提供<font color="red">数据</font>能力，而模型库则是给决策提供<font color="red">分析</font>能力的部件，它给决策者以通过推理、比较、选择来分析解答整个问题的能力。</li>
+<li>模型库系统由模型库、模型库管理系统和模型字典3部分组成。</li>
+<li>DSS区别于其他信息系统的重要标志是具有模型库</li>
+<li>根据模型程序模块的组合关系和所起作用的不同，可以把模型程序模块分为以下3种：零件型模型，部件型模型，框架型模型</li>
+<li>模型在计算机中的表示方法和存储形式目前主要有以下3种：程序表示、数据表示和语句表示</li>
+<li>从模型库结构设计的角度，可以把模型分为单元模型和决策支持模型</li>
+<li>按照模型建立和使用的特点，可以把模型库分为以下3类，通用模型库、专用模型库和智能模型库</li>
+<li>模型字典用来存放有关模型的描述信息和模型的数据抽象</li>
+<li>模型库管理系统是为生成模型和管理模型提供一个用户友好环境的计算机软件系统，用户可以通过模型库管理系统灵活地访问、更新、生成和运行模型</li>
+<li>方法库系统是存储、管理、调用及维护DSS各子系统要用到的通用算法、标准函数等方法的系统</li>
+<li>一般情况下，方法库系统MBS应包括一个具有通用模块的基本子系统和一个具有面向具体应用模块的用户子系统</li>
+<li>开发方法库系统的软件支持环境包括3部分：工具库、构件库和信息系统</li>
+<li>包括知识库子系统的DSS称为智能DSS，或者称为基于知识的DSS</li>
+<li>开发知识库的关键技术是：知识的获取和解释、知识的表示、知识推理以及知识库的管理和维护</li>
+<li>所谓知识表示实际上就是对知识的一种描述，即用一些约定的符号把知识编码成一组计算机可以接受的数据结构。所谓知识表示过程就是把知识编码成某种数据结构的过程</li>
+<li>知识表示方法又称为知识表示技术，常用的知识表示方法有3种：规则表示法，框架表示法，语义网络表示法</li>
+</ol>
+]]></content>
+      <categories>
+        <category>决策支持系统</category>
+      </categories>
+      <tags>
+        <tag>决策支持系统</tag>
       </tags>
   </entry>
   <entry>
@@ -585,30 +585,6 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </tags>
   </entry>
   <entry>
-    <title>微分中值定理与导数应用</title>
-    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254769290&amp;page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254806397&amp;page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254830496&amp;page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>张宇数学一1000题第一章强化训练（一）</title>
     <url>/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>#
@@ -654,6 +630,30 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
 ]]></content>
       <categories>
         <category>张宇1000题</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微分中值定理与导数应用</title>
+    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254769290&amp;page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254806397&amp;page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254830496&amp;page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
       </categories>
       <tags>
         <tag>考研数学一</tag>
@@ -1372,28 +1372,6 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
       </tags>
   </entry>
   <entry>
-    <title>第二章导数与微分</title>
-    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>物流与供应链管理复习</title>
     <url>/2022/07/17/%E7%89%A9%E6%B5%81%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>1.</strong>
@@ -1411,6 +1389,7 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
 加拿大对物流的定义：物流是对原材料、在制品库存、产成品及相关信息从起运地到消费地的有效率的、成本有效益的流动和储存进行计划、执行与控制，以满足顾客需求的过程。</p>
 <p>l
 我国对物流的定义：物品从供应地向接受地的尸体流动过程。根据实际需要，将运输、储存、装卸、搬运、包装、流通加工、配送、信息处理等基本功能实施有机结合。</p>
+<span id="more"></span>
 <p><strong> </strong></p>
 <p><strong>4.</strong> <strong>现代物流/物流管理的特征：</strong></p>
 <p><strong> </strong></p>
@@ -1845,6 +1824,28 @@ Response，有效客户响应。物流企业在面对多品种，小批量的客
       </tags>
   </entry>
   <entry>
+    <title>第二章导数与微分</title>
+    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>线面积分</title>
     <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -1857,6 +1858,24 @@ Response，有效客户响应。物流企业在面对多品种，小批量的客
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重积分</title>
+    <url>/2022/04/30/%E9%87%8D%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265039385&amp;page=36" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265069009&amp;page=37" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265342378&amp;page=38" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -2134,24 +2153,6 @@ P是每次订货的成本 (S/Q)*P是总订货成本</p>
       </categories>
       <tags>
         <tag>财务管理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>重积分</title>
-    <url>/2022/04/30/%E9%87%8D%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265039385&amp;page=36" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265069009&amp;page=37" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265342378&amp;page=38" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
       </tags>
   </entry>
 </search>
