@@ -25,6 +25,25 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 ]]></content>
   </entry>
   <entry>
+    <title>hexo设置动态背景canvas_nest</title>
+    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<h2 id="canvas-nest">Canvas-nest</h2>
+<h3 id="移除">移除</h3>
+<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
+8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo渲染数学公式</title>
     <url>/2022/06/03/hexo%E6%B8%B2%E6%9F%93%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="解决hexo支持latex的问题">解决hexo支持latex的问题</h2>
@@ -68,25 +87,6 @@ you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p
 数学插件都是不必要的，也不需要手动导入任何 JS 或 CSS
 文件。如果您安装了<code>hexo-math</code>或等插件<code>hexo-katex</code>，可能会与
 NexT 内置的渲染引擎发生冲突。</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo设置动态背景canvas_nest</title>
-    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<h2 id="canvas-nest">Canvas-nest</h2>
-<h3 id="移除">移除</h3>
-<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
-8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
 ]]></content>
       <categories>
         <category>hexo</category>
@@ -175,22 +175,6 @@ NexT 内置的渲染引擎发生冲突。</p>
       </tags>
   </entry>
   <entry>
-    <title>不定积分</title>
-    <url>/2022/04/30/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255318092&amp;page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255085867&amp;page=28" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>决策支持系统复习</title>
     <url>/2022/06/19/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol type="1">
@@ -226,6 +210,22 @@ NexT 内置的渲染引擎发生冲突。</p>
       </categories>
       <tags>
         <tag>决策支持系统</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不定积分</title>
+    <url>/2022/04/30/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255318092&amp;page=27" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255085867&amp;page=28" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
       </tags>
   </entry>
   <entry>
@@ -507,12 +507,12 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </tags>
   </entry>
   <entry>
-    <title>定积分</title>
-    <url>/2022/04/30/%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255335501&amp;page=29" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+    <title>多元函数微分学</title>
+    <url>/2022/04/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264931551&amp;page=34" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255353568&amp;page=30" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264989505&amp;page=35" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -523,12 +523,12 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </tags>
   </entry>
   <entry>
-    <title>多元函数微分学</title>
-    <url>/2022/04/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264931551&amp;page=34" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+    <title>定积分</title>
+    <url>/2022/04/30/%E5%AE%9A%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255335501&amp;page=29" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264989505&amp;page=35" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255353568&amp;page=30" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -585,6 +585,30 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </tags>
   </entry>
   <entry>
+    <title>微分中值定理与导数应用</title>
+    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254769290&amp;page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254806397&amp;page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254830496&amp;page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>张宇数学一1000题第一章强化训练（一）</title>
     <url>/2022/04/22/%E5%BC%A0%E5%AE%87%E6%95%B0%E5%AD%A6%E4%B8%801000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83%EF%BC%88%E4%B8%80%EF%BC%89/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>#
@@ -630,30 +654,6 @@ b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{
 ]]></content>
       <categories>
         <category>张宇1000题</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微分中值定理与导数应用</title>
-    <url>/2022/04/30/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86%E4%B8%8E%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254743283&amp;page=21" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254769290&amp;page=22" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254806397&amp;page=23" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=254830496&amp;page=24" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264988625&amp;page=25" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=255058642&amp;page=26" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
       </categories>
       <tags>
         <tag>考研数学一</tag>
@@ -1391,6 +1391,457 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
       </categories>
       <tags>
         <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>物流与供应链管理复习</title>
+    <url>/2022/07/17/%E7%89%A9%E6%B5%81%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>1.</strong>
+<strong>物流的起源：19世纪末起源于美国，最初是军事物流。</strong></p>
+<p>\2.
+<strong>物流的发展：PD(20世纪初到70年代)=&gt;logistics(20世纪70-80年代)=&gt;供应链物流(90</strong>年代-21世纪初)=&gt;绿色物流(21世纪初至今)</p>
+<p><strong>3.</strong> <strong>物流的定义：</strong></p>
+<p>l
+美国对物流的定义：物流是供应链运作的一部分，是以满足顾客要求为目的，对货物、服务和相关信息在产出地和消费地之间实现高效且经济的正向和反向的流动和存储所进行的计划、执行和控制、过程。</p>
+<p>l
+日本对物流的定义：物流是将货物由供应者向需求者的物理性位移，是创造时间价值和场所价值的经济活动，包括包装、搬运、保管、库存管理、流通加工、运输、配送等活动领域。</p>
+<p>l
+欧洲对物流的定义：物流是在一个系统内对人员及/或商品的运输、安排及与此相关的支持活动的计划、执行于控制，以达到特定的目的。</p>
+<p>l
+加拿大对物流的定义：物流是对原材料、在制品库存、产成品及相关信息从起运地到消费地的有效率的、成本有效益的流动和储存进行计划、执行与控制，以满足顾客需求的过程。</p>
+<p>l
+我国对物流的定义：物品从供应地向接受地的尸体流动过程。根据实际需要，将运输、储存、装卸、搬运、包装、流通加工、配送、信息处理等基本功能实施有机结合。</p>
+<p><strong> </strong></p>
+<p><strong>4.</strong> <strong>现代物流/物流管理的特征：</strong></p>
+<p><strong> </strong></p>
+<p>（1） 物流反应快速化</p>
+<p>（2） 物流功能集成化</p>
+<p>（3） 物流服务社会化</p>
+<p>（4） 物流作业规范化</p>
+<p>（5） 物流服务系列化</p>
+<p>（6） 物流过程透明化</p>
+<p>（7） 物流目标系统化</p>
+<p>（8） 物流手段现代化</p>
+<p>（9） 物流组织网络化</p>
+<p>（10） 物流经营市场化</p>
+<p>（11） 物流信息电子化</p>
+<p>（12） 物流管理智能化</p>
+<p><strong>5.</strong> <strong>物流管理：</strong></p>
+<p>（1）定义：是指为了以最低的物流成本为用户提供满意的物流服务，对物流活动所进行的计划、组织、协调与控制。</p>
+<p>（2）物流管理并不等于供应链管理，物流管理是供应链管理的一个子集或子系统；物流管理是供应链管理的核心内容。</p>
+<p>（3）传统物流管理的问题和特点</p>
+<p>弊端：</p>
+<ol type="a">
+<li><p>增加企业投资负担</p></li>
+<li><p>承担丧失市场时机的风险</p></li>
+<li><p>迫使企业从事小而不擅长的业务活动</p></li>
+<li><p>企业在每个业务领域都直接面临众多竞争对手</p></li>
+<li><p>加大企业的行业风险</p></li>
+</ol>
+<p><strong>6.</strong> <strong>重要的物流观点和学说：</strong></p>
+<p>（1） 商物分离学说</p>
+<p>内容：商业流通和实物流通各自按照自己的规律渠道独立运动。</p>
+<p>意义：充分发挥资金运动和实物运动各自的规律性和有效性，从而推动商品流通向更现代化的方向发展。</p>
+<p>（2） 第三利润源</p>
+<p>创始人：日本早稻田大学教授西泽修</p>
+<p>内容：即现代物流，在资源领域和人力领域这两个利润源潜力越来越小、利润开拓越来越困难的情况下，物流领域的潜力得到重视，按时间序列排为“第三利润源泉。物流能够为企业提供大量直接或间接的利润，是企业经营利润的主要活动。</p>
+<p>意义：使得物流得到重视？？</p>
+<p>（3） 物流森林说</p>
+<p>创始人：美国一个学者</p>
+<p>内容：物流整体效应如同森林，其过程包括一系列活动，如运输、储存、包装、配送、流通加工等。在物流过程中不是单纯地追求各项功能要素优化，更重要的是追求整体效果的有机联系，即追求总体效果最优。</p>
+<p>意义：考虑了有机结合，整体作用</p>
+<p>（4） 黑暗大陆学说</p>
+<p>创始人：彼得·德鲁克</p>
+<p>内容：所谓“黑大陆”，就是指人们尚未了结和认识清楚的事物。而在物流领域中，未知的东西还有很多，物流理论与实践都不成熟。因此，“黑大陆”学说形象地说明了物流的现状。</p>
+<p>意义：黑暗大陆学说是一个未知学的研究结论，是战略分析的结果，带有哲学的抽象性。对研究物流起到了启迪和动员作用。</p>
+<p>（5） 物流冰山学说</p>
+<p>创始人：日本早稻田大学教授西泽修</p>
+<p>内容：现行的财务会计制度和会计核算方法都不可能掌握物流费用的实际情况，因而人们对物流费用的了解是一片空白，甚至有很大的虚假性。于是他把物流成本比作一座“冰山”，企业内部发生的物流费用如同冰山那样大部分沉在水平面以下，是我们看不到的黑色区域，我们所能看到的仅仅是露出水面的冰山一角，及企业支付给外部企业的物流费用。</p>
+<p>（6） 效益悖反学说</p>
+<p>内容：效益背反是物流的若干功能要素之间存在着损益的矛盾，即某一功能要素的优化和利益发生的同时，必然会存在另一个或几个功能要素的利益损失，反之也如此。这是一种此涨彼消、此盈彼亏的现象，往往导致整个物流系统效率的低下，最终会损害物流系统的功能要素的利益。</p>
+<p>意义：通过解决效益悖反现象，寻求整体最优</p>
+<p>（7） 成本中心学说</p>
+<p>内容：在企业战略中，物流支队企业营销活动的成本发生影响，物流环节是企业成本的主要发生源。</p>
+<p>意义：降低物流耗费，就相当于降低成本</p>
+<p>（8） 服务中心学说</p>
+<p>创始人：欧美学者</p>
+<p>内容：物流活动最大的作用不在于为企业节约消耗、降低成本或增加利润，而是在于提高企业对用户的服务水平，进而提高了企业的竞争能力。</p>
+<p>意义：实现成本压缩和利润增加</p>
+<p>（9） 物流战略学说</p>
+<p>从战略高度认识和把握物流</p>
+<p><strong>7.</strong>
+<strong>物流的特性：战略性、基础性、先导性</strong></p>
+<p><strong>8.</strong> <strong>供应链的概念？形式？</strong></p>
+<p>l
+概念：供应链是围绕核心企业，通过对信息流、物流、资金流的控制，从采购原料开始，支撑中间产品及最终产品，最后由销售网络把产品送到消费者手中的将供应商、分销商/零售商指导消费者连成一个整体的功能网链结构模式</p>
+<p>l
+<strong>特点：</strong>以用户需求为主导、动态性、复杂性、合作性、信息共享、虚拟性、交叉性</p>
+<p>n 以用户需求为主导；</p>
+<p>无论何种形式的供应链，其存在的前提是某种需求的存在。这种需求作为供应链的驱动力，促进节点企业的结盟、分工与合作，拉动供应链中信息、物资、资金的流动和交换，在为客户提供高质量产品或者服务的时候，实现价值的不断增值。</p>
+<p>n 动态性；</p>
+<p>供应链在一定市场目标和环境下所建立的一种竞争合作模式，随着供应链目标、服务方式以及企业核心竞争力的不断变化，链上节点企业及其地位也会发生变化。这决定了供应链为适应市场需求，会不断进行节点企业的变更和重组。</p>
+<p>n 复杂性（交叉性）；</p>
+<p>供应链在一定用户需求目标条件下，实现企业横向择优与合作所建立起来的网链关系。链中的企业来自不同的区域，行业甚至不同的国度，他么根据自身核心竞争力情况在链中担当不同的角色。各企业在制度、技术、组织等方面的差异决定了供应链系统的复杂性。同时，供应链动态变化的特性进一步增加了这种复杂性。</p>
+<p>n 合作性；</p>
+<p>供应链的出现，是企业适应经济全球化形式，合理调整企业间存在的目标冲突和利益冲突，以供应链目标为共同目标，实现竞争想合作转化的结果。并且通过这种战略性合作，企业完成对市场变化的快速反应，实现供应链企业的供应。</p>
+<p>n 信息共享；</p>
+<p>以互联网为代表的信息技术是构筑供应链的基本条件。供应链靠他才能跨越时空的界限，实现真正意义上的资源共享、择优合作；才能随时把握市场需求变化，消除传统销售链上出现的信息需求失真放大的情况，即通产所说的“牛鞭效应”，协调、控制供应链整体，实现对用户需求的快速反应。</p>
+<p>n 虚拟性。</p>
+<p>在信息技术的支持下，供应链的功能不用依靠一个集团或大企业去完成，而可以将不同地域、不同国度、不同形式的企业以一种协助组织的形式连结起来。这种组织在一定目标条件下具有相对的稳定性，但并不是具有确定机构的企业实体，这就是供应链的虚拟性。</p>
+<p>l <strong>形式：（书p29）</strong></p>
+<p>n 链式结构供应链和网状结构供应链；</p>
+<p>[1]
+链式结构供应链是一条最简单的供应链结构，即每一个节点企业置于一个上游企业相连接，就像一个直线型链条，一环扣一环。在企业内部或者动态企业联盟中常见。</p>
+<p>[2]
+网状结构供应链是比较常见的的结构，每个供应商可以为多个制造商服务，每个制造商可以从不同的供应商那里获得原材料，并将生产的产品交由不同的分销商进行分销。）</p>
+<p>n 功能型供应链和创新型供应链；</p>
+<p>[1]
+功能性供应链，其产品的市场需求比较稳定，易实现供求平衡。主要用于标准化程度高的常规型产品行业，其重点在于降低生产、运输、库存等方面的费用，以最低的成本将原料转化成成品。</p>
+<p>[2]
+创新性供应链，其产品的市场需求不确定性较高。主要用于变化快的流行型产品行业，其重点在于考虑响应速度和柔性，只有响应速度快和柔性高的供应链，才能更好地适应市场的需求。</p>
+<p>n 推式供应链和拉式供应链；</p>
+<p>[1] 推式供应链是从原材料推到成品、市场知道客户端的管理。</p>
+<p>[2]
+拉式供应链是以客户满意度为中心的管理，以客户得到需求为原动力的管理。</p>
+<p>n
+零售商主导型供应链、制造商主导型供应链、贸易公司主导型供应链。（根据供应链上核心企业的性质和动力源的特征）</p>
+<p>[1]
+零售商主导型供应链中零售商可以采取“纵向一体化”和“纵向本体化”管理模式。</p>
+<p>[2] 制造商主导型供应链同样属于传统采购型供应链。</p>
+<p>[3] 在贸易公司主导性供应链中，贸易公司的地位与作用显著加强。</p>
+<p><strong>9.</strong> <strong>供应链管理内涵：</strong></p>
+<p>信息管理、客户管理、库存管理、关系管理</p>
+<p><strong>10.</strong> <strong>供应链管理目标：</strong></p>
+<p>总成本最低化、客户服务最优化、总库存成本最小化、总周期时间最短化、物流质量最优化。<strong>【把握真实需求、组织快速供应、进行整体优化
+、实施集成管理】</strong></p>
+<p><strong>11.</strong>
+<strong>物流管理与供应链管理的区别与联系：</strong></p>
+<p>（1） 区别：</p>
+<p>l 存在基础和管理模式不同</p>
+<p>l
+导向目标不同，虽然物流管理与供应链管理在为顾客服务的目标上是一致的，但是他们工作性质不同，供应链管理更突出处理和协调整个链中间各个部分的关系；而物流管理则重点表现的是具有一定物流生产技能的物流工作者，运用物流设施、物流机械等劳动手段，作用于物流对象的生产活动</p>
+<p>l
+管理层次不同：物流管理包括物流活动以及与其相关的其他活动；供应链管理包括四个流的管理。</p>
+<p>l 管理手段不同：物流不一定要互联网技术，而供应链管理需要</p>
+<p>（2） 联系：</p>
+<p>l 物流管理是供应链管理的一个子集或子系统</p>
+<p>l 物流管理是供应链管理的核心内容<img src="file:///C:/Users/WR1015/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png" alt="img"></p>
+<p><strong>12.</strong>
+<strong>运输形态成本最小、最便利的有？</strong></p>
+<p>水上运输（尤其是远洋运输）通常是成本最低的运输方式。</p>
+<p>公路运输可以实现点到点运输，最灵活。</p>
+<figure>
+<img src="/2022/07/17/%E7%89%A9%E6%B5%81%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0/clip_image002.png" alt="1">
+<figcaption aria-hidden="true">1</figcaption>
+</figure>
+<p><strong>13.</strong>
+<strong>供应链环境下企业生产决策的特点（*书p164</strong></p>
+<p>供应链环境下企业决策信息来源不再局限于企业内部的信息，而是处于开放的信息网络环境下，不断进行信息交换和共享，企业的决策模式也会发生很大的变化。因而处于供应链中的任何企业决策模式应该是基于Internet和Intranet的开放性信息环境下的群体决策模式。</p>
+<p><strong>14.</strong>
+<strong>什么叫仓储，公共仓储的优点？</strong></p>
+<p>是现代物流系统中的仓储，它表示一项活动或一个过程，在英文中对应“warehousing”，是以满足供应链上下游的需求为目的，在特定的有形或无形的场所、运用现代技术对物品的进出、库存、分拣、包装、配送及其信息进行有效的计划、执行和控制的物流活动。</p>
+<p>仓储是通过仓库对商品与物品的储存与保管。仓储是集中反映工厂物资活动状况的综合场所，是连接生产、供应、销售的中转站，对促进生产提高效率起着重要的辅助作用。仓储是产品生产、流通过程中因订单前置或市场预测前置而使产品、物品暂时存放。同时，围绕着仓储实体活动，清晰准确的报表、单据帐目、会计部门核算的准确信息也同时进行着，因此仓储是物流、信息流、单证流的合一。</p>
+<p>公共仓储是指公司租用不属于自己的仓库或一定数量的库位，满足自己的仓储服务需要，并付相应数量的租金。</p>
+<p>公共仓储的优点：公共仓库可以为第三方物流企业提供资金上的便利；降低成本；地理位置的灵活性；服务范围广泛</p>
+<p><strong>15.</strong>
+<strong>零售商初期在购买一定量的balabalba的契约：</strong></p>
+<p>最小购买数量契约</p>
+<p>在最小购买数量契约下，零售商在初期作出承诺,将在一段时期内至少向供应商购买一定数量的产品。通常供应商根据这个数量
+子一定的价格折扣
+购买产品的单位价格将随着数量的增加而降低。通常零售商承诺在未来一个年度里最少购买的数量,供应商同意以折扣价格提供产品复制答案</p>
+<p><strong>16.</strong> <strong>客户资产管理、客户关系管理</strong></p>
+<p>客户资产管理（Customer Asset Management ,
+CAM）关键之处在于将顾客纳入企业资产，提升顾客忠诚度/满意度和顾客评价。包括两类管理模型：管理框架和营销框架。</p>
+<p>客户关系管理（Customer Relationship Management ,
+CRM）利用信息科学技术，实现市场营销、销售、服务等活动自动化，使企业能更高效地为客户提供满意、周到地服务，以提升客户满意度、忠诚度为目的的一种管理经营方式。</p>
+<p><strong>17.</strong> <strong>合作伙伴风险管理的步骤</strong></p>
+<p>（1）存在的风险（p194</p>
+<ol type="a">
+<li><p>供应链过分依赖一个或某几个供应商</p></li>
+<li><p>容易丧失核心竞争力</p></li>
+<li><p>利益要求及分配困难</p></li>
+<li><p>供应链合作伙伴之间容易被“猜疑”</p></li>
+<li><p>合作伙伴信息不对称</p></li>
+</ol>
+<p>（2）评价步骤（书p191）</p>
+<ol type="a">
+<li><p>系统全面地进行综合评价</p></li>
+<li><p>逐层细化进行评价</p></li>
+<li><p>要有足够的数据来真实客观地说明</p></li>
+<li><p>用公平公正地态度评价</p></li>
+</ol>
+<p>（3）选择步骤</p>
+<ol type="a">
+<li><p>分析市场需求和竞争环境</p></li>
+<li><p>确立合作伙伴选择目标</p></li>
+<li><p>制订合作伙伴评价标准</p></li>
+<li><p>评价合作伙伴</p></li>
+</ol>
+<p><strong>18.</strong>
+<strong>长鞭效应（需求变异放大）提出者？基本思想？</strong></p>
+<p>又称为“牛鞭效应”，是对需求信息在供应链传递中被扭曲现象的一种形象描述。</p>
+<p>其基本含义是:当供应链的各节点企业只根据来自其相邻的下级企业的需求信息进行生产或供应决策时，需求信息的不真实性会沿着供应链逆流而上，使订货量产生了逐级放大的现象，到达源头供应商时，其获得的需求信息与实际消费市场中的顾客需求信息存在着很大的偏差，需求变异将实际需求量放大了。由于这种需求放大效应的影响，上游供应商往往维持比下游供应商更高的库存水平。</p>
+<p>这种“看到的是非实际的”现象反映了供应链上需求的不同步。</p>
+<p><strong>19.</strong>
+<strong>供应链环境下企业业务流程再造的基本原则：</strong></p>
+<p>（1）
+采用合适的工具和方法设计业务流程，以满足一定的战略业绩目标。</p>
+<p>（2） 应用连续改善的技术促进企业提高业绩水平。</p>
+<p>（3）
+采用有效的变化管理方法以调整供应链企业的人力和文化，从而适应新的工作流程。</p>
+<p>（4）
+正确应用信息技术，企业要根据实际情况发展信息技术，同时要根据信息技术与供应链管理集成的特点进行流程再造。</p>
+<p>（5） 最高领导层的参与以及领导的重视至关重要。</p>
+<p><strong>20.</strong> <strong>包装在物流中的作用</strong></p>
+<p>（1） 保护；保护物品不受损伤</p>
+<p>（2）
+便利；具有便利流通、方便消费的功能，便利运输、便利装卸、便利储存</p>
+<p>（3） 促销；美化产品、宣传产品性能</p>
+<p><strong>（4）</strong> 信息传递；识别包装的物品</p>
+<p><strong>21.</strong> <strong>什么叫驮背运输？</strong></p>
+<p>驮背运输：是一种公路和铁路运输结合的运输方式，它既具有铁路在远距离运输中的速度与可靠性，公路运输在货物集散中的门到门和灵活性优势。货运汽车或集装箱直接开上火车运输，到达目的地再从火车上开下。主要形式：拖车与挂车；挂车列车；铁公路</p>
+<p>鱼背运输：是一种公路与水路运输结合的运输方式；将卡车或集装箱装载至船舶上进行长途运输。</p>
+<p><strong>22.</strong>
+<strong>国际多式联运的运输单元？集装箱运输</strong></p>
+<p><strong>23.</strong> <strong>什么是迂回运输？</strong></p>
+<p>迂回运输：迂回运输是舍近取远的一种运输，指当有更合理的更短距离的路线时，却选择了舍近求远的路线，从而产生了不必要的运动。</p>
+<p>重复运输：重复运输指的是本可以直接将货物运到目的地，但是在未达目的地之处，或目的地之外的其他场所将货卸下，再重复装运送达目的地，这是重复运输的一种形式。【是指一种货物本可以直达目的地，但由于某种原因而在中途停卸重复装运的不合理运输现象。】</p>
+<p>倒流运输：也叫作“相向运输”“交错运输”，是指同一种货物，或彼此间可以互相代用而不影响管理、技术及效益的货物，在同一线路上或平行线路上做相对方向的运送，而与对方运程的全部或一部分发生重叠交错的运输。【是指货物从销地或中转地向产地或起运地回流的一种运输现象。】</p>
+<p><strong>24.</strong>
+<strong>什么是MRP、ERP、EDI、VMI、DRP、JIT</strong></p>
+<p>MRP：物料需求计划。是根据市场需求预测和顾客订单指定产品的生产计划，然后基于产品生成进度计划，组成产品的材料结构表和库存状况，通过计算机计算所需物资的需求量和需求时间，从而确定材料的加工进度和订货日程的一种实用技术。</p>
+<p>MRP－II 制造资源计划；MRP 物料需求计划；</p>
+<p>ERP：Enterprise Resource Planning
+企业资源计划。是一种企业内部的管理方法。通过优化企业的资源包括人力、生产、库存、财务、销售等方面达到企业产出和投入的最大比。</p>
+<p>EDI：Electronic data interchange
+电子数据交换。是一种通过电子信息手段，在贸易伙伴之间传递商务交易元素的国际化方法和标准。</p>
+<p>VMI：Vendor Management Inventory
+供应商管理库存。一种在供应链环境下的库存运作模式，以实际或预测的消费需求或库存量作为市场需求和库存补货的解决方法。</p>
+<p>DRP：Disaster Recovery Planning
+配送需求计划。是一种物流技术，是一种既保证有效地满足市场需要，又使得物流资源配置费用最少的计划方法。主要解决分销物资的供应计划和调度问题。</p>
+<p>JIT：Just-in-Time
+准时制生产战略。基于“拉动”系统的一种物流战略，首先由供应链最下游的需求拉动产品进入市场，然后由需求决定对零部件的需求和生产过程。</p>
+<p>JIT采购，准时（即时采购），是一种基于供应链管理思想的先进采购管理模式。其基本思想是：在恰当的时间，恰当的地点，以恰当的数量，恰当的质量提供恰当的物品。选择供应商、质量控制是核心</p>
+<p>JIT的意义：JIT采购做到了灵敏地响应需求、满足用户的需求，又使得用户的库存量最小。由于用户不需要设库存，所以实现了零库存生产。</p>
+<p><strong>25.</strong>
+<strong>什么叫第四方物流？它的工作方式是什么？</strong></p>
+<p>第四方物流是一个供应链集成商﹐调集和管理组织自己及具有互补性服务提供的资源﹑能力和技术﹐以提供一个综合的供应链解决方案。</p>
+<p>第四方物流( Fourth-Party Logistics, 4PL)
+是指个调配和管理组织自身的及具有互补性的服务提供商的资源、能力与技术，来提供全面的供应链解决方案的供应链集成商。它不是物流的利益方，而是通过拥有的信息技术、整合能力及其他资源提供一套完整的供应链解决方案，以此获取一定的利润。</p>
+<p>工作方式：</p>
+<p>l 正向协作：</p>
+<p>正向协作的工作方式依赖第四方物流和第三方物流之间的工作联系，在该工作方式中，第四方物流和第三方物流通过合作对物流系统的解决方案进行规划与整合。</p>
+<p>l 解决方案整合：</p>
+<p>解决方案整合将整合第四方物流和补充服务提供者的资源、能力、技术，并且第四方物流需要对多个补充服务提供的能力进行整合，从而提供一个综合的供应链解决方案，该方案实现了客户供应链各个组成部分的价值传递。</p>
+<p>l 行业革新：</p>
+<p>行业解决方案会给整个行业带来最大的利益。第四方物流会通过卓越的运作策略、技术和供应链运作实施来提高整个行业的效率。</p>
+<p><strong>26.</strong> <strong>EDI是什么？基本特征是？</strong></p>
+<p>Electronic data
+interchange，即电子数据交换系统，是指通过电子方式采用标准化的格式，利用计算机网络进行结构化数据的传输和交换。（无纸化贸易）是一种通过电子信息手段，在贸易伙伴之间传递商务交易元素的国际化方法和标准。</p>
+<p>基本特征：迅速准确、方便高效、降低成本、区别信箱</p>
+<p>\27.
+<strong>英特尔与微软公司的关系</strong>：在PC市场的“世纪联盟”，英特尔和微软正是基于彼此内部资源（硬件和软件）的互补性，携手结为战略联盟。</p>
+<p><strong>英特尔与戴尔公司的关系</strong>：合作？？</p>
+<p><strong>28.</strong>
+<strong>DRP配送资源计划的输入文件是？</strong></p>
+<p>社会需求文件、供应商货源文件、库存文件和在途文件</p>
+<p><strong>29.</strong>
+<strong>联合库存还是供应商库存？——宝洁公司和沃尔玛</strong></p>
+<p><strong>30.</strong> <strong>影响运价的因素：</strong></p>
+<p>公路运输：运输距离、载货量、货物的疏密度（轻抛货和重货）、装载能力、装卸搬运、承担责任承担、运输供需因素、服务要求</p>
+<p>【货物种类，货物数量，运输距离，运输起始位置，季节行情，各地政策，油价波动，额外运输要求】</p>
+<p><strong>31.</strong> <strong>合作伙伴存在的风险？</strong></p>
+<p>（1） 供应链过分依赖一个或某几个供应商</p>
+<p>（2） 容易丧失核心竞争力</p>
+<p>（3） 利益要求及分配困难</p>
+<p>（4） 供应链合作伙伴之间容易被“猜疑”</p>
+<p>（5） 合作伙伴信息不对称</p>
+<p><strong>32.</strong> <strong>第三方物流是？运作模式有？</strong></p>
+<p>第三方物流是指商品交易双方之外的第三方为商品交易双方提供部分或全部物流服务的运作模式。</p>
+<p>第三方物流(Third-Party Logistics, 3PL)
+是由供方与需方以外的物流企业提供物流服务的业务模式。这里所指“第三方”，是相对于买方和卖方来说的，通过与第一方或者第二方的合作来提供专业化的物流服务。一般意
+义上的第三方物流还应该是独立的，是同第一方和第二方物流相比具有明显资源优势的物流公司。（书）</p>
+<p>运作模式：1. 关系契约化；2. 服务个性化；3. 功能专业化；4.
+管理系统化；5. 信息网络化</p>
+<p><strong>33.</strong> <strong>共同配送是？怎么分类？</strong></p>
+<p>共同配送：是指为提高物流效率，对某一地区的用户进行配送时，有许多配送企业联合在一起进行的配送。他是在配送中心的统一计划、统一调度下展开的。</p>
+<p>分类：共同配送可以分为以货主为主体的共同配送和以物流企业为主体的共同配送两种类型</p>
+<p>两种运作方式：</p>
+<p> 一是由一个配送企业为多家用户进行配送</p>
+<p>
+二是仅在送货环节上将多家用户待运送的货物混载于同一辆车上，然后按照用户的要求分别将货物运送到各个接货点，或者运到多家用户联合设立的配送货物接收点上。</p>
+<p><strong>34.</strong>
+<strong>库存的合理布置要有哪些因素？</strong></p>
+<p>一是用户服务水平，即在正确的地点、正确的时间，有合适数量的产品。另一个是订货成本与库存持有成本的关系。</p>
+<p><strong>35.</strong> <strong>产品的生命周期的定义：</strong></p>
+<p>产品的市场寿命，即一种新产品从开始进入市场到被市场淘汰的整个过程。</p>
+<p><strong>36.</strong>
+<strong>什么叫物流（供应链）信息？特点？失真？</strong></p>
+<p>（1）物流信息：反映物流各种活动内容的知识、资料、图像、数据和文件的总称。</p>
+<p>（2）特点：</p>
+<p>l 量大、分布广</p>
+<p>l 动态性强，信息价值衰减速度快，时效性强</p>
+<p>l 种类多、使用难度大</p>
+<p>l 技术手段配套使用，发挥综合效果</p>
+<p><strong>37.</strong> <strong>什么叫配送？分拣？</strong></p>
+<p>（1）配送：“配”包括货物的分拣和配货活动，而“送”则包括各种运输送货方式和送货行为。在经济合理区域范围内，根据用户的要求，对物品进行拣选、加工、包装、分割、组配等作业，并按时送达指定地点的物流活动。</p>
+<p>（2）职能：集货、储存、加工、分拣及配货、配装、配送运输、送达、验货。</p>
+<p>（3）分拣：将物品按品种、出入库先后顺序进行分门别类地堆放的作业；是完善送货、支持送货的准备性工作。拣货作业可分为按订单拣取、批量拣取与复合拣取三种方式。</p>
+<p><strong>38.</strong>
+<strong>配送中心是？功能有？CDC、RDC、FDC？</strong></p>
+<p>（1）配送中心概念及其功能</p>
+<p>概念：配送中心是基于物流合理化和发展市场两个需要而发展的，是以组织配送式销售和供应，执行实物配送为主要功能的流通型物流节点。</p>
+<p>配送中心是功能性节点，是货物配备中心，是信息流通的渠道，是电子商务下物流网络的资源整合点，是现代供应链管理的重点环节。</p>
+<p>功能：流通行销的功能、仓储保管功能、分拣配送功能、流通加工功能、信息处理功能、结算功能、物流系统设计咨询功能、需求预测功能、物流教育与培训功能</p>
+<p>（2）CDC、RDC、FDC</p>
+<p>CDC：中央配送中心；一个组织或者公司的最核心的且统管其旗下其余配送中心的配送中心。</p>
+<p>RDC：区域配送中心；以较强的辐射能力和库存准备，向省(州)际用户配送的配送中心。</p>
+<p>FDC：前端物流中心；指以大、中城市为依托，有一定规模的配送中心。，一般配有先进的物流管理信息系统，其主要功能是促使商品更快、更经济的流动。集中储存，提高物流调节水平。</p>
+<p><strong>39.</strong> <strong>物流业务常见模式</strong></p>
+<p><strong>40.</strong> <strong>物流联盟？优点？缺点？</strong></p>
+<p>（1）定义：物流联盟是以物流为合作基础的企业战略联盟，它是指两个或多个企业之间，为了实现自己物流战略目标，通过各种协议、契约而结成的优势互补、风险共担、利益共享的松散型网络组织。</p>
+<p>（2）优势：</p>
+<p>l 大企业通过物流联盟迅速开拓全球市场，</p>
+<p>l 长期供应链关系发展成为联盟形式，有助于降低企业的风险。单</p>
+<p>l
+企业（尤其是中小企业）通过物流服务提供商，结成联盟，能有效地降低物流成本（通过联盟整合，可节约成本10-
+25%），提高企业竞争能力。</p>
+<p>l 第三方物流公司通过联盟有利于弥补在业务范围内服务能力的不足</p>
+<p>l
+从建立物流联盟安排的角度看,物流联盟的建立最明显的效果就是在物流合作伙伴之间减少了相关交易费用</p>
+<p>l
+从构建物流联盟的过程看,联盟企业可以寻找合适的合作伙伴,能够有效地维持物流联盟的稳定性。</p>
+<p>l
+从建立物流联盟的绩效看,一个稳定、长期的合作会激励双方把共同的利润做大,获得稳定的利润率。</p>
+<p>l 联盟成员能资源共享、优势互补</p>
+<p>l 能提供更加质优价美的物流服务</p>
+<p>（3）物流联盟模式的劣势</p>
+<p>物流联盟模式由于涉及多个跨境电商企业，因此面临着诸多不确定性因素，难以保证运行效率。当物流联盟由于运作不良导致成员无法获得预期的利益，或者联盟利益分配不合理时，都可能导致成员采取消极合作的态度，从而无法充分发挥成员的优势互补价值。另外，在实际运作中，也常常会由于多种原因导致物流联盟无法有效整合各成员的人、财、物等资源，从而使物流联盟模式不能发挥出应有的价值。</p>
+<p><strong>41.</strong> <strong>ECR、QR</strong></p>
+<p>为两种典型的供应链策略。</p>
+<p>ECR：Efficient Consumer
+Response，有效客户响应。物流企业在面对多品种，小批量的客户需求，不再是储存产品，而是储存各种生产要素，当客户提出需求时，及时提取生产要素，组装，从而提供所需产品或服务。</p>
+<p>QR：Quick Response
+快速响应。减少原材料到销售点的时间和整个供应链上的库存，最大限度的提高供应链管理的运作效率。</p>
+<p><strong>42.</strong> <strong>传统物流管理的问题、特点？</strong></p>
+<p>（1） 弊端/问题：</p>
+<p>n 增加企业投资负担</p>
+<p>n 承担丧失市场时机的风险</p>
+<p>n 迫使企业从事小而不擅长的业务活动</p>
+<p>n 企业在每个业务领域都直接面临众多竞争对手</p>
+<p>n 加大企业的行业风险</p>
+<p>（2） 特点：</p>
+<figure>
+<img src="/2022/07/17/%E7%89%A9%E6%B5%81%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0/clip_image005.jpg" alt="2">
+<figcaption aria-hidden="true">2</figcaption>
+</figure>
+<p><strong>43.</strong> <strong>什么叫外包？</strong></p>
+<p>外包就是指一个业务实体将原本应在企业内部完成的业务，转移到企业外部由其他业务实体完成。</p>
+<p><strong>44.</strong> <strong>库存的分类</strong></p>
+<p><img src="/2022/07/17/%E7%89%A9%E6%B5%81%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0/clip_image007.jpg" alt="3"><img src="/2022/07/17/%E7%89%A9%E6%B5%81%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0/clip_image009.jpg" alt="4"></p>
+<p><strong>45.</strong> <strong>仓库的分类（书82）</strong></p>
+<p>（1） 按仓库在社会在生产过程中所处的位置不同划分</p>
+<p>n 生产领域仓库</p>
+<p>n 流通领域仓库</p>
+<p>（2） 按仓库的主要职能的不同划分</p>
+<p>n 企业仓库</p>
+<p>n 营业仓库</p>
+<p>n 公用仓库</p>
+<p>（3） 按保管物品的不同划分</p>
+<p>n 原料、产品仓库</p>
+<p>n 商业、物资综合仓库</p>
+<p>n 农副产品仓库</p>
+<p>n 一般专用仓库</p>
+<p>n 特种危险品仓库</p>
+<p>n 冷藏仓库</p>
+<p>n 恒温仓库</p>
+<p>n 战略物资储备仓库</p>
+<p>（4） 按仓库建筑结构的不同划分</p>
+<p>n 简易仓库</p>
+<p>n 平房仓库</p>
+<p>n 楼房仓库</p>
+<p>n 高层货架仓库（立体仓库）</p>
+<p>n 罐式仓库</p>
+<p>（5） 按仓库所处的位置划分</p>
+<p>n 港口仓库</p>
+<p>n 车站仓库</p>
+<p>n 汽车终端仓库</p>
+<p>n 工厂仓库</p>
+<p>n 流通仓库</p>
+<p><strong>46.</strong> <strong>库存合理化原则（书p85-86）</strong></p>
+<p>（1） 面向通道；为了出入库方便，物品码放、货架朝向面对通道</p>
+<p>（2） 高层堆码；有效利用库内容积</p>
+<p>（3） 先入先出；加快周转，易变质物品放在靠近出入口的地方</p>
+<p>（4） 回转对应保管；根据出库频率选定位置</p>
+<p>（5） 同一性和类似性；同一物品和类似品放在同一地方或临近处</p>
+<p>（6）
+重量特性和形状特性；重的物品放下面；特殊形状商品用相应器具保管</p>
+<p>（7） 位置标识；货物存放的地方有明确标识</p>
+<p>（8） 网络化保管；保持网络上点和点之间货物流动的系统性和一致性</p>
+<p><strong>47.</strong> <strong>物流信息化包括？GPS？GIS?</strong></p>
+<p>（1） 物流信息化包括：</p>
+<p>物流信息化的内涵：</p>
+<p>n
+以现代物流信息技术为基础。物流信息化是现代物流信息技术在物流活动中的广泛应用过程。</p>
+<p>n
+以物流资源开发利用为核心。物流信息资源是物流企业最重要的资源之一，开发利用物流信息资源既是物流信息化的出发点，又是物流信息化的目标，在整个物流信息化体系中处于核心地位。</p>
+<p>n
+物流信息化覆盖物流活动的全方面。物流信息化覆盖了物流企业生产经营活动的各个方面和全部过程，包括运输信息化，仓储信息化、装卸搬运信息化、包装信息化、流通加工信息化、配送信息化等。</p>
+<p>n
+物流信息化的最终目的是增强企业的核心竞争力。在市场经济条件下只有具有市场竞争和利润驱动的的内在动力，才会使企业产生使用先进的物流信息技术改造传统物流的迫切要求。</p>
+<p>n
+物流信息化是一个过程。物流信息化不是一朝一夕能够实现的，更不能一步到位。物流信息化随着企业的发展而发展，而物流信息化水平的提高又反过来促进企业的发展，形成一个良性循环，从而推动企业不断发展。</p>
+<p>（2） GPS、GIS</p>
+<p>GPS：全球定位系统。利用导航卫星进行测时和测距，能够计算出地球上任何地方的用户所处的方位的一种系统，能够实时或近实时提供位置信息。</p>
+<p>GIS：地理信息系统。利用计算机图形和数据库技术来采集、存储、编辑、显示、转换、分析和输出地理图形及其属性数据，为用户提供图文并茂的信息，以便其进行分析和决策</p>
+<p><strong>48.</strong>
+<strong>物流信息系统要解决的问题主要有以下八个：</strong></p>
+<p><strong> </strong></p>
+<p>（1） 缩短从接受订货到发货的时间。</p>
+<p>（2） 库存适量化(压缩库存并防止脱销)。</p>
+<p>（3） 提高搬运作业效率。</p>
+<p>（4） 提高运输效率。</p>
+<p>（5） 使接受订货和发出订货更为省力。</p>
+<p>（6） 提高接受订货和发出订货的精度。</p>
+<p>（7） 防止发货、配货出现差错。</p>
+<p>（8） 调整需求和供给</p>
+<p><strong>49.</strong> <strong>物流信息技术</strong></p>
+<p>（1） 条码技术</p>
+<p>（2） EDI技术</p>
+<p>（3） RFID (无线射频识别)
+技术是一种可擦写的、使用时不需对准标的、同时可读取多个、全天候使用、不需人力介入操作的自动识别技术。</p>
+<p>（4） GIS、GPS</p>
+<p><strong>50.</strong> <strong>什么叫采购？</strong></p>
+<p>采购企业在一定的条件下，以各种不同的途径，包括购买、租赁、借贷、交换等方式，从供应市场获取产品或服务作为企业资源，以保证企业生产及经营活动正常开展的一项企业经营活动。</p>
+<p><strong>51.</strong> <strong>即时采购的特点</strong></p>
+<p>（1）合理选择供应商，并与之建立战略伙伴关系，要求供应商进入制造商的生产过程。</p>
+<p>（2）小批量采购。</p>
+<p>（3）实现零库存或少库存。</p>
+<p>（4）交货准时，包装标准。</p>
+<p>（5）信息共享。</p>
+<p>（6）重视教育与培训。</p>
+<p>（7）严格的质量控制，产品国际认证。</p>
+<p><strong>52.</strong> <strong>即时采购原则：</strong></p>
+<p>（1）
+在恰当的时间、恰当的地点，以恰当的数量、恰当的质量提供恰当的物品。（书上的）</p>
+<p>（2） 百度：</p>
+<p>n
+灵活—物流体系能够快速适应需求量波动及需求结构的改变，并能方便地进行调节。</p>
+<p>n
+连续—物料从供应商连续地向制造商(终端用户)流动，不断消除不连贯流程。</p>
+<p>n
+简洁—整个工作现场物料移动距离尽可能短，路线清晰明确以减少损失、受损及工时消耗。</p>
+<p>n 均衡—物料在采购、生产、销售各环节之间的转换，大体上保持步调一致</p>
+<p><strong>53.</strong> <strong>ABC库存原理</strong></p>
+<p>将库存物品按品种和占用资金的多少，分为特别重要的库存
+(A类)、一般重要的库存 (B类)和不重要的库存
+(C类)三个等级，然后针对不同等级分别进行管理与控制。【原则：成本-效益原则、“最小最大”原则、适当原则】</p>
+]]></content>
+      <categories>
+        <category>物流</category>
+      </categories>
+      <tags>
+        <tag>物流</tag>
       </tags>
   </entry>
   <entry>
