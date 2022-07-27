@@ -123,6 +123,11 @@ const ap = new APlayer({
             name: '花海',
             artist: '周杰伦',
             url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly8xZHJpdi1teS5zaGFyZXBvaW50LmNvbS86dTovZy9wZXJzb25hbC9zdG9yXzFkcml2X29ubWljcm9zb2Z0X2NvbS9FUWxpQTRaMHZuaE5oMmVJV3JYalozMEIyd2d4cVVadWhja2N3MDllUUtwUHNB.mp3',
+        },
+        {
+            name: '指纹',
+            artist: '杜宣达',
+            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VjLUJKOWRkUHpCSWlKQVQ0TlNPMFFRQlBjb1FjSWV2ZG5TOWNiLWJIb0Eyd0E_ZT0zd0cxUDA.mp3',
         }
 
     ]
