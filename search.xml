@@ -77,25 +77,6 @@ NexT 内置的渲染引擎发生冲突。</p>
       </tags>
   </entry>
   <entry>
-    <title>hexo设置动态背景canvas_nest</title>
-    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<h2 id="canvas-nest">Canvas-nest</h2>
-<h3 id="移除">移除</h3>
-<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
-8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>二进制和十进制之间的互相转换</title>
     <url>/2022/03/26/my-new-post/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="十进制转换为二进制">十进制转换为二进制</h2>
@@ -163,15 +144,22 @@ NexT 内置的渲染引擎发生冲突。</p>
       </tags>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/2022/06/05/test/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><object data="./test/基于Excel的存货经济订货批量模型设计_王铁媛.pdf" type="application/pdf" width="100%" height="877px">
-</object>]]></content>
+    <title>hexo设置动态背景canvas_nest</title>
+    <url>/2022/06/03/hexo%E8%AE%BE%E7%BD%AE%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AFcanvas-nest/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>我的hexo版本：6.1.0</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<h2 id="canvas-nest">Canvas-nest</h2>
+<h3 id="移除">移除</h3>
+<p><a href="https://theme-next.js.org/next-8-0-0-rc-2-released/?highlight=canvas+nest#🌀-External-Changes">NexT
+8.0.0-rc.2</a>移除了<code>canvas-nest</code>集成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">External Changes</span><br><span class="line">* Remove canvas_nest (632768c)</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+]]></content>
       <categories>
-        <category>pdf</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>pdf</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -188,6 +176,18 @@ NexT 内置的渲染引擎发生冲突。</p>
       </categories>
       <tags>
         <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2022/06/05/test/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><object data="./test/基于Excel的存货经济订货批量模型设计_王铁媛.pdf" type="application/pdf" width="100%" height="877px">
+</object>]]></content>
+      <categories>
+        <category>pdf</category>
+      </categories>
+      <tags>
+        <tag>pdf</tag>
       </tags>
   </entry>
   <entry>
@@ -226,46 +226,6 @@ NexT 内置的渲染引擎发生冲突。</p>
       </categories>
       <tags>
         <tag>决策支持系统</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>决策支持系统实验一</title>
-    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%B8%80/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="大数据时代决策支持系统发展现状及应用">大数据时代决策支持系统发展现状及应用</h1>
-<h2 id="实验目的">实验目的</h2>
-<p>1、了解大数据时代决策支持系统的发展现状；</p>
-<p>2、了解新冠疫情期间决策支持系统的应用。</p>
-<span id="more"></span>
-<h2 id="实验内容">实验内容</h2>
-<p>1、查阅相关资料，了解大数据时代决策支持系统的特点及应用现状；</p>
-<p>2、查阅相关资料，了解决策支持系统如何为防控新冠疫情提供参考咨询及科学决策。</p>
-<h2 id="实验仪器设备和材料清单">实验仪器设备和材料清单</h2>
-<p>可访问INTERNET的计算机、局域网。</p>
-<h2 id="实验要求">实验要求</h2>
-<p>要求学生掌握决策支持系统的发展历史以及大数据时代的应用状况。</p>
-<h2 id="实验过程">实验过程</h2>
-<p>在实验机房上网查询。</p>
-<h2 id="实验报告要求">实验报告要求</h2>
-<p>提交一份关于决策支持系统发展应用的实验报告，可写成2000字左右的学年论文。</p>
-<h2 id="思考题">思考题</h2>
-<p>1、数据驱动的DSS较之模型驱动的DSS的优势有哪些方面；</p>
-<p>2、大数据核心技术在DSS中的应用；</p>
-<p>3、数据仓库在沃尔玛的应用。</p>
-<h2 id="注意事项">注意事项</h2>
-<p>需查询相关外文文献。</p>
-<p>[1]黄孝鹏,周献中,杨洁,盛寅.决策支持系统及其演化发展趋势研究[J].现代管理科学,2012(04):9-11+29.</p>
-<p>[2]梁罗希,吴江.决策支持系统发展综述及展望[J].计算机科学,2016,43(10):27-32.</p>
-<p>[3]尹天露,高晓欢,王敏,张海芳,刘卫刚,朱庆华,刘志军.突发公共卫生事件中基层医疗机构物资保障决策支持系统研究[J].中国医院,2020,24(10):45-47.DOI:10.19660/j.issn.1671-0592.2020.10.13.</p>
-<p>[4]何海锋,张旭,王力华.临床决策支持系统对新冠肺炎等新型突发传染性疾病的监测预警功能设计[J].临床和实验医学杂志,2020,19(10):1026-1028.</p>
-<p>[5]叶明,谷晨霞.“大数据”时代决策支持系统新发展[J].信息安全与技术,2013,4(08):6-8.</p>
-<p>[6]顾润龙.大数据时代决策支持系统新发展[J].网络安全技术与应用,2019(06):53-54.</p>
-<p>[7]孙朋,王领会,张健.新冠肺炎疑似患者流行病学调查辅助决策系统设计与实现[J].医疗卫生装备,2020,41(6):5-1031</p>
-]]></content>
-      <categories>
-        <category>决策支持系统实验</category>
-      </categories>
-      <tags>
-        <tag>决策支持系统实验</tag>
       </tags>
   </entry>
   <entry>
@@ -487,17 +447,37 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </tags>
   </entry>
   <entry>
-    <title>决策支持系统实验四</title>
-    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
-<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
-<p><span id="more"></span></p>
-<p>[1]沈武凡.
-基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
-<p>[2]谢忠.
-基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
-<p>[3]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
-<p>[4]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
+    <title>决策支持系统实验一</title>
+    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%B8%80/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="大数据时代决策支持系统发展现状及应用">大数据时代决策支持系统发展现状及应用</h1>
+<h2 id="实验目的">实验目的</h2>
+<p>1、了解大数据时代决策支持系统的发展现状；</p>
+<p>2、了解新冠疫情期间决策支持系统的应用。</p>
+<span id="more"></span>
+<h2 id="实验内容">实验内容</h2>
+<p>1、查阅相关资料，了解大数据时代决策支持系统的特点及应用现状；</p>
+<p>2、查阅相关资料，了解决策支持系统如何为防控新冠疫情提供参考咨询及科学决策。</p>
+<h2 id="实验仪器设备和材料清单">实验仪器设备和材料清单</h2>
+<p>可访问INTERNET的计算机、局域网。</p>
+<h2 id="实验要求">实验要求</h2>
+<p>要求学生掌握决策支持系统的发展历史以及大数据时代的应用状况。</p>
+<h2 id="实验过程">实验过程</h2>
+<p>在实验机房上网查询。</p>
+<h2 id="实验报告要求">实验报告要求</h2>
+<p>提交一份关于决策支持系统发展应用的实验报告，可写成2000字左右的学年论文。</p>
+<h2 id="思考题">思考题</h2>
+<p>1、数据驱动的DSS较之模型驱动的DSS的优势有哪些方面；</p>
+<p>2、大数据核心技术在DSS中的应用；</p>
+<p>3、数据仓库在沃尔玛的应用。</p>
+<h2 id="注意事项">注意事项</h2>
+<p>需查询相关外文文献。</p>
+<p>[1]黄孝鹏,周献中,杨洁,盛寅.决策支持系统及其演化发展趋势研究[J].现代管理科学,2012(04):9-11+29.</p>
+<p>[2]梁罗希,吴江.决策支持系统发展综述及展望[J].计算机科学,2016,43(10):27-32.</p>
+<p>[3]尹天露,高晓欢,王敏,张海芳,刘卫刚,朱庆华,刘志军.突发公共卫生事件中基层医疗机构物资保障决策支持系统研究[J].中国医院,2020,24(10):45-47.DOI:10.19660/j.issn.1671-0592.2020.10.13.</p>
+<p>[4]何海锋,张旭,王力华.临床决策支持系统对新冠肺炎等新型突发传染性疾病的监测预警功能设计[J].临床和实验医学杂志,2020,19(10):1026-1028.</p>
+<p>[5]叶明,谷晨霞.“大数据”时代决策支持系统新发展[J].信息安全与技术,2013,4(08):6-8.</p>
+<p>[6]顾润龙.大数据时代决策支持系统新发展[J].网络安全技术与应用,2019(06):53-54.</p>
+<p>[7]孙朋,王领会,张健.新冠肺炎疑似患者流行病学调查辅助决策系统设计与实现[J].医疗卫生装备,2020,41(6):5-1031</p>
 ]]></content>
       <categories>
         <category>决策支持系统实验</category>
@@ -536,6 +516,26 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </categories>
       <tags>
         <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>决策支持系统实验四</title>
+    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
+<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
+<p><span id="more"></span></p>
+<p>[1]沈武凡.
+基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
+<p>[2]谢忠.
+基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
+<p>[3]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
+<p>[4]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
+]]></content>
+      <categories>
+        <category>决策支持系统实验</category>
+      </categories>
+      <tags>
+        <tag>决策支持系统实验</tag>
       </tags>
   </entry>
   <entry>
