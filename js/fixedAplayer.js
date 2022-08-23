@@ -8,14 +8,15 @@
  */
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
-    fixed: true,
-    autoplay: true,
+    fixed: false,
+    mini: true,
+    autoplay: false,
     volume: 0.6,
     mutex: true,
     loop: "all",
     order: "list",
     listFolded: false,
-    theme: "#ee8243",
+    theme: "#ad7a86",
     audio: [
         {
             name: 'Release My Soul',
