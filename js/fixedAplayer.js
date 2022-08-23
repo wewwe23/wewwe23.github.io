@@ -8,8 +8,7 @@
  */
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
-    fixed: false,
-    mini: true,
+    fixed: true,
     autoplay: false,
     volume: 0.6,
     mutex: true,
