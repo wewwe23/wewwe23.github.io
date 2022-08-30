@@ -20,7 +20,7 @@ const ap = new APlayer({
         {
             name: 'Release My Soul',
             artist: 'Aimee Blackschleger',
-            url: 'https://music.163.com/song/media/outer/url?id=498134.mp3',
+            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VXWUhoZ1FXdHRSRnMyMGtjS3BqQ1N3QmtNXzF1cGt5Y1F1WTRXUDhRcEduQnc_ZT10OHJGRUo.mp3',
             cover: 'https://p2.music.126.net/JbyZBW6Th0hbW8RsRXWVdA==/109951166197895701.jpg?',
         },
         {
@@ -44,7 +44,7 @@ const ap = new APlayer({
         {
             name: 'My Dearest',
             artist: 'supercell',
-            url: 'https://music.163.com/song/media/outer/url?id=825343.mp3',
+            url: 'https://smailxtueducn-my.sharepoint.com/:u:/g/personal/201905190418_smail_xtu_edu_cn/EZvDdyaFPNBFuYNb54c4aUYB_Le2Cr4J8XdQXR0aUxhoQA?e=EdHyw4',
             cover: 'https://p2.music.126.net/u78AmmcaZCO3sKbafA_Gpw==/109951166200230737.jpg?',
         },
         {
@@ -86,19 +86,19 @@ const ap = new APlayer({
         {
             name: 'Brave Shine',
             artist: 'Aimer',
-            url: 'https://music.163.com/song/media/outer/url?id=32358691.mp3',
+            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VaNzdJdG1RcmJWTnJpOWxWTnlnRW1BQlN1ajZQeDM5R2pXT2l4NW83czJJb0E_ZT1iSXJvYmI.mp3',
             cover: 'https://p2.music.126.net/2p5umLN0LK5rE2-6gye1Kw==/109951166863906891.jpg?',
         },
         {
             name: 'LAST STARDUST',
             artist: 'Aimer',
-            url: 'https://music.163.com/song/media/outer/url?id=33418857.mp3',
+            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VaUENqYUFrR0xkSmpSZ0c2UWJmQS04QnNhNlJwclJIWTV5anRsWi1kMFNoSVE_ZT1DUFZYQlU.mp3',
             cover: 'https://p1.music.126.net/-NpYyW2ejTr7kcb-BxwsSg==/109951166919049170.jpg?',
         },
         {
             name: '春はゆく',
             artist: 'Aimer',
-            url: 'https://music.163.com/song/media/outer/url?id=1429420739.mp3',
+            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VmRHAzRDBiWF9kSmlfajVjNGRrVGEwQnBYcS1RYVZQQlNwb2tvN3htVGJESmc_ZT1Kc2FGMjM.mp3',
             cover: 'https://p2.music.126.net/vlJf7FKeMb5xGOHbqG043A==/109951166202230986.jpg?',
         },
         {
@@ -116,13 +116,13 @@ const ap = new APlayer({
         {
             name: 'CHANGE THE WORLD',
             artist: 'V6',
-            url: 'http://tsmusic24.tc.qq.com/103474223.mp3',
+            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VVQ0s0NnNmN29sQ25ZZzAyVlRfUmcwQlFucnBlTHU5bEJPcExBNWJsMkpoUWc_ZT1XQUJMaXg.mp3',
             cover: 'https://y.qq.com/music/photo_new/T002R300x300M000000zNvQU1Ju73A_1.jpg?',
         },
         {
             name: '花海',
             artist: '周杰伦',
-            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly8xZHJpdi1teS5zaGFyZXBvaW50LmNvbS86dTovZy9wZXJzb25hbC9zdG9yXzFkcml2X29ubWljcm9zb2Z0X2NvbS9FUWxpQTRaMHZuaE5oMmVJV3JYalozMEIyd2d4cVVadWhja2N3MDllUUtwUHNB.mp3',
+            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VTTmFWLTFzTFRSQWh1WnhQcmJFVlU4QjMzdXF3NHBvLXJPUWp2X3VfTXlsVGc_ZT04amd4b20.mp3',
         },
         {
             name: '指纹',

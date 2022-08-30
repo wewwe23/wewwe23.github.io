@@ -487,6 +487,26 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </tags>
   </entry>
   <entry>
+    <title>决策支持系统实验四</title>
+    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
+<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
+<p><span id="more"></span></p>
+<p>[1]沈武凡.
+基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
+<p>[2]谢忠.
+基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
+<p>[3]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
+<p>[4]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
+]]></content>
+      <categories>
+        <category>决策支持系统实验</category>
+      </categories>
+      <tags>
+        <tag>决策支持系统实验</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>多元函数微分学</title>
     <url>/2022/04/30/%E5%A4%9A%E5%85%83%E5%87%BD%E6%95%B0%E5%BE%AE%E5%88%86%E5%AD%A6/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=264931551&amp;page=34" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
@@ -519,23 +539,49 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
       </tags>
   </entry>
   <entry>
-    <title>决策支持系统实验四</title>
-    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E5%9B%9B/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>某证券投资决策支持系统的系统分析</strong></p>
-<p>实验要求：以某证券投资决策支持系统为对象，分析该证券决策支持系统的系统模块结构、决策过程、决策的方法、应用的主要决策模型、用户界面特征等等。</p>
-<p><span id="more"></span></p>
-<p>[1]沈武凡.
-基于Web的证券投资决策系统的研究[D].南京航空航天大学,2005.</p>
-<p>[2]谢忠.
-基于数据挖掘技术的证券投资辅助决策支持系统[D].重庆大学,2005.</p>
-<p>[3]吴勇军,甘路明,李勇,李玲鞠.基于规则引擎的证券投资决策支持系统设计与实现[J].现代计算机(专业版),2008(10):172-174.</p>
-<p>[4]李一军,周浩.基于模糊类比推理的证券投资决策支持系统[J].决策与决策支持系统,1997(04):73-80.</p>
+    <title>张宇1000题第一章强化训练(二)</title>
+    <url>/2022/04/25/%E5%BC%A0%E5%AE%871000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83-%E4%BA%8C/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol start="23" type="1">
+<li><span class="math display">\[
+\lim_{x-&gt;0}{\frac{\int_{sinx}^{x}{\sqrt{3+t^2}dt}}{x(e^{x^2}-1)}}=\lim_{x-&gt;0}{\frac{(x-sinx)\sqrt{3+\xi^2}}{x*x^2}}=\lim_{x-&gt;0}{\frac{[x-x+\frac{1}{6}x^3+o(x^3)]\sqrt{3+\xi^2}}{x^3}}=\frac{\sqrt{3+\xi^2}}{6}
+\]</span></li>
+</ol>
+<p><span class="math display">\[
+(\xi介于sinx与x之间)，x-&gt;0,有夹逼准则可知\xi-&gt;0
+\]</span></p>
+<p><span class="math display">\[
+原式=\frac{\sqrt{3}}{6}
+\]</span></p>
+<p><span class="math display">\[
+本题用到了积分中值定理，\int_{a}^{b}{f(x)}dx=f(\xi)(b-a)
+\]</span></p>
+<span id="more"></span>
+<ol start="26" type="1">
+<li></li>
+</ol>
+<p>（5） <span class="math display">\[
+\lim_{x-&gt;\infty}{e^{-x}(1+\frac{1}{x})^{x^2}}=\lim_{x-&gt;\infty}{e^{-x}*e^{x^2ln(1+\frac{1}{x})}}=\lim_{x-&gt;\infty}{e^{x^2*ln(1+\frac{1}{x})-x}}=\lim_{x-&gt;\infty}{e^{x^2[ln(1+\frac{1}{x})-\frac{1}{x}]}}=\lim_{x-&gt;\infty}{e^{x^2(\frac{1}{x}-\frac{1}{2x^2}+o(x^2)-\frac{1}{x})}}=e^{-\frac{1}{2}}
+\]</span> 本题不可用第二个重要极限 <span class="math display">\[
+\lim_{x-&gt;\infty}{(1+\frac{1}{x})^x}=e
+\]</span></p>
+<p><span class="math display">\[
+如果将原式中x^2换成x，则可以使用上式，本题我们使用1^\infty做题，将(1+\frac{1}{x})^{x^2}(幂指函数)写成e^{x^2ln(1+\frac{1}{x})},结合泰勒公式可以求解
+\]</span></p>
+<p>（7） <span class="math display">\[
+\lim_{x-&gt;\infty}{x^2(a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2)},a&gt;0,a\ne1;
+\]</span></p>
+<p><span class="math display">\[
+\lim_{x-&gt;\infty}{\frac{a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2}{\frac{1}{x^2}}}=\lim_{t-&gt;0}{\frac{a^{t}+a^{-t}-2}{t^2}}=\lim_{t-&gt;0}{\frac{lna*a^t-lna*a^{-t}}{2t}}=\lim_{t-&gt;0}{\frac{ln^2a*a^t+ln^2a*a^{-t}}{2}}=ln^2a
+\]</span></p>
+<p>（19） <span class="math display">\[
+\lim_{x-&gt;0^+}{\frac{x^x-(tanx)^x}{x(\sqrt{1+3sin^2x}-1)}}=\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x(1-(\frac{tanx}{x})^x)}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x[x(\frac{tanx}{x}-1)]}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{tanx-x}{x^3}}=-\frac{2}{9}
+\]</span></p>
 ]]></content>
       <categories>
-        <category>决策支持系统实验</category>
+        <category>张宇1000题</category>
       </categories>
       <tags>
-        <tag>决策支持系统实验</tag>
+        <tag>考研数学一</tag>
       </tags>
   </entry>
   <entry>
@@ -580,52 +626,6 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
 \lim_{x-&gt;\infty}{\sqrt{x^2-x+1}-(ax+b)}=\lim_{x-&gt;\infty}{x[-\sqrt{1-\frac{1}{x}+\frac{1}{x^2}}-(a+\frac{b}{x})]}=0
 \]</span> 所以a = - 1 <span class="math display">\[
 b=\lim_{x-&gt;-\infty}{\sqrt{x^2-x+1}+x}=\lim_{x-&gt;-\infty}{\frac{-x+1}{\sqrt{x^2-x+1}-x}}=\frac{1}{2}
-\]</span></p>
-]]></content>
-      <categories>
-        <category>张宇1000题</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>张宇1000题第一章强化训练(二)</title>
-    <url>/2022/04/25/%E5%BC%A0%E5%AE%871000%E9%A2%98%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%BC%BA%E5%8C%96%E8%AE%AD%E7%BB%83-%E4%BA%8C/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol start="23" type="1">
-<li><span class="math display">\[
-\lim_{x-&gt;0}{\frac{\int_{sinx}^{x}{\sqrt{3+t^2}dt}}{x(e^{x^2}-1)}}=\lim_{x-&gt;0}{\frac{(x-sinx)\sqrt{3+\xi^2}}{x*x^2}}=\lim_{x-&gt;0}{\frac{[x-x+\frac{1}{6}x^3+o(x^3)]\sqrt{3+\xi^2}}{x^3}}=\frac{\sqrt{3+\xi^2}}{6}
-\]</span></li>
-</ol>
-<p><span class="math display">\[
-(\xi介于sinx与x之间)，x-&gt;0,有夹逼准则可知\xi-&gt;0
-\]</span></p>
-<p><span class="math display">\[
-原式=\frac{\sqrt{3}}{6}
-\]</span></p>
-<p><span class="math display">\[
-本题用到了积分中值定理，\int_{a}^{b}{f(x)}dx=f(\xi)(b-a)
-\]</span></p>
-<span id="more"></span>
-<ol start="26" type="1">
-<li></li>
-</ol>
-<p>（5） <span class="math display">\[
-\lim_{x-&gt;\infty}{e^{-x}(1+\frac{1}{x})^{x^2}}=\lim_{x-&gt;\infty}{e^{-x}*e^{x^2ln(1+\frac{1}{x})}}=\lim_{x-&gt;\infty}{e^{x^2*ln(1+\frac{1}{x})-x}}=\lim_{x-&gt;\infty}{e^{x^2[ln(1+\frac{1}{x})-\frac{1}{x}]}}=\lim_{x-&gt;\infty}{e^{x^2(\frac{1}{x}-\frac{1}{2x^2}+o(x^2)-\frac{1}{x})}}=e^{-\frac{1}{2}}
-\]</span> 本题不可用第二个重要极限 <span class="math display">\[
-\lim_{x-&gt;\infty}{(1+\frac{1}{x})^x}=e
-\]</span></p>
-<p><span class="math display">\[
-如果将原式中x^2换成x，则可以使用上式，本题我们使用1^\infty做题，将(1+\frac{1}{x})^{x^2}(幂指函数)写成e^{x^2ln(1+\frac{1}{x})},结合泰勒公式可以求解
-\]</span></p>
-<p>（7） <span class="math display">\[
-\lim_{x-&gt;\infty}{x^2(a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2)},a&gt;0,a\ne1;
-\]</span></p>
-<p><span class="math display">\[
-\lim_{x-&gt;\infty}{\frac{a^{\frac{1}{x}}+a^{-\frac{1}{x}}-2}{\frac{1}{x^2}}}=\lim_{t-&gt;0}{\frac{a^{t}+a^{-t}-2}{t^2}}=\lim_{t-&gt;0}{\frac{lna*a^t-lna*a^{-t}}{2t}}=\lim_{t-&gt;0}{\frac{ln^2a*a^t+ln^2a*a^{-t}}{2}}=ln^2a
-\]</span></p>
-<p>（19） <span class="math display">\[
-\lim_{x-&gt;0^+}{\frac{x^x-(tanx)^x}{x(\sqrt{1+3sin^2x}-1)}}=\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x(1-(\frac{tanx}{x})^x)}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{x^x[x(\frac{tanx}{x}-1)]}{x^3}}=-\frac{2}{3}\lim_{x-&gt;0^+}{\frac{tanx-x}{x^3}}=-\frac{2}{9}
 \]</span></p>
 ]]></content>
       <categories>
@@ -1846,28 +1846,6 @@ Response，有效客户响应。物流企业在面对多品种，小批量的客
       </tags>
   </entry>
   <entry>
-    <title>线面积分</title>
-    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>财务管理复习记录</title>
     <url>/2022/06/04/%E8%B4%A2%E5%8A%A1%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近要有个财务管理的考试，浅浅的记录一下复习内容吧，复习的同时水个博客哈哈</p>
@@ -2135,6 +2113,28 @@ P是每次订货的成本 (S/Q)*P是总订货成本</p>
       </categories>
       <tags>
         <tag>财务管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>线面积分</title>
+    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
       </tags>
   </entry>
   <entry>
