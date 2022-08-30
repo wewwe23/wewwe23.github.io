@@ -128,6 +128,11 @@ const ap = new APlayer({
             name: '指纹',
             artist: '杜宣达',
             url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VjLUJKOWRkUHpCSWlKQVQ0TlNPMFFRQlBjb1FjSWV2ZG5TOWNiLWJIb0Eyd0E_ZT0zd0cxUDA.mp3',
+        },
+        {
+            name: '给我一首歌的时间',
+            artist: '周杰伦',
+            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VUb09xeDB5bHlkSmtfb01VN2lEaXZ3QnhVNThpdENRbng2bWFadGNPTHhNRGc_ZT0wZ0h3eWo.mp3',
         }
 
     ]
