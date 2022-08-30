@@ -44,7 +44,7 @@ const ap = new APlayer({
         {
             name: 'My Dearest',
             artist: 'supercell',
-            url: 'https://smailxtueducn-my.sharepoint.com/:u:/g/personal/201905190418_smail_xtu_edu_cn/EZvDdyaFPNBFuYNb54c4aUYB_Le2Cr4J8XdQXR0aUxhoQA?e=EdHyw4',
+            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VadkRkeWFGUE5CRnVZTmI1NGM0YVVZQl9MZTJDcjRKOFhkUVhSMGFVeGhvUUE_ZT1qdzB4azQ.mp3',
             cover: 'https://p2.music.126.net/u78AmmcaZCO3sKbafA_Gpw==/109951166200230737.jpg?',
         },
         {

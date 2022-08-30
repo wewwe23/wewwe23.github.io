@@ -229,46 +229,6 @@ NexT 内置的渲染引擎发生冲突。</p>
       </tags>
   </entry>
   <entry>
-    <title>决策支持系统实验一</title>
-    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%B8%80/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="大数据时代决策支持系统发展现状及应用">大数据时代决策支持系统发展现状及应用</h1>
-<h2 id="实验目的">实验目的</h2>
-<p>1、了解大数据时代决策支持系统的发展现状；</p>
-<p>2、了解新冠疫情期间决策支持系统的应用。</p>
-<span id="more"></span>
-<h2 id="实验内容">实验内容</h2>
-<p>1、查阅相关资料，了解大数据时代决策支持系统的特点及应用现状；</p>
-<p>2、查阅相关资料，了解决策支持系统如何为防控新冠疫情提供参考咨询及科学决策。</p>
-<h2 id="实验仪器设备和材料清单">实验仪器设备和材料清单</h2>
-<p>可访问INTERNET的计算机、局域网。</p>
-<h2 id="实验要求">实验要求</h2>
-<p>要求学生掌握决策支持系统的发展历史以及大数据时代的应用状况。</p>
-<h2 id="实验过程">实验过程</h2>
-<p>在实验机房上网查询。</p>
-<h2 id="实验报告要求">实验报告要求</h2>
-<p>提交一份关于决策支持系统发展应用的实验报告，可写成2000字左右的学年论文。</p>
-<h2 id="思考题">思考题</h2>
-<p>1、数据驱动的DSS较之模型驱动的DSS的优势有哪些方面；</p>
-<p>2、大数据核心技术在DSS中的应用；</p>
-<p>3、数据仓库在沃尔玛的应用。</p>
-<h2 id="注意事项">注意事项</h2>
-<p>需查询相关外文文献。</p>
-<p>[1]黄孝鹏,周献中,杨洁,盛寅.决策支持系统及其演化发展趋势研究[J].现代管理科学,2012(04):9-11+29.</p>
-<p>[2]梁罗希,吴江.决策支持系统发展综述及展望[J].计算机科学,2016,43(10):27-32.</p>
-<p>[3]尹天露,高晓欢,王敏,张海芳,刘卫刚,朱庆华,刘志军.突发公共卫生事件中基层医疗机构物资保障决策支持系统研究[J].中国医院,2020,24(10):45-47.DOI:10.19660/j.issn.1671-0592.2020.10.13.</p>
-<p>[4]何海锋,张旭,王力华.临床决策支持系统对新冠肺炎等新型突发传染性疾病的监测预警功能设计[J].临床和实验医学杂志,2020,19(10):1026-1028.</p>
-<p>[5]叶明,谷晨霞.“大数据”时代决策支持系统新发展[J].信息安全与技术,2013,4(08):6-8.</p>
-<p>[6]顾润龙.大数据时代决策支持系统新发展[J].网络安全技术与应用,2019(06):53-54.</p>
-<p>[7]孙朋,王领会,张健.新冠肺炎疑似患者流行病学调查辅助决策系统设计与实现[J].医疗卫生装备,2020,41(6):5-1031</p>
-]]></content>
-      <categories>
-        <category>决策支持系统实验</category>
-      </categories>
-      <tags>
-        <tag>决策支持系统实验</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>决策支持系统实验二线性规划优化模型</title>
     <url>/2022/06/08/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%BA%8C%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92%E4%BC%98%E5%8C%96%E6%A8%A1%E5%9E%8B/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="首先简单回顾一下运筹学线性规划知识">首先简单回顾一下运筹学线性规划知识</h3>
@@ -478,6 +438,46 @@ x_1,x_2,x_3,x_4^{&#39;},x_4^{&#39;&#39;},x_5,x_6,x_7,x_8\geq0
 <p>第二步，将光标移动至导航栏空白处，右键点击调出自定义功能区</p>
 <p>第三步，点击左侧导航栏加载项</p>
 <p>第四步，将“非活动应用程序加载项”子目下的线性规划求解加载项选中通过左下角的“转到”按钮转到“活动应用程序加载项”子目下，这样</p>
+]]></content>
+      <categories>
+        <category>决策支持系统实验</category>
+      </categories>
+      <tags>
+        <tag>决策支持系统实验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>决策支持系统实验一</title>
+    <url>/2022/06/13/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E4%B8%80/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="大数据时代决策支持系统发展现状及应用">大数据时代决策支持系统发展现状及应用</h1>
+<h2 id="实验目的">实验目的</h2>
+<p>1、了解大数据时代决策支持系统的发展现状；</p>
+<p>2、了解新冠疫情期间决策支持系统的应用。</p>
+<span id="more"></span>
+<h2 id="实验内容">实验内容</h2>
+<p>1、查阅相关资料，了解大数据时代决策支持系统的特点及应用现状；</p>
+<p>2、查阅相关资料，了解决策支持系统如何为防控新冠疫情提供参考咨询及科学决策。</p>
+<h2 id="实验仪器设备和材料清单">实验仪器设备和材料清单</h2>
+<p>可访问INTERNET的计算机、局域网。</p>
+<h2 id="实验要求">实验要求</h2>
+<p>要求学生掌握决策支持系统的发展历史以及大数据时代的应用状况。</p>
+<h2 id="实验过程">实验过程</h2>
+<p>在实验机房上网查询。</p>
+<h2 id="实验报告要求">实验报告要求</h2>
+<p>提交一份关于决策支持系统发展应用的实验报告，可写成2000字左右的学年论文。</p>
+<h2 id="思考题">思考题</h2>
+<p>1、数据驱动的DSS较之模型驱动的DSS的优势有哪些方面；</p>
+<p>2、大数据核心技术在DSS中的应用；</p>
+<p>3、数据仓库在沃尔玛的应用。</p>
+<h2 id="注意事项">注意事项</h2>
+<p>需查询相关外文文献。</p>
+<p>[1]黄孝鹏,周献中,杨洁,盛寅.决策支持系统及其演化发展趋势研究[J].现代管理科学,2012(04):9-11+29.</p>
+<p>[2]梁罗希,吴江.决策支持系统发展综述及展望[J].计算机科学,2016,43(10):27-32.</p>
+<p>[3]尹天露,高晓欢,王敏,张海芳,刘卫刚,朱庆华,刘志军.突发公共卫生事件中基层医疗机构物资保障决策支持系统研究[J].中国医院,2020,24(10):45-47.DOI:10.19660/j.issn.1671-0592.2020.10.13.</p>
+<p>[4]何海锋,张旭,王力华.临床决策支持系统对新冠肺炎等新型突发传染性疾病的监测预警功能设计[J].临床和实验医学杂志,2020,19(10):1026-1028.</p>
+<p>[5]叶明,谷晨霞.“大数据”时代决策支持系统新发展[J].信息安全与技术,2013,4(08):6-8.</p>
+<p>[6]顾润龙.大数据时代决策支持系统新发展[J].网络安全技术与应用,2019(06):53-54.</p>
+<p>[7]孙朋,王领会,张健.新冠肺炎疑似患者流行病学调查辅助决策系统设计与实现[J].医疗卫生装备,2020,41(6):5-1031</p>
 ]]></content>
       <categories>
         <category>决策支持系统实验</category>
@@ -1372,6 +1372,28 @@ x=1,x=-1是跳跃间断点，x=0是第二类间断点
       </tags>
   </entry>
   <entry>
+    <title>第二章导数与微分</title>
+    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<span id="more"></span>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
+]]></content>
+      <categories>
+        <category>武忠祥</category>
+      </categories>
+      <tags>
+        <tag>考研数学一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>物流与供应链管理复习</title>
     <url>/2022/07/17/%E7%89%A9%E6%B5%81%E4%B8%8E%E4%BE%9B%E5%BA%94%E9%93%BE%E7%AE%A1%E7%90%86%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>1.</strong>
@@ -1824,18 +1846,18 @@ Response，有效客户响应。物流企业在面对多品种，小批量的客
       </tags>
   </entry>
   <entry>
-    <title>第二章导数与微分</title>
-    <url>/2022/04/30/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%BC%E6%95%B0%E4%B8%8E%E5%BE%AE%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250334880&amp;page=16" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+    <title>线面积分</title>
+    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 <span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250914199&amp;page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=250947182&amp;page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252454083&amp;page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=252428354&amp;page=20" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
 </iframe>
 ]]></content>
       <categories>
@@ -2113,28 +2135,6 @@ P是每次订货的成本 (S/Q)*P是总订货成本</p>
       </categories>
       <tags>
         <tag>财务管理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线面积分</title>
-    <url>/2022/04/30/%E7%BA%BF%E9%9D%A2%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331752&amp;page=39" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<span id="more"></span>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265330822&amp;page=40" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265331815&amp;page=41" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265423576&amp;page=42" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-<iframe src="//player.bilibili.com/player.html?aid=330107670&amp;bvid=BV1gA411j7Ta&amp;cid=265448000&amp;page=43" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
-</iframe>
-]]></content>
-      <categories>
-        <category>武忠祥</category>
-      </categories>
-      <tags>
-        <tag>考研数学一</tag>
       </tags>
   </entry>
   <entry>
