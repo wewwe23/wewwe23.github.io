@@ -20,7 +20,7 @@ const ap = new APlayer({
         {
             name: 'Release My Soul',
             artist: 'Aimee Blackschleger',
-            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VXWUhoZ1FXdHRSRnMyMGtjS3BqQ1N3QmtNXzF1cGt5Y1F1WTRXUDhRcEduQnc_ZT10OHJGRUo.mp3',
+            url: 'https://dlink.host/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VXWUhoZ1FXdHRSRnMyMGtjS3BqQ1N3QmtNXzF1cGt5Y1F1WTRXUDhRcEduQnc_ZT10OHJGRUo.mp3',
             cover: 'https://p2.music.126.net/JbyZBW6Th0hbW8RsRXWVdA==/109951166197895701.jpg?',
         },
         {
