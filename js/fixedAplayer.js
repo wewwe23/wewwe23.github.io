@@ -92,7 +92,7 @@ const ap = new APlayer({
         {
             name: 'LAST STARDUST',
             artist: 'Aimer',
-            url: 'https://link.jscdn.cn/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VaUENqYUFrR0xkSmpSZ0c2UWJmQS04QnNhNlJwclJIWTV5anRsWi1kMFNoSVE_ZT1DUFZYQlU.mp3',
+            url: 'https://dlink.host/sharepoint/aHR0cHM6Ly9zbWFpbHh0dWVkdWNuLW15LnNoYXJlcG9pbnQuY29tLzp1Oi9nL3BlcnNvbmFsLzIwMTkwNTE5MDQxOF9zbWFpbF94dHVfZWR1X2NuL0VaUENqYUFrR0xkSmpSZ0c2UWJmQS04QnNhNlJwclJIWTV5anRsWi1kMFNoSVE_ZT02QnJXNm8.mp3',
             cover: 'https://p1.music.126.net/-NpYyW2ejTr7kcb-BxwsSg==/109951166919049170.jpg?',
         },
         {
